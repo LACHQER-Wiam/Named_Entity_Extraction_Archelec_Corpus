@@ -1,0 +1,10 @@
+.venv
+data/raw/arkindex_archelec/
+data/raw/*.csv
+data/bio/*.json
+data/annotated/*.json
+data/processed/*.json
+__pycache__/
+*.pyc
+venv/
+.venv/

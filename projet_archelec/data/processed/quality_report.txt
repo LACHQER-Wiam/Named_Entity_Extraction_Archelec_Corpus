@@ -1,0 +1,88 @@
+============================================================
+RAPPORT DE QUALITE -- DONNEES NER ARCHELEC
+============================================================
+
+TRAIN : 6936 documents charges
+
+VAL : 867 documents charges
+
+TEST : 867 documents charges
+
+--- VERIFICATION 1 : coherence BIO ---
+  OK train : aucune erreur BIO
+  OK val : aucune erreur BIO
+  OK test : aucune erreur BIO
+
+--- VERIFICATION 2 : longueur sequences (max 512) ---
+  train -- moy: 503 tokens | max: 512 | >512: 0
+  OK toutes les sequences sont dans la limite
+  val -- moy: 501 tokens | max: 512 | >512: 0
+  OK toutes les sequences sont dans la limite
+  test -- moy: 502 tokens | max: 512 | >512: 0
+  OK toutes les sequences sont dans la limite
+
+--- VERIFICATION 3 : valeurs nulles ---
+  OK train : aucune valeur nulle, tokens/tags alignes
+  OK val : aucune valeur nulle, tokens/tags alignes
+  OK test : aucune valeur nulle, tokens/tags alignes
+
+--- VERIFICATION 4 : distribution labels (train) ---
+  O          :  3364955 (96.38%)
+  B-PER      :     8589 (0.25%)
+  I-PER      :    31450 (0.90%)
+  B-ORG      :    10665 (0.31%)
+  I-ORG      :    47203 (1.35%)
+  B-LOC      :     8045 (0.23%)
+  I-LOC      :    13983 (0.40%)
+  B-MISC     :     2538 (0.07%)
+  I-MISC     :     3877 (0.11%)
+
+--- VERIFICATION 5 : data leakage ---
+  OK Aucun data leakage entre train/val/test
+
+--- 5 EXEMPLES ANNOTES (train) ---
+
+  Exemple 1 -- ID: EL067_L_1973_03_054_01_1_PF_03 | Annee: 1973
+    [LOC] Meurthe-et-Moselle
+    [PER] François BORELLA
+    [ORG] Parti Socialiste Unifié
+    [PER] François Borella
+
+  Exemple 2 -- ID: EL066_L_1973_03_025_01_1_PF_01 | Annee: 1973
+    [LOC] Doubs
+    [PER] ANDRÉ VAGNERON
+    [ORG] PARTI COMMUNISTE FRANÇAIS
+
+  Exemple 3 -- ID: EL069_L_1973_03_092_11_1_PF_08 | Annee: 1973
+    [LOC] Hauts-de-seine
+    [MISC] Commerçant
+    [PER] Roger UZAN
+    [MISC] Commerçant
+    [ORG] sans étiquette
+
+  Exemple 4 -- ID: EL067_L_1973_03_059_10_1_PF_06 | Annee: 1973
+    [ORG] FRONT NATIONAL
+    [LOC] Nord
+    [PER] Yves LABILLOIS
+    [PER] YVES LABILLOIS
+    [LOC] Nord
+    [MISC] moniteur sanitaire
+
+  Exemple 5 -- ID: EL108_L_1978_03_093_07_1_PF_06 | Annee: 1978
+    [ORG] MRG
+    [PER] René MAILLET
+    [ORG] Mouvement des Radicaux de gauche
+
+============================================================
+RESUME FINAL
+============================================================
+Total documents    : 8670
+Train/Val/Test     : 6936/867/867
+Erreurs detectees  : 0
+
+DONNEES PRETES POUR L'ENTRAINEMENT CAMEMBERT !
+   Fichiers dans data/bio/ :
+   - train.json  (entrainement)
+   - val.json    (validation)
+   - test.json   (evaluation finale)
+   - label2id.json

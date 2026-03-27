@@ -1,258 +1,157 @@
 """
 Script 01 — Chargement et exploration du CSV Archelec
 ======================================================
-Charge le CSV brut, détecte les colonnes disponibles,
-filtre sur les années 1973/1978, génère des stats et visualisations.
+Colonnes réelles détectées :
+  id, date, subject, title, contexte-election, contexte-tour, cote,
+  departement, departement-nom, departement-insee,
+  identifiant de circonscription, images, pdf, ocr_url,
+  titulaire-nom, titulaire-prenom, titulaire-sexe, titulaire-age,
+  titulaire-age-calcule, titulaire-age-tranche, titulaire-profession,
+  titulaire-mandat-en-cours, titulaire-mandat-passe,
+  titulaire-associations, titulaire-autres-statuts, titulaire-soutien,
+  titulaire-liste, titulaire-decorations,
+  suppleant-nom, suppleant-prenom, ...
 """
 
-import os
 import sys
-import warnings
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+import io
 from pathlib import Path
 
+# Forcer UTF-8 sur la sortie standard (Windows cp1252 par defaut)
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
+
+import pandas as pd
+import matplotlib
+matplotlib.use("Agg")           # pas de fenêtre graphique
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 # ─── Chemins ──────────────────────────────────────────────────────────────────
-BASE_DIR   = Path(__file__).resolve().parent.parent
-RAW_DIR    = BASE_DIR / "data" / "raw"
-PROC_DIR   = BASE_DIR / "data" / "processed"
-CSV_PATH   = RAW_DIR / "archelec.csv"
-OUT_CSV    = PROC_DIR / "archelec_1973_1978.csv"
+BASE_DIR = Path(__file__).resolve().parent.parent
+CSV_PATH = BASE_DIR / "data" / "raw" / "archelec.csv"
+OUT_CSV  = BASE_DIR / "data" / "processed" / "archelec_1973_1978.csv"
+OUT_DIR  = BASE_DIR / "data" / "processed"
+OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-PROC_DIR.mkdir(parents=True, exist_ok=True)
-
-# ─── Mapping des colonnes attendues ───────────────────────────────────────────
-# Clé = nom interne utilisé dans ce projet
-# Valeur = liste de noms possibles dans le CSV Archelec (ordre de priorité)
-COLUMN_CANDIDATES = {
-    "nom":         ["nom", "name", "candidat", "candidate", "nom_candidat", "lastname", "surname"],
-    "prenom":      ["prenom", "prénom", "firstname", "first_name", "given_name"],
-    "parti":       ["parti", "party", "liste", "organisation", "org", "parti_politique"],
-    "commune":     ["commune", "ville", "city", "municipality", "localite", "localité"],
-    "departement": ["departement", "département", "dept", "dep", "dpt"],
-    "profession":  ["profession", "metier", "métier", "job", "occupation", "csp"],
-    "annee":       ["annee", "année", "year", "election_year", "an", "date"],
-    "id":          ["id", "doc_id", "identifiant", "uuid", "document_id", "arkindex_id"],
-}
-
-
-def detecter_colonnes(df: pd.DataFrame) -> dict[str, str | None]:
-    """
-    Mappe les noms internes vers les noms réels des colonnes du CSV.
-
-    Retourne un dict {nom_interne: nom_reel_ou_None}.
-    Affiche un warning pour chaque colonne attendue non trouvée.
-    """
-    cols_lower = {c.lower().strip(): c for c in df.columns}
-    mapping = {}
-
-    for champ, candidats in COLUMN_CANDIDATES.items():
-        trouve = None
-        for candidat in candidats:
-            if candidat.lower() in cols_lower:
-                trouve = cols_lower[candidat.lower()]
-                break
-        if trouve is None:
-            warnings.warn(
-                f"[WARN] Colonne '{champ}' introuvable dans le CSV "
-                f"(candidats testés : {candidats}). "
-                "Cette colonne sera ignorée.",
-                stacklevel=2,
-            )
-        mapping[champ] = trouve
-
-    return mapping
-
-
-def afficher_info_generale(df: pd.DataFrame) -> None:
-    """Affiche les informations de base sur le DataFrame brut."""
-    print("\n" + "=" * 60)
-    print("INFORMATIONS GÉNÉRALES DU CSV BRUT")
-    print("=" * 60)
-    print(f"Dimensions      : {df.shape[0]} lignes × {df.shape[1]} colonnes")
-    print(f"\nColonnes ({len(df.columns)}) :")
-    for col in df.columns:
-        print(f"  - {col}")
-    print("\n10 premiers exemples :")
-    print(df.head(10).to_string())
-    print("\nTypes de données :")
-    print(df.dtypes.to_string())
-    print("\nValeurs manquantes par colonne :")
-    print(df.isnull().sum().to_string())
-
-
-def filtrer_annees(df: pd.DataFrame, col_annee: str, annees: list[int]) -> pd.DataFrame:
-    """
-    Filtre le DataFrame sur les années spécifiées.
-
-    Tente d'abord une conversion numérique de la colonne année.
-    """
-    df = df.copy()
-    try:
-        df[col_annee] = pd.to_numeric(df[col_annee], errors="coerce")
-    except Exception as e:
-        warnings.warn(f"[WARN] Impossible de convertir la colonne année : {e}")
-
-    df_filtré = df[df[col_annee].isin(annees)].reset_index(drop=True)
-    print(f"\n→ Filtre {annees} : {len(df_filtré)} documents retenus "
-          f"(sur {len(df)} au total).")
-    return df_filtré
-
-
-def afficher_stats_subset(df: pd.DataFrame, mapping: dict) -> None:
-    """Affiche les statistiques descriptives du sous-ensemble filtré."""
-    print("\n" + "=" * 60)
-    print("STATISTIQUES DU SOUS-ENSEMBLE 1973 / 1978")
-    print("=" * 60)
-
-    # Documents par année
-    if mapping["annee"]:
-        print("\nDocuments par année :")
-        print(df[mapping["annee"]].value_counts().sort_index().to_string())
-
-    # Documents par parti
-    if mapping["parti"]:
-        print("\nDocuments par parti (top 20) :")
-        print(df[mapping["parti"]].value_counts().head(20).to_string())
-
-    # Documents par département
-    if mapping["departement"]:
-        print("\nDocuments par département (top 20) :")
-        print(df[mapping["departement"]].value_counts().head(20).to_string())
-
-    # Distribution des professions
-    if mapping["profession"]:
-        print("\nProfessions les plus fréquentes (top 20) :")
-        print(df[mapping["profession"]].value_counts().head(20).to_string())
-
-
-def generer_visualisations(df: pd.DataFrame, mapping: dict, out_dir: Path) -> None:
-    """Génère et sauvegarde les graphiques de distribution."""
-    sns.set_theme(style="whitegrid", palette="muted")
-    figures_créées = []
-
-    # Histogramme par année
-    if mapping["annee"]:
-        fig, ax = plt.subplots(figsize=(6, 4))
-        df[mapping["annee"]].value_counts().sort_index().plot(
-            kind="bar", ax=ax, color="steelblue", edgecolor="white"
-        )
-        ax.set_title("Nombre de documents par année")
-        ax.set_xlabel("Année")
-        ax.set_ylabel("Nombre de documents")
-        plt.tight_layout()
-        path = out_dir / "distribution_annees.png"
-        fig.savefig(path, dpi=150)
-        plt.close(fig)
-        figures_créées.append(str(path))
-
-    # Bar chart top 15 partis
-    if mapping["parti"]:
-        top_partis = df[mapping["parti"]].value_counts().head(15)
-        fig, ax = plt.subplots(figsize=(10, 5))
-        top_partis.plot(kind="barh", ax=ax, color="coral", edgecolor="white")
-        ax.set_title("Top 15 partis politiques")
-        ax.set_xlabel("Nombre de candidats")
-        plt.tight_layout()
-        path = out_dir / "distribution_partis.png"
-        fig.savefig(path, dpi=150)
-        plt.close(fig)
-        figures_créées.append(str(path))
-
-    # Bar chart top 20 professions
-    if mapping["profession"]:
-        top_prof = df[mapping["profession"]].value_counts().head(20)
-        fig, ax = plt.subplots(figsize=(10, 6))
-        top_prof.plot(kind="barh", ax=ax, color="mediumseagreen", edgecolor="white")
-        ax.set_title("Top 20 professions des candidats")
-        ax.set_xlabel("Nombre de candidats")
-        plt.tight_layout()
-        path = out_dir / "distribution_professions.png"
-        fig.savefig(path, dpi=150)
-        plt.close(fig)
-        figures_créées.append(str(path))
-
-    # Bar chart top 20 départements
-    if mapping["departement"]:
-        top_dept = df[mapping["departement"]].value_counts().head(20)
-        fig, ax = plt.subplots(figsize=(8, 5))
-        top_dept.plot(kind="barh", ax=ax, color="mediumpurple", edgecolor="white")
-        ax.set_title("Top 20 départements")
-        ax.set_xlabel("Nombre de candidats")
-        plt.tight_layout()
-        path = out_dir / "distribution_departements.png"
-        fig.savefig(path, dpi=150)
-        plt.close(fig)
-        figures_créées.append(str(path))
-
-    if figures_créées:
-        print(f"\nVisualisations sauvegardées ({len(figures_créées)}) :")
-        for f in figures_créées:
-            print(f"  → {f}")
-    else:
-        print("\n[WARN] Aucune visualisation générée (colonnes manquantes).")
+# Colonnes clés (noms réels dans le CSV)
+COL_ID         = "id"
+COL_DATE       = "date"
+COL_NOM        = "titulaire-nom"
+COL_PRENOM     = "titulaire-prenom"
+COL_SOUTIEN    = "titulaire-soutien"       # parti / soutien politique
+COL_PROFESSION = "titulaire-profession"
+COL_DEPT       = "departement"             # numéro département
+COL_DEPT_NOM   = "departement-nom"
+COL_ELECTION   = "contexte-election"
 
 
 def main() -> None:
-    """Point d'entrée principal du script d'exploration."""
     print("=" * 60)
     print("ÉTAPE 1 — Exploration du CSV Archelec")
     print("=" * 60)
 
     # ── 1. Chargement ──────────────────────────────────────────────────────
     if not CSV_PATH.exists():
-        print(f"\n[ERREUR] Fichier CSV introuvable : {CSV_PATH}")
-        print("Veuillez placer le fichier téléchargé depuis https://archelec.sciencespo.fr/explorer")
-        print(f"dans le dossier : {RAW_DIR}")
+        print(f"[ERREUR] CSV introuvable : {CSV_PATH}")
         sys.exit(1)
 
-    print(f"\nChargement de : {CSV_PATH}")
-    try:
-        # Essai UTF-8, puis latin-1 en fallback (encodages courants des CSV français)
-        try:
-            df = pd.read_csv(CSV_PATH, encoding="utf-8", low_memory=False)
-        except UnicodeDecodeError:
-            print("[INFO] UTF-8 échoué, tentative en latin-1…")
-            df = pd.read_csv(CSV_PATH, encoding="latin-1", low_memory=False)
-        # Nettoyage des noms de colonnes (espaces parasites)
-        df.columns = df.columns.str.strip()
-    except Exception as e:
-        print(f"[ERREUR] Impossible de lire le CSV : {e}")
-        sys.exit(1)
+    print(f"\nChargement : {CSV_PATH}")
+    df = pd.read_csv(CSV_PATH, encoding="latin-1", low_memory=False)
+    # Re-encoder les colonnes string : latin-1 bytes -> UTF-8 correct
+    for col in df.select_dtypes(include="object").columns:
+        df[col] = df[col].apply(
+            lambda x: x.encode("latin-1").decode("utf-8") if isinstance(x, str) else x
+        )
+    df.columns = df.columns.str.strip()
 
     # ── 2. Informations générales ───────────────────────────────────────────
-    afficher_info_generale(df)
+    print(f"\nDimensions : {df.shape[0]} lignes × {df.shape[1]} colonnes")
+    print("\nColonnes :")
+    print(df.columns.tolist())
+    print("\n10 premiers exemples :")
+    print(df[[COL_ID, COL_DATE, COL_NOM, COL_SOUTIEN,
+              COL_PROFESSION, COL_DEPT_NOM]].head(10).to_string())
+    print("\nTypes de données :")
+    print(df.dtypes.to_string())
+    print("\nValeurs manquantes par colonne :")
+    print(df.isnull().sum().to_string())
 
-    # ── 3. Détection des colonnes ───────────────────────────────────────────
+    # ── 3. Filtre 1973 / 1978 ────────────────────────────────────────────────
+    print("\n" + "─" * 60)
+    print("Filtrage sur les années 1973 et 1978…")
+    df[COL_DATE] = df[COL_DATE].astype(str).str.strip()
+    df_train = df[
+        df[COL_DATE].str.startswith(("1973", "1978"))
+    ].copy().reset_index(drop=True)
+
+    print(f"→ {len(df_train)} documents retenus (sur {len(df)} au total)")
+
+    # ── 4. Statistiques du sous-ensemble ────────────────────────────────────
     print("\n" + "=" * 60)
-    print("DÉTECTION AUTOMATIQUE DES COLONNES")
+    print("STATISTIQUES 1973 / 1978")
     print("=" * 60)
-    mapping = detecter_colonnes(df)
-    print("\nMapping retenu :")
-    for champ, col_reelle in mapping.items():
-        statut = col_reelle if col_reelle else "⚠ NON TROUVÉE"
-        print(f"  {champ:15s} → {statut}")
 
-    # ── 4. Filtrage 1973 / 1978 ─────────────────────────────────────────────
-    if mapping["annee"] is None:
-        print("\n[ERREUR CRITIQUE] Colonne 'annee' introuvable — impossible de filtrer.")
-        sys.exit(1)
+    # Année extraite (4 premiers caractères de la date)
+    df_train["annee"] = df_train[COL_DATE].str[:4]
 
-    df_train = filtrer_annees(df, mapping["annee"], [1973, 1978])
+    print("\nNombre de documents par année :")
+    print(df_train["annee"].value_counts().sort_index().to_string())
 
-    # ── 5. Statistiques du sous-ensemble ────────────────────────────────────
-    afficher_stats_subset(df_train, mapping)
+    print("\nTop 10 — titulaire-soutien (parti) :")
+    print(df_train[COL_SOUTIEN].value_counts().head(10).to_string())
 
-    # ── 6. Sauvegarde ───────────────────────────────────────────────────────
+    print("\nTop 10 — titulaire-profession :")
+    print(df_train[COL_PROFESSION].value_counts().head(10).to_string())
+
+    print("\nTop 10 — département :")
+    print(df_train[COL_DEPT_NOM].value_counts().head(10).to_string())
+
+    print("\nValeurs manquantes (colonnes clés) :")
+    cols_cles = [COL_ID, COL_DATE, COL_NOM, COL_PRENOM,
+                 COL_SOUTIEN, COL_PROFESSION, COL_DEPT_NOM]
+    print(df_train[cols_cles].isnull().sum().to_string())
+
+    # ── 5. Sauvegarde ────────────────────────────────────────────────────────
     df_train.to_csv(OUT_CSV, index=False, encoding="utf-8")
-    print(f"\n✓ Sous-ensemble sauvegardé : {OUT_CSV}")
+    print(f"\n✓ Sauvegardé : {OUT_CSV}  ({len(df_train)} lignes)")
 
-    # ── 7. Visualisations ───────────────────────────────────────────────────
-    generer_visualisations(df_train, mapping, PROC_DIR)
+    # ── 6. Visualisations ────────────────────────────────────────────────────
+    sns.set_theme(style="whitegrid", palette="muted")
 
+    # Distribution par année
+    fig, ax = plt.subplots(figsize=(5, 3))
+    df_train["annee"].value_counts().sort_index().plot(
+        kind="bar", ax=ax, color="steelblue", edgecolor="white")
+    ax.set_title("Documents par année (1973/1978)")
+    ax.set_xlabel("Année"); ax.set_ylabel("Nombre")
+    plt.tight_layout()
+    fig.savefig(OUT_DIR / "distribution_annees.png", dpi=150)
+    plt.close(fig)
+
+    # Top 15 partis
+    top_soutien = df_train[COL_SOUTIEN].value_counts().head(15)
+    fig, ax = plt.subplots(figsize=(10, 5))
+    top_soutien.plot(kind="barh", ax=ax, color="coral", edgecolor="white")
+    ax.set_title("Top 15 partis / soutiens")
+    ax.set_xlabel("Nombre de candidats")
+    plt.tight_layout()
+    fig.savefig(OUT_DIR / "distribution_partis.png", dpi=150)
+    plt.close(fig)
+
+    # Top 20 professions
+    top_prof = df_train[COL_PROFESSION].value_counts().head(20)
+    fig, ax = plt.subplots(figsize=(10, 6))
+    top_prof.plot(kind="barh", ax=ax, color="mediumseagreen", edgecolor="white")
+    ax.set_title("Top 20 professions")
+    ax.set_xlabel("Nombre de candidats")
+    plt.tight_layout()
+    fig.savefig(OUT_DIR / "distribution_professions.png", dpi=150)
+    plt.close(fig)
+
+    print(f"\nVisualisations sauvegardées dans : {OUT_DIR}")
     print("\n" + "=" * 60)
-    print("ÉTAPE 1 — Terminée avec succès")
+    print("ÉTAPE 1 — Terminée")
     print("=" * 60)
 
 
