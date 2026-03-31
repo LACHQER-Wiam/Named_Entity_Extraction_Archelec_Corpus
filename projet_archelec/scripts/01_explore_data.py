@@ -27,10 +27,14 @@ matplotlib.use("Agg")           # pas de fenêtre graphique
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# ─── Années ───────────────────────────────────────────────────────────────────
+YEAR_START = 1958 #1973
+YEAR_END   = 2019 #1978
+
 # ─── Chemins ──────────────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).resolve().parent.parent
 CSV_PATH = BASE_DIR / "data" / "raw" / "archelec.csv"
-OUT_CSV  = BASE_DIR / "data" / "processed" / "archelec_1973_1978.csv"
+OUT_CSV  = BASE_DIR / "data" / "processed" / f"archelec_{YEAR_START}_{YEAR_END}.csv"
 OUT_DIR  = BASE_DIR / "data" / "processed"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -44,6 +48,7 @@ COL_PROFESSION = "titulaire-profession"
 COL_DEPT       = "departement"             # numéro département
 COL_DEPT_NOM   = "departement-nom"
 COL_ELECTION   = "contexte-election"
+
 
 
 def main() -> None:
@@ -79,17 +84,17 @@ def main() -> None:
 
     # ── 3. Filtre 1973 / 1978 ────────────────────────────────────────────────
     print("\n" + "─" * 60)
-    print("Filtrage sur les années 1973 et 1978…")
+    print(f"Filtrage sur les années entre {YEAR_START} et {YEAR_END}…")
     df[COL_DATE] = df[COL_DATE].astype(str).str.strip()
     df_train = df[
-        df[COL_DATE].str.startswith(("1973", "1978"))
+        df[COL_DATE].str.startswith(tuple(str(year) for year in range(YEAR_START, YEAR_END + 1)))
     ].copy().reset_index(drop=True)
 
     print(f"→ {len(df_train)} documents retenus (sur {len(df)} au total)")
 
     # ── 4. Statistiques du sous-ensemble ────────────────────────────────────
     print("\n" + "=" * 60)
-    print("STATISTIQUES 1973 / 1978")
+    print(f"STATISTIQUES {YEAR_START} / {YEAR_END}")
     print("=" * 60)
 
     # Année extraite (4 premiers caractères de la date)
@@ -123,7 +128,7 @@ def main() -> None:
     fig, ax = plt.subplots(figsize=(5, 3))
     df_train["annee"].value_counts().sort_index().plot(
         kind="bar", ax=ax, color="steelblue", edgecolor="white")
-    ax.set_title("Documents par année (1973/1978)")
+    ax.set_title(f"Documents par année ({YEAR_START}/{YEAR_END})")
     ax.set_xlabel("Année"); ax.set_ylabel("Nombre")
     plt.tight_layout()
     fig.savefig(OUT_DIR / "distribution_annees.png", dpi=150)
