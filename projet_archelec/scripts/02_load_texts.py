@@ -15,8 +15,8 @@ from pathlib import Path
 from tqdm import tqdm
 
 # ─── Années ───────────────────────────────────────────────────────────────────
-YEAR_START = 1958 #1973
-YEAR_END   = 2019 #1978
+YEAR_START = 1973
+YEAR_END   = 1993
 
 # ── Chemins ────────────────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -69,6 +69,15 @@ for _, row in tqdm(df.iterrows(), total=len(df)):
     texte_clean = re.sub(r"\s+", " ", texte_clean).strip()
     texte_clean = re.sub(r"\n{3,}", "\n\n", texte_clean)
 
+    # Ajouter le leader national
+    if annee =="1973" :
+        leader_national = "Georges Pompidou"
+    elif annee =="1978" :
+        leader_national = "Valéry Giscard d'Estaing"
+    elif annee in ["1981", "1988", "1993"]:
+        leader_national = "François Mitterrand" 
+
+
     documents.append({
         "id":          doc_id,
         "annee":       annee,
@@ -80,6 +89,11 @@ for _, row in tqdm(df.iterrows(), total=len(df)):
         "partis":      split_valeur(row.get("titulaire-soutien")),
         "departement": str(row.get("departement-nom", "")),
         "professions": split_valeur(row.get("titulaire-profession")),
+        "suppleant_nom": str(row.get("suppleant-nom", "")),
+        "suppleant_prenom": str(row.get("suppleant-prenom", "")),
+        "suppleant_nom_complet": f"{str(row.get('suppleant-prenom',''))} {str(row.get('suppleant-nom',''))}".strip(),
+        "id_circ": str(row.get("identifiant de circonscription", "")),
+        "leader_national": leader_national
     })
 
 # 4. Stats
@@ -95,8 +109,10 @@ if len(documents) > 0:
     print("\n=== EXEMPLE 1 ===")
     print(f"ID       : {documents[0]['id']}")
     print(f"Nom      : {documents[0]['nom_complet']}")
+    print(f"Suppleant: {documents[0]['suppleant_nom_complet']}")
     print(f"Partis   : {documents[0]['partis']}")
     print(f"Dept     : {documents[0]['departement']}")
+    print(f"id_circ  : {documents[0]['id_circ']}")
     print(f"Profess. : {documents[0]['professions']}")
     print(f"Texte    : {documents[0]['texte'][:300]}")
 
@@ -104,8 +120,11 @@ if len(documents) > 100:
     print("\n=== EXEMPLE 2 ===")
     print(f"ID       : {documents[100]['id']}")
     print(f"Nom      : {documents[100]['nom_complet']}")
+    print(f"Suppleant: {documents[100]['suppleant_nom_complet']}")
     print(f"Partis   : {documents[100]['partis']}")
     print(f"Dept     : {documents[100]['departement']}")
+    print(f"id_circ  : {documents[100]['id_circ']}")
+    print(f"Profess. : {documents[100]['professions']}")
     print(f"Texte    : {documents[100]['texte'][:300]}")
 
 # 6. Sauvegarder les fichiers manquants
