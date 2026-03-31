@@ -92,6 +92,29 @@ def annoter_document(doc):
                     entites.extend(trovato)
                     stats['per'] += len(trovato)
 
+    # --- PER : nom du suppleant ---
+    nom_complet = doc.get('supp_nom_complet', '')
+    nom = doc.get('supp_nom', '')
+    prenom = doc.get('supp_prenom', '')
+
+    # Chercher nom complet d'abord
+    trovato = chercher_entite(texte, nom_complet, 'PER')
+    if trovato:
+        entites.extend(trovato)
+        stats['per'] += len(trovato)
+    else:
+        # Chercher nom seul en majuscule
+        if nom:
+            trovato = chercher_entite(texte, nom.upper(), 'PER')
+            if trovato:
+                entites.extend(trovato)
+                stats['per'] += len(trovato)
+            else:
+                trovato = chercher_entite(texte, nom, 'PER')
+                if trovato:
+                    entites.extend(trovato)
+                    stats['per'] += len(trovato)
+
     # --- ORG : partis politiques ---
     for parti in doc.get('partis', []):
         trovato = chercher_entite(texte, parti, 'ORG')
@@ -108,6 +131,14 @@ def annoter_document(doc):
         'URP': 'Union des républicains de progrès',
         'MRG': 'Mouvement des radicaux de gauche',
         'PSU': 'Parti socialiste unifié',
+        'P.S.U.': 'Parti socialiste unifié',
+        'P.S.': 'Parti socialiste',
+        'P.C.F.': 'Parti communiste français',
+        'U.D.R.': 'Union pour la défense de la République',
+        'R.P.R.': 'Rassemblement pour la République',
+        'U.D.F.': 'Union pour la démocratie française',
+        'U.R.P.': 'Union des républicains de progrès',
+        'M.R.G.': 'Mouvement des radicaux de gauche',
     }
     for abrev, nom_long in abreviations.items():
         if abrev in texte:
@@ -129,11 +160,35 @@ def annoter_document(doc):
         entites.extend(trovato_maj)
         stats['loc'] += len(trovato) + len(trovato_maj)
 
+    # --- LOC : circonscription ---
+    id_circ = doc.get('id_circ', '')
+    if id_circ  not in ['nan', '']:
+        # Regex : capture "id_circ ... circonscription"
+        pattern = rf"\b{id_circ}\s*\w*(?:\s+\w+)*\s+circonscription\b"
+        matches = re.finditer(pattern, texte, flags=re.IGNORECASE)
+        for m in matches:
+            entites.append({
+                "texte": texte[m.start():m.end()],
+                "tag": "LOC",
+                "debut": m.start(),
+                "fin": m.end()
+            })
+        # Update stats
+        stats['loc'] += len(list(re.finditer(pattern, texte, flags=re.IGNORECASE)))
+
     # --- MISC : professions ---
     for prof in doc.get('professions', []):
         trovato = chercher_entite(texte, prof, 'MISC')
         entites.extend(trovato)
         stats['misc'] += len(trovato)
+
+    # --- PER : leaders nationaux ---
+    leader_national = doc.get('leader_national', '')
+    if leader_national:
+        trovato = chercher_entite(texte, leader_national, 'PER')
+        entites.extend(trovato)
+        stats['per'] += len(trovato)
+
 
     # Supprimer doublons (même début et fin)
     seen = set()
