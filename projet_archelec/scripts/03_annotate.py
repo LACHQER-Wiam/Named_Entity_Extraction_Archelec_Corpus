@@ -93,9 +93,9 @@ def annoter_document(doc):
                     stats['per'] += len(trovato)
 
     # --- PER : nom du suppleant ---
-    nom_complet = doc.get('supp_nom_complet', '')
-    nom = doc.get('supp_nom', '')
-    prenom = doc.get('supp_prenom', '')
+    nom_complet = doc.get('suppleant_nom_complet', '')
+    nom = doc.get('suppleant_nom', '')
+    prenom = doc.get('suppleant_prenom', '')
 
     # Chercher nom complet d'abord
     trovato = chercher_entite(texte, nom_complet, 'PER')
