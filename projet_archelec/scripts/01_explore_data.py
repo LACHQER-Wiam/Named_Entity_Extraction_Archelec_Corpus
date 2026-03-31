@@ -28,8 +28,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # ─── Années ───────────────────────────────────────────────────────────────────
-YEAR_START = 1958 #1973
-YEAR_END   = 2019 #1978
+YEAR_START = 1973
+YEAR_END   = 1993
 
 # ─── Chemins ──────────────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -48,7 +48,9 @@ COL_PROFESSION = "titulaire-profession"
 COL_DEPT       = "departement"             # numéro département
 COL_DEPT_NOM   = "departement-nom"
 COL_ELECTION   = "contexte-election"
-
+COL_SUPP_NOM   = "suppleant-nom"
+COL_SUPP_PRENOM= "suppleant-prenom"
+COL_ID_CIRC     = "identifiant de circonscription"
 
 
 def main() -> None:
@@ -76,7 +78,7 @@ def main() -> None:
     print(df.columns.tolist())
     print("\n10 premiers exemples :")
     print(df[[COL_ID, COL_DATE, COL_NOM, COL_SOUTIEN,
-              COL_PROFESSION, COL_DEPT_NOM]].head(10).to_string())
+              COL_PROFESSION, COL_DEPT_NOM, COL_SUPP_NOM, COL_SUPP_PRENOM, COL_ID_CIRC]].head(10).to_string())
     print("\nTypes de données :")
     print(df.dtypes.to_string())
     print("\nValeurs manquantes par colonne :")
@@ -86,11 +88,11 @@ def main() -> None:
     print("\n" + "─" * 60)
     print(f"Filtrage sur les années entre {YEAR_START} et {YEAR_END}…")
     df[COL_DATE] = df[COL_DATE].astype(str).str.strip()
-    df_train = df[
-        df[COL_DATE].str.startswith(tuple(str(year) for year in range(YEAR_START, YEAR_END + 1)))
+    df_final = df[
+        df[COL_DATE].str.startswith(('1973', '1978', '1981', '1988', '1993'))
     ].copy().reset_index(drop=True)
 
-    print(f"→ {len(df_train)} documents retenus (sur {len(df)} au total)")
+    print(f"→ {len(df_final)} documents retenus (sur {len(df)} au total)")
 
     # ── 4. Statistiques du sous-ensemble ────────────────────────────────────
     print("\n" + "=" * 60)
@@ -98,35 +100,37 @@ def main() -> None:
     print("=" * 60)
 
     # Année extraite (4 premiers caractères de la date)
-    df_train["annee"] = df_train[COL_DATE].str[:4]
+    df_final["annee"] = df_final[COL_DATE].str[:4]
 
     print("\nNombre de documents par année :")
-    print(df_train["annee"].value_counts().sort_index().to_string())
+    print(df_final["annee"].value_counts().sort_index().to_string())
 
     print("\nTop 10 — titulaire-soutien (parti) :")
-    print(df_train[COL_SOUTIEN].value_counts().head(10).to_string())
+    print(df_final[COL_SOUTIEN].value_counts().head(10).to_string())
 
     print("\nTop 10 — titulaire-profession :")
-    print(df_train[COL_PROFESSION].value_counts().head(10).to_string())
+    print(df_final[COL_PROFESSION].value_counts().head(10).to_string())
 
     print("\nTop 10 — département :")
-    print(df_train[COL_DEPT_NOM].value_counts().head(10).to_string())
+    print(df_final[COL_DEPT_NOM].value_counts().head(10).to_string())
 
     print("\nValeurs manquantes (colonnes clés) :")
     cols_cles = [COL_ID, COL_DATE, COL_NOM, COL_PRENOM,
-                 COL_SOUTIEN, COL_PROFESSION, COL_DEPT_NOM]
-    print(df_train[cols_cles].isnull().sum().to_string())
+                 COL_SOUTIEN, COL_PROFESSION, COL_DEPT_NOM, 
+                 COL_ELECTION, COL_SUPP_NOM, 
+                 COL_SUPP_PRENOM, COL_ID_CIRC]
+    print(df_final[cols_cles].isnull().sum().to_string())
 
     # ── 5. Sauvegarde ────────────────────────────────────────────────────────
-    df_train.to_csv(OUT_CSV, index=False, encoding="utf-8")
-    print(f"\n✓ Sauvegardé : {OUT_CSV}  ({len(df_train)} lignes)")
+    df_final.to_csv(OUT_CSV, index=False, encoding="utf-8")
+    print(f"\n✓ Sauvegardé : {OUT_CSV}  ({len(df_final)} lignes)")
 
     # ── 6. Visualisations ────────────────────────────────────────────────────
     sns.set_theme(style="whitegrid", palette="muted")
 
     # Distribution par année
     fig, ax = plt.subplots(figsize=(5, 3))
-    df_train["annee"].value_counts().sort_index().plot(
+    df_final["annee"].value_counts().sort_index().plot(
         kind="bar", ax=ax, color="steelblue", edgecolor="white")
     ax.set_title(f"Documents par année ({YEAR_START}/{YEAR_END})")
     ax.set_xlabel("Année"); ax.set_ylabel("Nombre")
@@ -135,7 +139,7 @@ def main() -> None:
     plt.close(fig)
 
     # Top 15 partis
-    top_soutien = df_train[COL_SOUTIEN].value_counts().head(15)
+    top_soutien = df_final[COL_SOUTIEN].value_counts().head(15)
     fig, ax = plt.subplots(figsize=(10, 5))
     top_soutien.plot(kind="barh", ax=ax, color="coral", edgecolor="white")
     ax.set_title("Top 15 partis / soutiens")
@@ -145,7 +149,7 @@ def main() -> None:
     plt.close(fig)
 
     # Top 20 professions
-    top_prof = df_train[COL_PROFESSION].value_counts().head(20)
+    top_prof = df_final[COL_PROFESSION].value_counts().head(20)
     fig, ax = plt.subplots(figsize=(10, 6))
     top_prof.plot(kind="barh", ax=ax, color="mediumseagreen", edgecolor="white")
     ax.set_title("Top 20 professions")
