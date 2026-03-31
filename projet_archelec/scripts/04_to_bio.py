@@ -138,15 +138,18 @@ for token, tag_id in zip(ex['tokens'][:20], ex['ner_tags'][:20]):
 # ─── SPLIT TRAIN / VAL / TEST ───────────────────────────
 print("\nSplit train/val/test...")
 
+dataset_3annees = [d for d in dataset if d['annee'] in ('1973', '1978', '1981')]
+dataset_2annees = [d for d in dataset if d['annee'] in ('1988', '1993')]  # Tri par année pour stratification
+
 # Extraire les années pour stratification
-annees = [d['annee'] for d in dataset]
+annees_3 = [d['annee'] for d in dataset_3annees]
 
 # Split 80% train, 20% temp
 train_data, temp_data, train_annees, temp_annees = train_test_split(
-    dataset, annees,
+    dataset_3annees, annees_3,
     test_size=0.2,
     random_state=42,
-    stratify=annees
+    stratify=annees_3
 )
 
 # Split 50% val, 50% test sur le temp (= 10% / 10% du total)
@@ -157,6 +160,8 @@ val_data, test_data = train_test_split(
     stratify=temp_annees
 )
 
+test_data += dataset_2annees  # Ajouter les années 1988/1993 au test
+
 print(f"Train : {len(train_data)} docs")
 print(f"Val   : {len(val_data)} docs")
 print(f"Test  : {len(test_data)} docs")
@@ -165,7 +170,11 @@ print(f"Test  : {len(test_data)} docs")
 for nom, split in [("Train", train_data), ("Val", val_data), ("Test", test_data)]:
     n73 = sum(1 for d in split if d['annee'] == '1973')
     n78 = sum(1 for d in split if d['annee'] == '1978')
-    print(f"{nom} -- 1973: {n73} ({100*n73//len(split)}%) | 1978: {n78} ({100*n78//len(split)}%)")
+    n81 = sum(1 for d in split if d['annee'] == '1981')
+    n88 = sum(1 for d in split if d['annee'] == '1988')
+    n93 = sum(1 for d in split if d['annee'] == '1993') 
+    print(f"""{nom} -- 1973: {n73} ({100*n73//len(split)}%) | 1978: {n78} ({100*n78//len(split)}%)
+          | 1981: {n81} ({100*n81//len(split)}%) | 1988: {n88} ({100*n88//len(split)}%) | 1993: {n93} ({100*n93//len(split)}%)""")
 
 # ─── STATS DISTRIBUTION DES TAGS ────────────────────────
 all_tags = [ID2LABEL[t] for d in train_data for t in d['ner_tags']]
