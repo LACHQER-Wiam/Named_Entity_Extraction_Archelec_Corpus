@@ -14,12 +14,16 @@ import ftfy
 from pathlib import Path
 from tqdm import tqdm
 
+# ─── Années ───────────────────────────────────────────────────────────────────
+YEAR_START = 1958 #1973
+YEAR_END   = 2019 #1978
+
 # ── Chemins ────────────────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # 2. Charger le CSV filtré
 df = pd.read_csv(
-    BASE_DIR / "data/processed/archelec_1973_1978.csv",
+    BASE_DIR / f"data/processed/archelec_{YEAR_START}_{YEAR_END}.csv",
     encoding="utf-8",
     low_memory=False,
 )
