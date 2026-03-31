@@ -2,11 +2,11 @@
 RAPPORT DE QUALITE -- DONNEES NER ARCHELEC
 ============================================================
 
-TRAIN : 6936 documents charges
+TRAIN : 9997 documents charges
 
-VAL : 867 documents charges
+VAL : 1250 documents charges
 
-TEST : 867 documents charges
+TEST : 1250 documents charges
 
 --- VERIFICATION 1 : coherence BIO ---
   OK train : aucune erreur BIO
@@ -14,11 +14,11 @@ TEST : 867 documents charges
   OK test : aucune erreur BIO
 
 --- VERIFICATION 2 : longueur sequences (max 512) ---
-  train -- moy: 503 tokens | max: 512 | >512: 0
+  train -- moy: 496 tokens | max: 512 | >512: 0
   OK toutes les sequences sont dans la limite
-  val -- moy: 501 tokens | max: 512 | >512: 0
+  val -- moy: 498 tokens | max: 512 | >512: 0
   OK toutes les sequences sont dans la limite
-  test -- moy: 502 tokens | max: 512 | >512: 0
+  test -- moy: 495 tokens | max: 512 | >512: 0
   OK toutes les sequences sont dans la limite
 
 --- VERIFICATION 3 : valeurs nulles ---
@@ -27,57 +27,68 @@ TEST : 867 documents charges
   OK test : aucune valeur nulle, tokens/tags alignes
 
 --- VERIFICATION 4 : distribution labels (train) ---
-  O          :  3364955 (96.38%)
-  B-PER      :     8589 (0.25%)
-  I-PER      :    31450 (0.90%)
-  B-ORG      :    10665 (0.31%)
-  I-ORG      :    47203 (1.35%)
-  B-LOC      :     8045 (0.23%)
-  I-LOC      :    13983 (0.40%)
-  B-MISC     :     2538 (0.07%)
-  I-MISC     :     3877 (0.11%)
+  O          :  4795602 (96.55%)
+  B-PER      :    14316 (0.29%)
+  I-PER      :    54790 (1.10%)
+  B-ORG      :    15702 (0.32%)
+  I-ORG      :    42587 (0.86%)
+  B-LOC      :    12666 (0.26%)
+  I-LOC      :    22966 (0.46%)
+  B-MISC     :     3390 (0.07%)
+  I-MISC     :     4993 (0.10%)
 
 --- VERIFICATION 5 : data leakage ---
   OK Aucun data leakage entre train/val/test
 
 --- 5 EXEMPLES ANNOTES (train) ---
 
-  Exemple 1 -- ID: EL067_L_1973_03_054_01_1_PF_03 | Annee: 1973
-    [LOC] Meurthe-et-Moselle
-    [PER] François BORELLA
-    [ORG] Parti Socialiste Unifié
-    [PER] François Borella
+  Exemple 1 -- ID: EL189_L_1993_03_010_01_1_PF_04 | Annee: 1993
+    [LOC] AUBE
+    [PER] Rémo JEANMOUGIN
+    [ORG] Parti Communiste Français
+    [PER] Rémo JEANMOUGIN
+    [PER] Rémo JEANMOUGIN
+    [PER] Rémo Jeanmougin
+    [PER] Rémo JEANMOUGIN
 
-  Exemple 2 -- ID: EL066_L_1973_03_025_01_1_PF_01 | Annee: 1973
-    [LOC] Doubs
-    [PER] ANDRÉ VAGNERON
-    [ORG] PARTI COMMUNISTE FRANÇAIS
-
-  Exemple 3 -- ID: EL069_L_1973_03_092_11_1_PF_08 | Annee: 1973
-    [LOC] Hauts-de-seine
-    [MISC] Commerçant
-    [PER] Roger UZAN
-    [MISC] Commerçant
-    [ORG] sans étiquette
-
-  Exemple 4 -- ID: EL067_L_1973_03_059_10_1_PF_06 | Annee: 1973
-    [ORG] FRONT NATIONAL
+  Exemple 2 -- ID: EL193_L_1993_03_059_08_1_PF_08 | Annee: 1993
+    [ORG] Parti de la Loi Naturelle
     [LOC] Nord
-    [PER] Yves LABILLOIS
-    [PER] YVES LABILLOIS
-    [LOC] Nord
-    [MISC] moniteur sanitaire
+    [PER] Brigitte QUAGHEBEUR
+    [MISC] commerce extérieur
+    [ORG] Parti de la Loi Naturelle
+    [ORG] Parti de la Loi Naturelle
 
-  Exemple 5 -- ID: EL108_L_1978_03_093_07_1_PF_06 | Annee: 1978
-    [ORG] MRG
-    [PER] René MAILLET
-    [ORG] Mouvement des Radicaux de gauche
+  Exemple 3 -- ID: EL135_L_1981_06_042_01_1_PF_05 | Annee: 1981
+    [LOC] Loire
+    [PER] Michel PETIOT
+    [MISC] Ouvrier métallurgiste
+    [ORG] LUTTE OUVRI<unk>RE
+    [ORG] Lutte ouvrière
+    [ORG] RPR
+    [ORG] UDF
+    [ORG] Lutte Ouvrière
+
+  Exemple 4 -- ID: EL198_L_1993_03_094_07_1_PF_04 | Annee: 1993
+    [ORG] PARTI DES TRAVAILLEURS
+    [ORG] Parti des travailleurs
+    [ORG] PS
+    [ORG] PCF
+    [ORG] Parti des travailleurs
+    [ORG] parti des travailleurs
+    [ORG] Parti des travailleurs
+    [ORG] Parti des travailleurs
+
+  Exemple 5 -- ID: EL137_L_1981_06_088_03_1_PF_04 | Annee: 1981
+    [LOC] VOSGES
+    [PER] Gérard BRAUN
+    [LOC] VOSGES
 
 ============================================================
 RESUME FINAL
 ============================================================
-Total documents    : 8670
-Train/Val/Test     : 6936/867/867
+Total documents    : 12497
+Train/Val/Test     : 9997/1250/1250
 Erreurs detectees  : 0
 
 DONNEES PRETES POUR L'ENTRAINEMENT CAMEMBERT !

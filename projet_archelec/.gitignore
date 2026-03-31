@@ -1,6 +1,8 @@
 .venv
 data/raw/arkindex_archelec/
 data/raw/*.csv
+data/raw/*.sqlite
+data/raw/*.sqlite-journal
 data/bio/*.json
 data/annotated/*.json
 data/processed/*.json
