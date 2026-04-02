@@ -1,0 +1,2748 @@
+[
+  {
+    "id": "EL174_L_1988_06_001_01_1_PF_05",
+    "annee": "1988",
+    "texte": "RÉPUBLIQUE FRANÇAISE - LIBERTÉ - ÉGALITÉ - FRATERNITÉ - DÉPARTEMENT DE L'AIN Lionel MORNET 31 ans Ouvrier R VI, Syndicaliste Conseiller Municipal BOURG-EN-BRESSE Noëlle FAVIER 46 ans Employée, Mutualiste PONT-D'AIN VOTER COMMUNISTE C'EST VOTER POUR NOS PROPOSITIONS - Le SMIC à 6.000 F et l'élévation du pouvoir d'achat. - Revaloriser les retraites et le revenu paysan. - Aucun licenciement sans reclassement préalable. - Créer des emplois en produisant en France et en coopérant avec d'autres peuples. - Imposer les grandes fortunes. - Réduire de 40 milliards le budget de surarmement au profit de l'école. - Zéro arme nucléaire pour l'An 2000. - Rompre toutes relations avec l'Afrique du Sud. - Valoriser l'environ- nement et combattre maintes pollutions. ELECTIONS LÉGISLATIVES DU 5 JUIN 1988 - 1\" Circonscription Candidat de Rassemblement des Forces de Gauche présenté par le Parti Communiste Français Madame, Mademoiselle, Monsieur, Le 8 mai dernier, nous avons appelé à voter pour F. Mitterrand, nous l'avons fait parce que nous sommes les adversaires irréductibles de la droite et de l'extrême-droite, les partisans résolus de l'union des forces populaires et nous avons tout fait pour les rassembler. Sitôt réélu, le Président de la République, après avoir mis en place un gouver- nement comprenant 3 ministres UDF, a dissout l'Assemblée Nationale et a expliqué que ces élections ont pour but de préparer une alliance durable au Parlement et au Gouvernement avec une partie de la droite baptisée « centre » pour mettre en œuvre la politique néfaste liée à l'Europe de 1992. Ce qui est lié à cette échéance c'est encore plus de chômage, de pauvreté, de pressions sur le niveau de vie, de durs coups portés à la Sécurité Sociale, à la retraite à 60 ans, aux statuts des salariés des grandes entreprises, des services et de la fonction publique. Il s'agit d'accroître la dépendance de la France, par la libre circulation des capitaux américains, le déclin de nos richesses économiques, mettre 1 million de bonnes terres en jachère et pousser notre pays dans la voie de la soumission et du surarmement. Déjà dans notre circonscription des milliers de personnes ont moins de 50,00 F par jour pour vivre, des milliers d'autres sont sans ressource, les jeunes sont soumis quotidiennement au chômage, aux emplois précaires : TUC, SIVP, etc ... Des milliers d'agriculteurs croulent sous les dettes au Crédit Agricole et sont victimes des quotas de toutes sortes. Les retraités voient leur pension dévalorisée. Vous ne pouvez vous rallier à un tel projet, d'autant que des moyens existent pour faire une autre politique. A l'occasion des élections présidentielles nous avons proposé un programme qui met les richesses créées au service de l'investissement humain et productif. Il reste d'une validité incontestable. Pour cela il est nécessaire de se rassembler sur les valeurs de gauche que sont la justice sociale, la liberté, la citoyenneté, la paix et le désarmement. Ne vous laissez pas tromper : une politique de gauche ne peut pas résulter d'une alliance avec la droite. Jamais cette dernière n'a appliqué autre chose qu'une politique enrichissant toujours plus les capitalistes. Le 5 Juin en votant communiste vous donnerez plus de poids aux revendications contenues dans notre programme (voir encadré), vous vous opposerez au charcutage électoral Pasqua qui défavorise outrancièrement le Parti Communiste Français. Chacun de vous, en m'accordant son suffrage se prononcera franchement : - Contre la droite et l'extrême-droite, le grand patronat, contre l'austérité, le chômage, le racisme, le surarmement et - Pour l'exigence d'une autre politique, pour l'union dans l'action des forces populaires. Vous indiquerez ainsi à F. Mitterrand que c'est cette voie là plutôt que celle d'une politique de droite qu'il est souhaitable de prendre pour le développement du pays. EN VOTANT POUR LE CANDIDAT COMMUNISTE VOUS VOTEREZ POUR LE RASSEMBLEMENT DES FORCES DE GAUCHE Vu, le candidat et son suppléant Imp. du Centre, Bourg Sciences Po / fonds CEVIPOF ☐ ☐ ☐ ☐ ☐ ☐ ☐ ☐ ☐ ☐Sciences Po / fonds CEVIPOF BBIAONARSI SUODIE .. MIATO THOM STEMMUMMOD TADIGHAD BU HUOS THATOV 13 THEMELIEM328AR ELTRUO9 SSRETOV BUOV DES LONCES DE CENICHE",
+    "entites": [
+      {
+        "texte": "AIN",
+        "tag": "LOC",
+        "debut": 73,
+        "fin": 76
+      },
+      {
+        "texte": "Lionel MORNET",
+        "tag": "PER",
+        "debut": 77,
+        "fin": 90
+      },
+      {
+        "texte": "Ouvrier",
+        "tag": "MISC",
+        "debut": 98,
+        "fin": 105
+      },
+      {
+        "texte": "Syndicaliste",
+        "tag": "MISC",
+        "debut": 106,
+        "fin": 118
+      },
+      {
+        "texte": "Conseiller Municipal",
+        "tag": "MISC",
+        "debut": 119,
+        "fin": 139
+      },
+      {
+        "texte": "BOURG-EN-BRESSE",
+        "tag": "LOC",
+        "debut": 140,
+        "fin": 155
+      },
+      {
+        "texte": "Noëlle FAVIER",
+        "tag": "PER",
+        "debut": 162,
+        "fin": 175
+      },
+      {
+        "texte": "Employée",
+        "tag": "MISC",
+        "debut": 179,
+        "fin": 187
+      },
+      {
+        "texte": "Mutualiste",
+        "tag": "MISC",
+        "debut": 189,
+        "fin": 199
+      },
+      {
+        "texte": "PONT-D'AIN",
+        "tag": "LOC",
+        "debut": 200,
+        "fin": 210
+      },
+      {
+        "texte": "AIN",
+        "tag": "LOC",
+        "debut": 211,
+        "fin": 214
+      },
+      {
+        "texte": "France",
+        "tag": "LOC",
+        "debut": 449,
+        "fin": 455
+      },
+      {
+        "texte": "Afrique du Sud",
+        "tag": "LOC",
+        "debut": 673,
+        "fin": 687
+      },
+      {
+        "texte": "Parti Communiste Français",
+        "tag": "ORG",
+        "debut": 880,
+        "fin": 905
+      },
+      {
+        "texte": "F. Mitterrand",
+        "tag": "PER",
+        "debut": 1013,
+        "fin": 1026
+      },
+      {
+        "texte": "UDF",
+        "tag": "ORG",
+        "debut": 1319,
+        "fin": 1322
+      },
+      {
+        "texte": "Assemblée Nationale",
+        "tag": "ORG",
+        "debut": 1331,
+        "fin": 1350
+      },
+      {
+        "texte": "Parlement",
+        "tag": "ORG",
+        "debut": 1415,
+        "fin": 1424
+      },
+      {
+        "texte": "Gouvernement",
+        "tag": "ORG",
+        "debut": 1429,
+        "fin": 1441
+      },
+      {
+        "texte": "Sécurité Sociale",
+        "tag": "ORG",
+        "debut": 1726,
+        "fin": 1742
+      },
+      {
+        "texte": "France",
+        "tag": "LOC",
+        "debut": 1790,
+        "fin": 1796
+      },
+      {
+        "texte": "Crédit Agricole",
+        "tag": "ORG",
+        "debut": 2549,
+        "fin": 2564
+      },
+      {
+        "texte": "Pasqua",
+        "tag": "PER",
+        "debut": 3339,
+        "fin": 3345
+      },
+      {
+        "texte": "Parti Communiste Français",
+        "tag": "ORG",
+        "debut": 3394,
+        "fin": 3419
+      },
+      {
+        "texte": "F. Mitterrand",
+        "tag": "PER",
+        "debut": 3506,
+        "fin": 3519
+      },
+      {
+        "texte": "Rassemblement des Forces de Gauche",
+        "tag": "ORG",
+        "debut": 3644,
+        "fin": 3678
+      },
+      {
+        "texte": "Sciences Po",
+        "tag": "ORG",
+        "debut": 4570,
+        "fin": 4581
+      }
+    ]
+  },
+  {
+    "id": "EL174_L_1988_06_001_01_1_PF_01",
+    "annee": "1988",
+    "texte": "Élections Législatives du 5 Juin 1988 - Département de l'Ain - 1re circonscription Sciences Po / fonds CEVIPOF Maintenant la force d'avenir c'est le Front National Appel aux Français, Le 24 Avril, 4.400.000 électrices et électeurs m'ont fait confiance : - pour promouvoir le programme de redressement national, - pour réduire le chômage, l'immigration, l'insécurité, - pour lutter contre le socialisme bureaucratique et fiscaliste. Je leur demande de confirmer et d'amplifier leur vote le 5 juin prochain. La réélection de François MITTERRAND a été rendue possible par les erreurs et les faiblesses du RPR et de l'UDF ainsi que par leur attitude d'exclusion à l'égard du Front National. Ne faites pas confiance à ceux qui ont perdu hier pour gagner demain. Choisissez la seule force d'avenir : le Front National. Faites barrage à l'hégémonie socialiste, à l'arrivée massive de nouveaux immigrés et à l'octroi du droit de vote aux étrangers. Refusez la fatalité du déclin, exprimez vos convictions par un vote de résistance nationale. Vive la France Vive la République Française Jecumana Le Pas Votes pour les candidats présentés par Jean-Marie LE PEN7 raisons de voter pour le candidat du Front National Sciences Po / fonds CEVIPOF Bernard AULAGNE 45 ans, marié, 3 enfants Marbrier Membre de la Sauvegarde de la Bresse Membre du Conseil d'Administration de la Sauvegarde de l'Enfance de l'Ain Remplaçant éventuel : Tiphaine LE FAUCHEUR Si vous voulez un député · qui soit présent à l'Assemblée nationale et qui remplisse effectivement le mandat pour lequel les contribuables le payent, comme les députés du Front National l'ont fait jusqu'ici à la différence de leurs collègues des autres groupes presque toujours absents ; · qui, une fois élu, ne s'entendra pas avec les socia- listes contre le vœu de ses électeurs, comme s'apprêtent déjà à le faire les centristes du RPR et de l'UDF : · qui se prononce clairement pour l'union de toutes les for- ces antisocialistes ; · qui vote pour la préférence nationale, la priorité d'emploi pour les Français, la suppression de la taxe professionnelle, la création du revenu maternel pour les mères de famille françaises, la peine de mort pour les assassins et les trafi- quants de drogue, alors que jusqu'ici les députés sortants RPR, UDF, PS, PC ont joint leurs voix pour s'y opposer ; · qui défende la liberté de l'enseignement, qui propose la suppression des quotas et le maintien des agriculteurs sur leurs terres, qui lutte pour la réduction des charges fisca- les et sociales et qui préconise le référendum d'initiative populaire ; · qui soit fidèle à ses convictions et tienne ses promesses sans se préoccuper des intérêts de carrière et d'ap- pareil ; · qui travaille à créer une grande force de rassemblement du peuple de France pour assurer l'avenir et le redresse- ment de notre pays. Votez pour vos idées Votez AULAGNE Bernard Remplaçant éventuel : Tiphaine LE FAUCHEUR LEPEN POPULAIRE ET NATIONALE LISTE d' ENTENTE Vu : Les Candidats Pour nous écrire : 8, rue du Général-Clergerie - 75116 PARIS Imprimerie Moderne - 01 Bourg-en-bresse",
+    "entites": [
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 57,
+        "fin": 60
+      },
+      {
+        "texte": "1re circonscription",
+        "tag": "LOC",
+        "debut": 65,
+        "fin": 84
+      },
+      {
+        "texte": "Sciences Po",
+        "tag": "ORG",
+        "debut": 93,
+        "fin": 104
+      },
+      {
+        "texte": "CEVIPOF",
+        "tag": "ORG",
+        "debut": 106,
+        "fin": 113
+      },
+      {
+        "texte": "Front National",
+        "tag": "ORG",
+        "debut": 149,
+        "fin": 163
+      },
+      {
+        "texte": "François MITTERRAND",
+        "tag": "PER",
+        "debut": 523,
+        "fin": 542
+      },
+      {
+        "texte": "RPR",
+        "tag": "ORG",
+        "debut": 602,
+        "fin": 605
+      },
+      {
+        "texte": "UDF",
+        "tag": "ORG",
+        "debut": 614,
+        "fin": 617
+      },
+      {
+        "texte": "Front National",
+        "tag": "ORG",
+        "debut": 671,
+        "fin": 685
+      },
+      {
+        "texte": "Front National",
+        "tag": "ORG",
+        "debut": 797,
+        "fin": 811
+      },
+      {
+        "texte": "France",
+        "tag": "LOC",
+        "debut": 799,
+        "fin": 805
+      },
+      {
+        "texte": "République Française",
+        "tag": "LOC",
+        "debut": 813,
+        "fin": 833
+      },
+      {
+        "texte": "Jean-Marie LE PEN",
+        "tag": "PER",
+        "debut": 977,
+        "fin": 994
+      },
+      {
+        "texte": "Sciences Po",
+        "tag": "ORG",
+        "debut": 1066,
+        "fin": 1077
+      },
+      {
+        "texte": "CEVIPOF",
+        "tag": "ORG",
+        "debut": 1079,
+        "fin": 1086
+      },
+      {
+        "texte": "Front National",
+        "tag": "ORG",
+        "debut": 1189,
+        "fin": 1203
+      },
+      {
+        "texte": "Bernard AULAGNE",
+        "tag": "PER",
+        "debut": 1232,
+        "fin": 1247
+      },
+      {
+        "texte": "Marbrier",
+        "tag": "MISC",
+        "debut": 1273,
+        "fin": 1281
+      },
+      {
+        "texte": "Sauvegarde de la Bresse",
+        "tag": "ORG",
+        "debut": 1238,
+        "fin": 1261
+      },
+      {
+        "texte": "Sauvegarde de l'Enfance de l'Ain",
+        "tag": "ORG",
+        "debut": 1280,
+        "fin": 1313
+      },
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 1389,
+        "fin": 1392
+      },
+      {
+        "texte": "Tiphaine LE FAUCHEUR",
+        "tag": "PER",
+        "debut": 1415,
+        "fin": 1435
+      },
+      {
+        "texte": "Assemblée nationale",
+        "tag": "ORG",
+        "debut": 1361,
+        "fin": 1380
+      },
+      {
+        "texte": "Front National",
+        "tag": "ORG",
+        "debut": 1607,
+        "fin": 1621
+      },
+      {
+        "texte": "PS",
+        "tag": "ORG",
+        "debut": 2283,
+        "fin": 2285
+      },
+      {
+        "texte": "Tiphaine LE FAUCHEUR",
+        "tag": "PER",
+        "debut": 2904,
+        "fin": 2924
+      },
+      {
+        "texte": "France",
+        "tag": "LOC",
+        "debut": 1759,
+        "fin": 1765
+      },
+      {
+        "texte": "PARIS",
+        "tag": "LOC",
+        "debut": 2095,
+        "fin": 2100
+      },
+      {
+        "texte": "Imprimerie Moderne",
+        "tag": "ORG",
+        "debut": 2101,
+        "fin": 2119
+      },
+      {
+        "texte": "Bourg-en-bresse",
+        "tag": "LOC",
+        "debut": 2134,
+        "fin": 2149
+      }
+    ]
+  },
+  {
+    "id": "EL174_L_1988_06_001_01_1_PF_02",
+    "annee": "1988",
+    "texte": "RÉPUBLIQUE FRANÇAISE - Liberté - Égalité - Fraternité - DÉPARTEMENT DE L'AIN ÉLECTIONS LÉGISLATIVES DU 5 JUIN 1988 - 1ere CIRCONSCRIPTION CANDIDAT POUR UNE NOUVELLE POLITIQUE A GAUCHE - COMITÉ JUQUIN - Régis PUJOL suppléant : Jean-François MORTEL J'ai quelques amis en Bresse qui me connaissent bien. Ils vous diront que j'ai 58 ans, 4 enfants, que je suis à gauche, antinucléaire, et que depuis 1980, j'ai galéré de chômage en stages, en passant par le temporaire, l'intérim, et les missions en Afrique. Mais vous, vous vous demandez bien pourquoi un chômeur se pré- sente ?... C'est bien simple : Trop longtemps agressé par le chômage, il fallait que je réagisse et que j'agisse, et quand le COMITÉ JUQUIN m'a demandé de le représenter, avec Jean-François MORTEL comme suppléant, j'ai accepté. Je voulais ainsi saisir l'occasion de rappeler une fois de plus, qu'une injustice sociale comme le chômage n'est pas une maladie honteuse et dire à chacun de mes camarades sans travail : \"Un des nôtres cesse de se taire, il réagit en citoyen à part entière, faites comme lui, bougez, ensemble nous nous ferons entendre et respecter\". Voyez comment les choses se passent. Les Comités de Soutien à PIERRE JUQUIN n'ont pas ménagé leurs efforts pour que la droite soit battue le 8 Mai. Large vainqueur , MITTERRAND et le P.S. pratiquent d'emblée \"l'ouver- ture\" au Centre. On peut légitimement se poser la question de qui va s'attaquer aux thèmes essentiels que la candidature de JUQUIN a soulevé : le chômage, l'écologie, la pauvreté, l'échec scolaire, la course aux armements, le Tiers monde. C'est le sens de notre candidature, pour une réelle politique de gauche. Sciences Po / fonds CEVIPOFSciences Po / fonds CEVIPOF IL FAUT FAIRE DES CHOIX LUTTER CONTRE LE CHOMAGE ET SES EFFETS - Une loi programme sur les 35 Heures, sans réduction de salaire, pour aller vers le plein emploi. - Promouvoir une loi antipauvreté, avec un revenu minimum garanti pour tous (jeunes sans statut, parents au foyer, agriculteurs, etc ... ). - Transformer les stages bidons (TUC, SIVP ... ) en de véritables formations débouchant sur des emplois. - Préserver et consolider la Sécurité Sociale. ACCORDER UNE PLACE ESSENTIELLE A L'ÉCOLOGIE - Démantèlement de la force de frappe : arrêt du nucléaire militaire. - Il faut choisir entre armer et éduquer : reconversion des industries nucléaires. - Refuser le stockage souterrain des déchets radioactifs, en Bresse comme ailleurs. - Lutter contre la pollution de l'air et des eaux, pour protéger les forêts et la couche d'ozone. AVANCER VERS L'ÉGALITÉ DES DROITS Des besoins sociaux ne sont pas satisfaits : écoles, crèches, hôpitaux, logements ... - Égalité homme-femme : à travail égal, salaire égal. Autant de femmes que d'hommes aux postes de responsabilités. - Suppression de la loi du 9 Septembre 1986 sur l'entrée et le séjour des étrangers. - Reconnaissance du droit de vote aux immigrés, à commencer par les prochaines municipales. Comment accepter que toute personne ayant les mêmes devoirs n'ait pas les mêmes droits. ŒUVRER POUR LA PAIX ET S'OUVRIR AU TIERS MONDE Après l'Algérie, Ouvéa nous rappelle que la décolonisation n'est pas achevée. - Reconnaître le droit à l'autodétermination des DOM-TOM, à commencer par l'indépendance au peuple Kanak. - Mettre un terme au pillage économique du Tiers monde. Les ressources ne manquent pas pour nourrir toute la planète : il faut choisir d'annuler dans un premier temps la dette du Tiers monde. ETRE DE GAUCHE AUJOURD'HUI, C'EST VOULOIR CETTE POLITIQUE NOUVELLE ! LE 5 JUIN 1988 VOTEZ Régis PUJOL IMP MULTITUDE/01400 CHATILLON",
+    "entites": [
+      {
+        "texte": "AIN",
+        "tag": "LOC",
+        "debut": 73,
+        "fin": 76
+      },
+      {
+        "texte": "1ere CIRCONSCRIPTION",
+        "tag": "LOC",
+        "debut": 117,
+        "fin": 137
+      },
+      {
+        "texte": "COMITÉ JUQUIN",
+        "tag": "ORG",
+        "debut": 194,
+        "fin": 207
+      },
+      {
+        "texte": "Régis PUJOL",
+        "tag": "PER",
+        "debut": 208,
+        "fin": 219
+      },
+      {
+        "texte": "Jean-François MORTEL",
+        "tag": "PER",
+        "debut": 232,
+        "fin": 252
+      },
+      {
+        "texte": "Bresse",
+        "tag": "LOC",
+        "debut": 267,
+        "fin": 273
+      },
+      {
+        "texte": "Afrique",
+        "tag": "LOC",
+        "debut": 576,
+        "fin": 583
+      },
+      {
+        "texte": "COMITÉ JUQUIN",
+        "tag": "ORG",
+        "debut": 750,
+        "fin": 763
+      },
+      {
+        "texte": "Jean-François MORTEL",
+        "tag": "PER",
+        "debut": 778,
+        "fin": 798
+      },
+      {
+        "texte": "Bresse",
+        "tag": "LOC",
+        "debut": 1078,
+        "fin": 1084
+      },
+      {
+        "texte": "PIERRE JUQUIN",
+        "tag": "PER",
+        "debut": 1102,
+        "fin": 1115
+      },
+      {
+        "texte": "MITTERRAND",
+        "tag": "PER",
+        "debut": 1192,
+        "fin": 1202
+      },
+      {
+        "texte": "P.S.",
+        "tag": "ORG",
+        "debut": 1209,
+        "fin": 1213
+      },
+      {
+        "texte": "Centre",
+        "tag": "ORG",
+        "debut": 1247,
+        "fin": 1253
+      },
+      {
+        "texte": "Tiers monde",
+        "tag": "LOC",
+        "debut": 1369,
+        "fin": 1380
+      },
+      {
+        "texte": "Sciences Po",
+        "tag": "ORG",
+        "debut": 1568,
+        "fin": 1579
+      },
+      {
+        "texte": "CEVIPOF",
+        "tag": "ORG",
+        "debut": 1592,
+        "fin": 1599
+      },
+      {
+        "texte": "Sécurité Sociale",
+        "tag": "ORG",
+        "debut": 1877,
+        "fin": 1893
+      },
+      {
+        "texte": "Bresse",
+        "tag": "LOC",
+        "debut": 2148,
+        "fin": 2154
+      },
+      {
+        "texte": "Algérie",
+        "tag": "LOC",
+        "debut": 2475,
+        "fin": 2482
+      },
+      {
+        "texte": "Ouvéa",
+        "tag": "LOC",
+        "debut": 2485,
+        "fin": 2490
+      },
+      {
+        "texte": "DOM-TOM",
+        "tag": "LOC",
+        "debut": 2570,
+        "fin": 2577
+      },
+      {
+        "texte": "Kanak",
+        "tag": "MISC",
+        "debut": 2633,
+        "fin": 2638
+      },
+      {
+        "texte": "Tiers monde",
+        "tag": "LOC",
+        "debut": 2691,
+        "fin": 2702
+      },
+      {
+        "texte": "Tiers monde",
+        "tag": "LOC",
+        "debut": 2820,
+        "fin": 2831
+      },
+      {
+        "texte": "CHATILLON",
+        "tag": "LOC",
+        "debut": 2951,
+        "fin": 2960
+      }
+    ]
+  },
+  {
+    "id": "EL174_L_1988_06_001_01_1_PF_03",
+    "annee": "1988",
+    "texte": "Sciences Po / fonds CEVIPOF ELECTIONS LEGISLATIVES DE JUIN 1988 - 1re circonscription de l'Ain UNION DU RASSEMBLEMENT ET DU CENTRE R.P.R .- U.D.F. Jacques BOYON Président du Conseil Général de l'Ain Maire de Pont d'Ain Ancien Secrétaire d'Etat à la Défense Chevalier de la Légion d'honneur Père de 7 enfants Suppléant : Paul MORIN Vice-Président du Conseil Général de l'Ain Maire-Adjoint honoraire de Bourg en Bresse Commandeur de la Légion d'Honneur Cheri Madame, cheio Madenwisell, cher Monsieur, Avant sa réélection le 8 mai, le Président de la République avait annoncé une \"ouverture\" de son Gouvernement et de sa majorité. L'ouverture a échoué. Il s'était aussi engagé à ce que son nouveau Gouvernement vienne présenter sa politique devant le Parlement. Au lieu de le faire, il dissout immédiatement l'Assemblée Nationale pour tenter de substituer, à la majorité que vous avez choisie il y a à peine deux ans, une majorité parlementaire à sa convenance. Vous devez donc choisir votre député pour clarifier les ambiguités du vote du 8 mai. Que veulent vraiment aujourd'hui les Français ? Que voulez-vous vous-même personnellement ? VU LES CANDIDATSVous devez refuser la politique socialiste. Vous avez vu dans les faits entre 1981 et 1986 ses résultats (insécurité, nouvelle pauvreté, recul de l'économie), quand elle était conduite par une équipe à laquelle le Gouvernement actuel ressemble comme un frère : neuf ministres socialistes ne siègent-ils pas aujourd'hui aux mêmes postes qu'avant 1986 ? Vous devez renouveler votre confiance à la majorité que vous avez choisie en mars 1986 et qui a travaillé pour le pays dans le sérieux et dans l'union. J'ai eu la fierté d'appartenir, comme Secrétaire d'Etat à la Défense, au Gouvernement de Jacques CHIRAC qui, durant deux ans, avec le soutien unanime du R.P.R. et de l'U.D.F., a mené une politique efficace pour la sécurité, pour le redressement économique et financier et pour un vrai progrès social. Tout le monde reconnaît que c'était une bonne politique. Elle reste nécessaire pour l'échéance du marché unique européen de 1992. Sinon, dans la compétition économique, il y a un grave risque de déclin pour la France. Mon but, comme celui de tous les candidats investis par l'Union du Rassemblement et du Centre, est de constituer une majorité parlementaire qui gouvernera dans ce sens. En second lieu, avec le retour au scrutin de circonscription, vous allez à nouveau, comme avant 1986, choisir votre député. Il sera le député de tous les habitants de votre circonscription et d'elle seule et non plus de tout le département. Il sera plus proche de vous et plus disponible. Vous choisirez un homme que vous connaissez, qui a montré sa connaissance de vos problèmes et son efficacité à les résoudre et qui a une longue habitude de travailler avec tous les élus de vos communes. Vous me connaissez. Depuis 1970, au Conseil Général comme au plan national, j'ai défendu les intérêts et la personnalité de la ville de BOURG, de la BRESSE et du REVERMONT. Lorsque des menaces sont apparues, je les ai combattues : ainsi mon appartenance au Gouvernement ne m'a pas empêché de condamner sans réserve le projet de stockage de déchets nucléaires en Bresse. Les chances nouvelles, je me suis attaché à les susciter et à les saisir pour vous : valorisation des autoroutes, création d'emplois et d'entreprises. Je viens de lancer l'idée d'associer, dans une institution nouvelle, les communes et le Conseil Général pour travailler ensemble à la promotion et l'expansion de toute la région de BOURG. En même temps, j'ai défendu la personnalité de notre BRESSE : sur le plan de la culture, du sport ou de la musique à travers toutes les associations ; mais aussi à travers toutes ses activités de production (agriculture, artisanat, petite et moyenne industrie, professions libérales), en particulier celles qui, comme la volaille, font notre réputation traditionnelle de très haute qualité. Enfin, pour surmonter notre plus gros handicap et relever le plus urgent défi, j'ai entamé une action énergique pour développer les moyens de la formation et de l'enseignement, dans nos collèges et nos lycées, avant et après le baccalauréat, pour les diplômes techniques et les classes préparatoires aux grandes écoles. Ces actions doivent être poursuivies. Paul MORIN, dont vous connaissez la pondération et l'esprit tolérant, qui est un grand patriote, et qui depuis de longues années a montré son cœur et sa générosité, en particulier dans la défense des intérêts des anciens combattants et l'amélioration de la condition des personnes âgées, a accepté d'être mon suppléant. Pourrait-on mieux manifester l'union forte et franche des Gaullistes et des Radicaux, des Libéraux et des Centristes, que, comme vous, nous avons, l'un et l'autre, toujours voulue ? Je fais appel à vous, en toute clarté et sincérité. Faites confiance à notre équipe : nous agizons pour vous tous, avec efficacité, loyauté et fidélité. qmushy Imp Réunies 74 23 67 90 Sciences Po / fonds CEVIPOF",
+    "entites": [
+      {
+        "texte": "Sciences Po",
+        "tag": "ORG",
+        "debut": 0,
+        "fin": 11
+      },
+      {
+        "texte": "CEVIPOF",
+        "tag": "ORG",
+        "debut": 20,
+        "fin": 27
+      },
+      {
+        "texte": "1re circonscription",
+        "tag": "LOC",
+        "debut": 68,
+        "fin": 87
+      },
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 91,
+        "fin": 94
+      },
+      {
+        "texte": "UNION DU RASSEMBLEMENT ET DU CENTRE",
+        "tag": "ORG",
+        "debut": 96,
+        "fin": 131
+      },
+      {
+        "texte": "R.P.R.",
+        "tag": "ORG",
+        "debut": 132,
+        "fin": 138
+      },
+      {
+        "texte": "U.D.F.",
+        "tag": "ORG",
+        "debut": 140,
+        "fin": 146
+      },
+      {
+        "texte": "Jacques BOYON",
+        "tag": "PER",
+        "debut": 147,
+        "fin": 160
+      },
+      {
+        "texte": "Président du Conseil Général",
+        "tag": "MISC",
+        "debut": 161,
+        "fin": 189
+      },
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 195,
+        "fin": 198
+      },
+      {
+        "texte": "Pont d'Ain",
+        "tag": "LOC",
+        "debut": 206,
+        "fin": 216
+      },
+      {
+        "texte": "Secrétaire d'Etat à la Défense",
+        "tag": "MISC",
+        "debut": 223,
+        "fin": 253
+      },
+      {
+        "texte": "Chevalier de la Légion d'honneur",
+        "tag": "MISC",
+        "debut": 254,
+        "fin": 286
+      },
+      {
+        "texte": "Paul MORIN",
+        "tag": "PER",
+        "debut": 320,
+        "fin": 330
+      },
+      {
+        "texte": "Vice-Président du Conseil Général",
+        "tag": "MISC",
+        "debut": 331,
+        "fin": 364
+      },
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 370,
+        "fin": 373
+      },
+      {
+        "texte": "Bourg en Bresse",
+        "tag": "LOC",
+        "debut": 397,
+        "fin": 412
+      },
+      {
+        "texte": "Commandeur de la Légion d'Honneur",
+        "tag": "MISC",
+        "debut": 413,
+        "fin": 446
+      },
+      {
+        "texte": "Gouvernement",
+        "tag": "ORG",
+        "debut": 558,
+        "fin": 570
+      },
+      {
+        "texte": "Parlement",
+        "tag": "ORG",
+        "debut": 680,
+        "fin": 689
+      },
+      {
+        "texte": "Assemblée Nationale",
+        "tag": "ORG",
+        "debut": 724,
+        "fin": 743
+      },
+      {
+        "texte": "Français",
+        "tag": "MISC",
+        "debut": 923,
+        "fin": 931
+      },
+      {
+        "texte": "Conseil Général",
+        "tag": "ORG",
+        "debut": 1145,
+        "fin": 1160
+      },
+      {
+        "texte": "Gouvernement",
+        "tag": "ORG",
+        "debut": 1573,
+        "fin": 1585
+      },
+      {
+        "texte": "Jacques CHIRAC",
+        "tag": "PER",
+        "debut": 1599,
+        "fin": 1613
+      },
+      {
+        "texte": "R.P.R.",
+        "tag": "ORG",
+        "debut": 1809,
+        "fin": 1815
+      },
+      {
+        "texte": "U.D.F.",
+        "tag": "ORG",
+        "debut": 1822,
+        "fin": 1828
+      },
+      {
+        "texte": "France",
+        "tag": "LOC",
+        "debut": 1971,
+        "fin": 1977
+      },
+      {
+        "texte": "Union du Rassemblement et du Centre",
+        "tag": "ORG",
+        "debut": 2076,
+        "fin": 2111
+      },
+      {
+        "texte": "circonscription",
+        "tag": "LOC",
+        "debut": 2176,
+        "fin": 2191
+      },
+      {
+        "texte": "BOURG",
+        "tag": "LOC",
+        "debut": 2649,
+        "fin": 2654
+      },
+      {
+        "texte": "BRESSE",
+        "tag": "LOC",
+        "debut": 2660,
+        "fin": 2666
+      },
+      {
+        "texte": "REVERMONT",
+        "tag": "LOC",
+        "debut": 2671,
+        "fin": 2680
+      },
+      {
+        "texte": "Gouvernement",
+        "tag": "ORG",
+        "debut": 2762,
+        "fin": 2774
+      },
+      {
+        "texte": "Bresse",
+        "tag": "LOC",
+        "debut": 2898,
+        "fin": 2904
+      },
+      {
+        "texte": "Conseil Général",
+        "tag": "ORG",
+        "debut": 3039,
+        "fin": 3054
+      },
+      {
+        "texte": "BOURG",
+        "tag": "LOC",
+        "debut": 3129,
+        "fin": 3134
+      },
+      {
+        "texte": "BRESSE",
+        "tag": "LOC",
+        "debut": 3163,
+        "fin": 3169
+      },
+      {
+        "texte": "Paul MORIN",
+        "tag": "PER",
+        "debut": 4294,
+        "fin": 4304
+      },
+      {
+        "texte": "Gaullistes",
+        "tag": "MISC",
+        "debut": 4589,
+        "fin": 4599
+      },
+      {
+        "texte": "Radicaux",
+        "tag": "MISC",
+        "debut": 4604,
+        "fin": 4612
+      },
+      {
+        "texte": "Libéraux",
+        "tag": "MISC",
+        "debut": 4617,
+        "fin": 4625
+      },
+      {
+        "texte": "Centristes",
+        "tag": "MISC",
+        "debut": 4630,
+        "fin": 4640
+      }
+    ]
+  },
+  {
+    "id": "EL174_L_1988_06_001_02_1_PF_01",
+    "annee": "1988",
+    "texte": "RÉPUBLIQUE FRANÇAISE/DÉPARTEMENT DE L'AIN/ÉLECTIONS LÉGISLATIVES DU 5 JUIN 1988 CANDIDAT DE RASSEMBLEMENT DES FORCES DE GAUCHE présenté par le Parti Communiste Français 2eme Circonscription Fernand ROUSTIT 42 ans Employé SNCF Conseiller Régional Conseiller Municipal AMBÉRIEU Georges ARPIN 35 ans Agent d'essais Conseiller Municipal OYONNAX Sciences Po / fonds CEVIPOF VOTEZ COMMUNISTE, C'EST VOTEZ POUR NOS PROPOSITIONS - Le SMIC à 6000 F. et l'éléva- tion du pouvoir d'achat - Revaloriser les retraites et le revenu paysan - 3000 F. pour les plus démunis - Aucun licenciement sans reclassement préalable - Créer des emplois en pro- duisant en France et en coopérant avec d'autres peuples - Imposer les grandes fortunes - Réduire de 40 milliards le budget de surarmement au profit de l'école - Zéro arme nucléaire pour l'Ain 2000 - Rompre toutes relations avec l'Afrique du Sud - Valoriser l'environnement et combattre maintes pollutions Madame, Mademoiselle, Monsieur, Le 8 Mai dernier, nous avons appelé à voter pour F. MITTERRAND nous l'avons fait parce que nous sommes les adversaires irréductibles de la droite et de l'extrême- droite, les partisans résolus de l'union des forces populaires et nous avons tout fait pour les rassembler. Sitôt réélu, le Président de la République, après avoir mis en place un gourverne- ment comprenant 3 ministres U.D.F., a dissout l'Assemblée Nationale et a expliqué que ces élections ont pour but de préparer une alliance durable au Parlement et au Gourvernement avec une partie de la droite baptisée \"centre\" pour mettre en œuvre la politique néfaste liée à l'Europe de 1992. Ce qui est lié à cette échéance c'est encore plus de chômage, de pauvreté, de pressions sur le niveau de vie, de durs coups portés à la Sécurité Sociale, à la retraite à 60 ans, aux statuts des salariés des grandes entreprises, des services et de la fonction publique. Il s'agit d'accroître la dépendance de la France, par la libre circulation des capitaux américains, le déclin de nos richesses économiques, mettre 1 million de bonnes terres jachère et pousser notre pays dans la voie de la soumission et du surarmement. Déjà dans notre circonscription des milliers de personnes ont moins de 50 francs par jour pour vivre, des milliers d'autres sont sans ressource, les jeunes sont soumis quotidiennement au chômage, aux emplois précaires TUC, SIVP, etc. Des milliers d'agriculteurs croulent sous les dettes du Crédit Agricole et sont victimes des quotas de toutes sortes. Les retraités voient leur pension dévalorisée. Vous ne pouvez vous rallier à un tel projet, d'autant que des moyens existent pour faire une autre politique. A l'occasion des élections présidentielles nous avons pro- posé un programme qui met les richesses créées au service de l'investissement humain et productif. Il reste d'une validité incontestable. Pour cela il est nécessaire de se rassembler sur les valeurs de gauche que sont la justice sociale, la liberté, la citoyenneté, la paix et la désarmement. Ne vous laissez pas tromper : une politique de gauche ne peut pas résulter d'une alliance avec la droite. Jamais cette dernière n'a appliqué autre chose qu'une politique enrichissant toujours plus les capitalistes. Le 5 Juin en votant communiste vous donnerez plus de poids aux revendications contenues dans notre programme (voir encadré), vous vous opposerez au charcutage Pasqua qui défavorise outrancièrement le Parti Communiste Français. Chacun de vous, en m'accordant son suffrage se prononcera franchement Contre la droite et l'extrême-droite, le grand patronat, Contre l'austérité, le chômage, le racisme, le surarmement et Pour l'exigence d'une autre politique, Pour l'union dans l'action des forces populaires. Vous indiquerez ainsi à F. MITTERRAND que cette voie là, plutôt que celle d'une politique de droite qui est souhaitable de prendre pour le développement du pays. EN VOTANT POUR LE CANDIDAT COMMUNISTE VOUS VOTEREZ POUR LE RASSEMBLEMENT DES FORCES DE GAUCHE Vu, le Candidat et son Suppléant Imprimerie d'ART - OYONNAXSciences Po / fonds CEVIPOF",
+    "entites": [
+      {
+        "texte": "AIN",
+        "tag": "LOC",
+        "debut": 38,
+        "fin": 41
+      },
+      {
+        "texte": "2eme Circonscription",
+        "tag": "LOC",
+        "debut": 92,
+        "fin": 112
+      },
+      {
+        "texte": "Rassemblement des Forces de Gauche",
+        "tag": "ORG",
+        "debut": 115,
+        "fin": 149
+      },
+      {
+        "texte": "Parti Communiste Français",
+        "tag": "ORG",
+        "debut": 170,
+        "fin": 195
+      },
+      {
+        "texte": "Fernand ROUSTIT",
+        "tag": "PER",
+        "debut": 217,
+        "fin": 232
+      },
+      {
+        "texte": "Employé SNCF",
+        "tag": "MISC",
+        "debut": 240,
+        "fin": 252
+      },
+      {
+        "texte": "Conseiller Régional",
+        "tag": "MISC",
+        "debut": 253,
+        "fin": 272
+      },
+      {
+        "texte": "Conseiller Municipal",
+        "tag": "MISC",
+        "debut": 273,
+        "fin": 292
+      },
+      {
+        "texte": "AMBÉRIEU",
+        "tag": "LOC",
+        "debut": 293,
+        "fin": 301
+      },
+      {
+        "texte": "Georges ARPIN",
+        "tag": "PER",
+        "debut": 302,
+        "fin": 315
+      },
+      {
+        "texte": "Agent d'essais",
+        "tag": "MISC",
+        "debut": 323,
+        "fin": 337
+      },
+      {
+        "texte": "Conseiller Municipal",
+        "tag": "MISC",
+        "debut": 338,
+        "fin": 357
+      },
+      {
+        "texte": "OYONNAX",
+        "tag": "LOC",
+        "debut": 358,
+        "fin": 365
+      },
+      {
+        "texte": "Sciences Po",
+        "tag": "ORG",
+        "debut": 366,
+        "fin": 377
+      },
+      {
+        "texte": "CEVIPOF",
+        "tag": "ORG",
+        "debut": 390,
+        "fin": 397
+      },
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 822,
+        "fin": 825
+      },
+      {
+        "texte": "France",
+        "tag": "LOC",
+        "debut": 1063,
+        "fin": 1069
+      },
+      {
+        "texte": "Afrique du Sud",
+        "tag": "LOC",
+        "debut": 1273,
+        "fin": 1287
+      },
+      {
+        "texte": "U.D.F.",
+        "tag": "ORG",
+        "debut": 1353,
+        "fin": 1359
+      },
+      {
+        "texte": "Assemblée Nationale",
+        "tag": "ORG",
+        "debut": 1367,
+        "fin": 1386
+      },
+      {
+        "texte": "Parlement",
+        "tag": "ORG",
+        "debut": 1434,
+        "fin": 1443
+      },
+      {
+        "texte": "France",
+        "tag": "LOC",
+        "debut": 2122,
+        "fin": 2128
+      },
+      {
+        "texte": "Sécurité Sociale",
+        "tag": "ORG",
+        "debut": 2259,
+        "fin": 2275
+      },
+      {
+        "texte": "Crédit Agricole",
+        "tag": "ORG",
+        "debut": 2675,
+        "fin": 2690
+      },
+      {
+        "texte": "Pasqua",
+        "tag": "PER",
+        "debut": 3365,
+        "fin": 3371
+      },
+      {
+        "texte": "Parti Communiste Français",
+        "tag": "ORG",
+        "debut": 3416,
+        "fin": 3441
+      },
+      {
+        "texte": "Rassemblement des Forces de Gauche",
+        "tag": "ORG",
+        "debut": 3689,
+        "fin": 3723
+      },
+      {
+        "texte": "OYONNAX",
+        "tag": "LOC",
+        "debut": 3817,
+        "fin": 3824
+      },
+      {
+        "texte": "Imprimerie d'ART",
+        "tag": "ORG",
+        "debut": 3850,
+        "fin": 3866
+      }
+    ]
+  },
+  {
+    "id": "EL174_L_1988_06_001_02_1_PF_02",
+    "annee": "1988",
+    "texte": "2me Circonscription de l'Ain - - Liberté - Egalité - Fraternité République Française ELECTIONS LÉGISLATIVES DU 5 JUIN 1988 MAJORITÉ PRÉSIDENTIELLE POUR LA FRANCE UNIE Gérard LORA-TONET Avocat Conseiller Général de l'Ain Suppléant : Gérard FROLIN Maire de Sonthonnax-la-Montagne Madame, Mademoiselle, Monsieur, Par votre choix vous êtes 25257 électrices et électeurs à avoir exprimé le 8 Mai 1988 dans notre deuxième circonscription votre soutien au Président François MITTERRAND qui, avec plus de 54 % des suffrages exprimés, réalise un des plus vaste rassemblement de la 5ème République. Pour mettre en œuvre ces orientations, les Français veulent que le gouvernement de Michel ROCARD dispose d'une majorité stable dans le pays et à l'Assemblée Nationale. Vous souhaitez que l'action à mener dans notre circonscription soutienne et accompagne celle de Michel ROCARD et de François MITTERRAND. Mais cette majorité ne nous empêchera pas de tendre la main à toutes celles et à tous ceux qui pensent que ce qui nous unit doit être plus fort que ce qui nous divise. Avocat, je suis de par ma profession à l'écoute de tous : jeunes, femmes, chômeurs, agriculteurs, commerçants, chefs d'entreprise. Je connais vos difficultés : c'est une des raisons de mon engagement dans cette élection. Conseiller Général de l'Ain depuis 6 ans, je participe à de nombreux organismes départementaux notamment dans la Plaine de l'Ain et dans le Haut Bugey. Beaucoup d'entre vous me connaissent, je crois avoir donné une image de tolérance et d'ouverture. En votant pour la France unie, les Français ont refusé la division, l'état RPR et les hommes de partis. Il faut, qu'au delà d'un seul parti, d'autres familles d'esprit prennent part au gouvernement de la France. C'est en soutenant massivement ma candidature que vous rejoindrez le rassemblement de cette majorité présidentielle pour la France unie. Sciences Po / fonds CEVIPOFCONTRAT POUR LA FRANCE UNIE - Donner la priorité à la formation et à la recherche. - Moderniser l'économie dans le progrès social. - Assurer la solidarité et la cohésion sociale (revenu minimum). - Agir pour l'égalité des femmes et des hommes. - Travailler à construire l'Europe. - Veiller sur notre environnement. - Multiplier les espaces de culture. - Garantir notre sécurité, encourager le désarmement et agir pour la paix. - Aider le développement du Tiers-Monde. - Refuser toutes les exclusions. POUR NOTRE CIRCONSCRIPTION - Permanences régulières dans la circonscription, ouverture d'un bureau à OYONNAX. - Compte-rendu d'activité et journal de liaison. - Accélération de la voie rapide OYONNAX - ST-MARTIN-DU-FRESNE. - Soutien à l'activité économique de nos entreprises ; rencontres avec les socioprofessionnels. - Défense de l'agriculture de nos montagnes. Sciences Po / fonds CEVIPOF Le 5 JUIN, VOTEZ pour le candidat de la Majorité Présidentielle : Gérard LORA-TONET AVOCAT Conseiller Général Suppléant : Gérard FROLIN Maire de SONTHONNAX-LA-MONTAGNE Imp. MARQUE - 01500 Ambérieu-en-bugey",
+    "entites": [
+      {
+        "texte": "2me Circonscription",
+        "tag": "LOC",
+        "debut": 0,
+        "fin": 18
+      },
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 25,
+        "fin": 28
+      },
+      {
+        "texte": "République Française",
+        "tag": "LOC",
+        "debut": 50,
+        "fin": 69
+      },
+      {
+        "texte": "MAJORITÉ PRÉSIDENTIELLE",
+        "tag": "ORG",
+        "debut": 122,
+        "fin": 145
+      },
+      {
+        "texte": "FRANCE UNIE",
+        "tag": "ORG",
+        "debut": 150,
+        "fin": 161
+      },
+      {
+        "texte": "Gérard LORA-TONET",
+        "tag": "PER",
+        "debut": 162,
+        "fin": 179
+      },
+      {
+        "texte": "Avocat",
+        "tag": "MISC",
+        "debut": 180,
+        "fin": 186
+      },
+      {
+        "texte": "Conseiller Général",
+        "tag": "MISC",
+        "debut": 187,
+        "fin": 205
+      },
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 210,
+        "fin": 213
+      },
+      {
+        "texte": "Gérard FROLIN",
+        "tag": "PER",
+        "debut": 226,
+        "fin": 239
+      },
+      {
+        "texte": "Maire",
+        "tag": "MISC",
+        "debut": 240,
+        "fin": 245
+      },
+      {
+        "texte": "Sonthonnax-la-Montagne",
+        "tag": "LOC",
+        "debut": 249,
+        "fin": 272
+      },
+      {
+        "texte": "François MITTERRAND",
+        "tag": "PER",
+        "debut": 453,
+        "fin": 472
+      },
+      {
+        "texte": "5ème République",
+        "tag": "ORG",
+        "debut": 660,
+        "fin": 674
+      },
+      {
+        "texte": "Michel ROCARD",
+        "tag": "PER",
+        "debut": 777,
+        "fin": 790
+      },
+      {
+        "texte": "Assemblée Nationale",
+        "tag": "ORG",
+        "debut": 849,
+        "fin": 868
+      },
+      {
+        "texte": "Michel ROCARD",
+        "tag": "PER",
+        "debut": 998,
+        "fin": 1011
+      },
+      {
+        "texte": "François MITTERRAND",
+        "tag": "PER",
+        "debut": 1016,
+        "fin": 1035
+      },
+      {
+        "texte": "Avocat",
+        "tag": "MISC",
+        "debut": 1205,
+        "fin": 1211
+      },
+      {
+        "texte": "Conseiller Général",
+        "tag": "MISC",
+        "debut": 1278,
+        "fin": 1296
+      },
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 1301,
+        "fin": 1304
+      },
+      {
+        "texte": "Plaine de l'Ain",
+        "tag": "LOC",
+        "debut": 1392,
+        "fin": 1407
+      },
+      {
+        "texte": "Haut Bugey",
+        "tag": "LOC",
+        "debut": 1416,
+        "fin": 1426
+      },
+      {
+        "texte": "France",
+        "tag": "LOC",
+        "debut": 1606,
+        "fin": 1612
+      },
+      {
+        "texte": "RPR",
+        "tag": "ORG",
+        "debut": 1644,
+        "fin": 1647
+      },
+      {
+        "texte": "France",
+        "tag": "LOC",
+        "debut": 1708,
+        "fin": 1714
+      },
+      {
+        "texte": "Sciences Po",
+        "tag": "ORG",
+        "debut": 1851,
+        "fin": 1862
+      },
+      {
+        "texte": "CEVIPOF",
+        "tag": "ORG",
+        "debut": 1875,
+        "fin": 1882
+      },
+      {
+        "texte": "Europe",
+        "tag": "LOC",
+        "debut": 2130,
+        "fin": 2136
+      },
+      {
+        "texte": "Tiers-Monde",
+        "tag": "LOC",
+        "debut": 2235,
+        "fin": 2246
+      },
+      {
+        "texte": "OYONNAX",
+        "tag": "LOC",
+        "debut": 2591,
+        "fin": 2598
+      },
+      {
+        "texte": "ST-MARTIN-DU-FRESNE",
+        "tag": "LOC",
+        "debut": 2776,
+        "fin": 2795
+      },
+      {
+        "texte": "Gérard LORA-TONET",
+        "tag": "PER",
+        "debut": 2868,
+        "fin": 2885
+      },
+      {
+        "texte": "AVOCAT",
+        "tag": "MISC",
+        "debut": 2886,
+        "fin": 2892
+      },
+      {
+        "texte": "Gérard FROLIN",
+        "tag": "PER",
+        "debut": 2924,
+        "fin": 2937
+      },
+      {
+        "texte": "SONTHONNAX-LA-MONTAGNE",
+        "tag": "LOC",
+        "debut": 2946,
+        "fin": 2969
+      },
+      {
+        "texte": "Ambérieu-en-bugey",
+        "tag": "LOC",
+        "debut": 3007,
+        "fin": 3024
+      }
+    ]
+  },
+  {
+    "id": "EL174_L_1988_06_001_02_1_PF_03",
+    "annee": "1988",
+    "texte": "LIBERTÉ - ÉGALITÉ - FRATERNITÉ RÉPUBLIQUE FRANÇAISE Elections législatives des 5 & 12 Juin 1988 - 2e circonscription de l'Ain Chères électrices, chers électeurs, Vous allez, dans quelques jours, élire votre représentant à l'Assemblée Nationale. Député depuis 1986, je me présente à vos suffrages, afin de continuer l'œuvre que j'ai entreprise depuis 2 ans, qui m'a permis de traiter plus de 1 800 dossiers, dont 1 600 au service des seuls particuliers. J'ai placé en tête de mes objectifs l'Economie, car c'est elle qui crée la riches- se nationale et qui conditionne le partage des biens communs dans notre vie quotidien- ne, au plan de la solidarité nationale et dans la lutte contre le chômage. ECONOMIE · INDUSTRIE : il faut conquérir les marchés, soutenir l'effort industriel, donner aux entrepri- ses les moyens d'être concurrentielles, pour que tous les Français puissent travailler et vivre au cœur d'une FRANCE forte. · FAVORISER LE PETIT COMMERCE ET L'ARTISANAT. · AGRICULTURE : premier pays agricole de la Communauté, la FRANCE doit imposer ses volontés à BRUXELLES, grâce à ses atouts-maîtres. VIE QUOTIDIENNE · MAITRISE DE L'IMMIGRATION, en particulier clandestine. · SECURITE DES PERSONNES ET DES BIENS : - protéger les personnes âgées et les plus faibles d'entre nous - vaincre l'insécurité dans nos villes et nos villages - donner aux forces de l'ordre les moyens de remplir leur mission - combattre la drogue. Sciences Po / fonds CEVIPOF · MAINTENIR LE POUVOIR D'ACHAT, pour que chacun vive dignement. UNE VERITABLE SOLIDARITE · ASSURER LA CONTINUITE DES PRESTATIONS SOCIALES, maladie, retraites ... · PERSONNES AGEES : notre premier devoir est de leur assurer les moyens d'une vie décente par le maintien du niveau des retraites et le développement des structures d'aide à domicile, pour celles et ceux qui le souhaitent. · FAMILLE : base de notre société, elle doit être protégée et renforcée, notamment par le développement du salaire de la mère au foyer, par celui des crèches, par les allocations fami- liales. L'AVENIR ET LA JEUNESSE · COMBATTRE EN TOUTE PRIORITE LE CHOMAGE, et d'abord celui des jeunes et des chômeurs de longue durée, par les aides spécifiques, par la formation, par le développement de notre industrie. · RENDRE L'ECOLE A SES OBLIGATIONS PREMIERES VIS-A-VIS DE LA NATION, qui sont d'apprendre à lire, à écrire et à compter et de préparer réellement nos enfants à leur entrée dans la vie active. Elle doit aussi remplir ses devoirs en matière de formation continue et permanente. · UNE NATION-FRANCE FORTE, DANS UNE EUROPE UNIE, pour que les Français retrouvent la fierté de leur pays et bénéficient des bienfaits de la réussite économique. Lucien GUICHON Maire d'OYONNAX Vice-Président du Conseil Général Suppléante : Joelle DURAND-MANICLAS Conseiller Général de MEXIMIEUX UNION RPR-UDF URC VU, LE CANDIDAT IMPRIMERIE ÓDIOIDG 81810 BELLIGNAT ☒ ☐ ☒ ☐ ☐ ☐ ☒ ☒ ☒ ☒ ☒ ☒Sciences Po / fonds CEVIPOF",
+    "entites": [
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 122,
+        "fin": 125
+      },
+      {
+        "texte": "2e circonscription",
+        "tag": "LOC",
+        "debut": 109,
+        "fin": 127
+      },
+      {
+        "texte": "Assemblée Nationale",
+        "tag": "ORG",
+        "debut": 256,
+        "fin": 275
+      },
+      {
+        "texte": "FRANCE",
+        "tag": "LOC",
+        "debut": 770,
+        "fin": 776
+      },
+      {
+        "texte": "BRUXELLES",
+        "tag": "LOC",
+        "debut": 953,
+        "fin": 963
+      },
+      {
+        "texte": "Sciences Po",
+        "tag": "ORG",
+        "debut": 1367,
+        "fin": 1378
+      },
+      {
+        "texte": "CEVIPOF",
+        "tag": "ORG",
+        "debut": 1389,
+        "fin": 1396
+      },
+      {
+        "texte": "EUROPE",
+        "tag": "LOC",
+        "debut": 2261,
+        "fin": 2267
+      },
+      {
+        "texte": "Français",
+        "tag": "MISC",
+        "debut": 2292,
+        "fin": 2300
+      },
+      {
+        "texte": "AIN",
+        "tag": "LOC",
+        "debut": 1458,
+        "fin": 1461
+      },
+      {
+        "texte": "Lucien GUICHON",
+        "tag": "PER",
+        "debut": 2683,
+        "fin": 2697
+      },
+      {
+        "texte": "Maire",
+        "tag": "MISC",
+        "debut": 2698,
+        "fin": 2703
+      },
+      {
+        "texte": "OYONNAX",
+        "tag": "LOC",
+        "debut": 2704,
+        "fin": 2711
+      },
+      {
+        "texte": "Vice-Président du Conseil Général",
+        "tag": "MISC",
+        "debut": 2712,
+        "fin": 2745
+      },
+      {
+        "texte": "Joëlle Durand-Maniclas",
+        "tag": "PER",
+        "debut": 2759,
+        "fin": 2781
+      },
+      {
+        "texte": "Conseiller Général",
+        "tag": "MISC",
+        "debut": 2782,
+        "fin": 2800
+      },
+      {
+        "texte": "MEXIMIEUX",
+        "tag": "LOC",
+        "debut": 2804,
+        "fin": 2813
+      },
+      {
+        "texte": "UNION RPR-UDF",
+        "tag": "ORG",
+        "debut": 2814,
+        "fin": 2827
+      },
+      {
+        "texte": "RPR",
+        "tag": "ORG",
+        "debut": 2829,
+        "fin": 2832
+      },
+      {
+        "texte": "UDF",
+        "tag": "ORG",
+        "debut": 2833,
+        "fin": 2836
+      },
+      {
+        "texte": "URC",
+        "tag": "ORG",
+        "debut": 2838,
+        "fin": 2841
+      }
+    ]
+  },
+  {
+    "id": "EL174_L_1988_06_001_02_1_PF_04",
+    "annee": "1988",
+    "texte": "Élections Législatives du 5 Juin 1988 - Département de l'Ain - 2e circoncription Maintenant la force d'avenir c'est le Front National Sciences Po / fonds CEVIPOF Appel aux Français, Le 24 Avril, 4.400.000 électrices et électeurs m'ont fait confiance : - pour promouvoir le programme de redressement national, - pour réduire le chômage, l'immigration, l'insécurité, - pour lutter contre le socialisme bureaucratique et fiscaliste. Je leur demande de confirmer et d'amplifier leur vote le 5 juin prochain. La réélection de François MITTERRAND a été rendue possible par les erreurs et les faiblesses du RPR et de l'UDF ainsi que par leur attitude d'exclusion à l'égard du Front National. Ne faites pas confiance à ceux qui ont perdu hier pour gagner demain. Choisissez la seule force d'avenir : le Front National. Faites barrage à l'hégémonie socialiste, à l'arrivée massive de nouveaux immigrés et à l'octroi du droit de vote aux étrangers. Refusez la fatalité du déclin, exprimez vos convictions par un vote de résistance nationale. Vive la France Vive la République Française Jecumana Le Pas Votes pour les candidats présentés par Jean-Marie LE PENSciences Po / fonds CEVIPOF 7 raisons de voter pour le candidat du Front National Emmanuel LEROY 32 ans, marié, 2 enfants Diplômé en Droit Agent d'Assurances Conseiller Régional de l'Ain Remplaçant éventuel : Gabriel GUY Agent Commercial Si vous voulez un député · qui soit présent à l'Assemblée nationale et qui remplisse effectivement le mandat pour lequel les contribuables le payent, comme les députés du Front National l'ont fait jusqu'ici à la différence de leurs collègues des autres groupes presque toujours absents ; · qui, une fois élu, ne s'entendra pas avec les socia- listes contre le vœu de ses électeurs, comme s'apprêtent déjà à le faire les centristes du RPR et de l'UDF : · qui se prononce clairement pour l'union de toutes les for- ces antisocialistes ; · qui vote pour la préférence nationale, la priorité d'emploi pour les Français, la suppression de la taxe professionnelle, la création du revenu maternel pour les mères de famille françaises, la peine de mort pour les assassins et les trafi- quants de drogue, alors que jusqu'ici les députés sortants RPR, UDF, PS, PC ont joint leurs voix pour s'y opposer ; · qui défende la liberté de l'enseignement, qui propose la suppression des quotas et le maintien des agriculteurs sur leurs terres, qui lutte pour la réduction des charges fisca- les et sociales et qui préconise le référendum d'initiative populaire ; · qui soit fidèle à ses convictions et tienne ses promesses sans se préoccuper des intérêts de carrière et d'ap- pareil ; · qui travaille à créer une grande force de rassemblement du peuple de France pour assurer l'avenir et le redresse- ment de notre pays. Votez pour vos idées Votez Emmanuel LEROY Remplaçant éventuel : Gabriel GUY LEPEN POPULAIRE LISTE d' ENTENTE ET NATIONALE Vu : Les Candidats Pour nous écrire : 8, rue du Général-Clergerie - 75116 PARIS Imprimerie Moderne - 01 Bourg-en-bresse",
+    "entites": [
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 57,
+        "fin": 60
+      },
+      {
+        "texte": "2e circonscription",
+        "tag": "LOC",
+        "debut": 77,
+        "fin": 95
+      },
+      {
+        "texte": "Front National",
+        "tag": "ORG",
+        "debut": 119,
+        "fin": 133
+      },
+      {
+        "texte": "Sciences Po",
+        "tag": "ORG",
+        "debut": 134,
+        "fin": 145
+      },
+      {
+        "texte": "CEVIPOF",
+        "tag": "ORG",
+        "debut": 158,
+        "fin": 165
+      },
+      {
+        "texte": "François MITTERRAND",
+        "tag": "PER",
+        "debut": 521,
+        "fin": 540
+      },
+      {
+        "texte": "RPR",
+        "tag": "ORG",
+        "debut": 600,
+        "fin": 603
+      },
+      {
+        "texte": "UDF",
+        "tag": "ORG",
+        "debut": 612,
+        "fin": 615
+      },
+      {
+        "texte": "Front National",
+        "tag": "ORG",
+        "debut": 669,
+        "fin": 683
+      },
+      {
+        "texte": "Front National",
+        "tag": "ORG",
+        "debut": 795,
+        "fin": 809
+      },
+      {
+        "texte": "France",
+        "tag": "LOC",
+        "debut": 834,
+        "fin": 840
+      },
+      {
+        "texte": "République Française",
+        "tag": "LOC",
+        "debut": 844,
+        "fin": 863
+      },
+      {
+        "texte": "Jean-Marie LE PEN",
+        "tag": "PER",
+        "debut": 945,
+        "fin": 962
+      },
+      {
+        "texte": "Sciences Po",
+        "tag": "ORG",
+        "debut": 1042,
+        "fin": 1053
+      },
+      {
+        "texte": "CEVIPOF",
+        "tag": "ORG",
+        "debut": 1066,
+        "fin": 1073
+      },
+      {
+        "texte": "Front National",
+        "tag": "ORG",
+        "debut": 1215,
+        "fin": 1229
+      },
+      {
+        "texte": "Emmanuel LEROY",
+        "tag": "PER",
+        "debut": 1230,
+        "fin": 1244
+      },
+      {
+        "texte": "Diplômé en Droit",
+        "tag": "MISC",
+        "debut": 1254,
+        "fin": 1270
+      },
+      {
+        "texte": "Agent d'Assurances",
+        "tag": "MISC",
+        "debut": 1271,
+        "fin": 1289
+      },
+      {
+        "texte": "Conseiller Régional",
+        "tag": "MISC",
+        "debut": 1290,
+        "fin": 1309
+      },
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 1315,
+        "fin": 1318
+      },
+      {
+        "texte": "Gabriel GUY",
+        "tag": "PER",
+        "debut": 1341,
+        "fin": 1352
+      },
+      {
+        "texte": "Agent Commercial",
+        "tag": "MISC",
+        "debut": 1353,
+        "fin": 1369
+      },
+      {
+        "texte": "Assemblée nationale",
+        "tag": "ORG",
+        "debut": 1378,
+        "fin": 1397
+      },
+      {
+        "texte": "Front National",
+        "tag": "ORG",
+        "debut": 1540,
+        "fin": 1554
+      },
+      {
+        "texte": "RPR",
+        "tag": "ORG",
+        "debut": 2233,
+        "fin": 2236
+      },
+      {
+        "texte": "UDF",
+        "tag": "ORG",
+        "debut": 2241,
+        "fin": 2244
+      },
+      {
+        "texte": "PS",
+        "tag": "ORG",
+        "debut": 2217,
+        "fin": 2219
+      },
+      {
+        "texte": "PC",
+        "tag": "ORG",
+        "debut": 2249,
+        "fin": 2251
+      },
+      {
+        "texte": "France",
+        "tag": "LOC",
+        "debut": 2723,
+        "fin": 2729
+      },
+      {
+        "texte": "Emmanuel LEROY",
+        "tag": "PER",
+        "debut": 2816,
+        "fin": 2830
+      },
+      {
+        "texte": "Gabriel GUY",
+        "tag": "PER",
+        "debut": 2853,
+        "fin": 2864
+      },
+      {
+        "texte": "PARIS",
+        "tag": "LOC",
+        "debut": 2964,
+        "fin": 2969
+      },
+      {
+        "texte": "Imprimerie Moderne",
+        "tag": "ORG",
+        "debut": 2980,
+        "fin": 2998
+      },
+      {
+        "texte": "Bourg-en-bresse",
+        "tag": "LOC",
+        "debut": 3008,
+        "fin": 3023
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_01_1_PF_01",
+    "annee": "1993",
+    "texte": "ELECTIONS LEGISLATIVES DE MARS 93 FRONT NATIONAL LES FRANÇAIS D'ABORD ! Bernard AULAGNE 49 ans, marié, 3 enfants, Artisan graveur ornemaniste Croix de la Valeur militaire SUPPLEANT : Jacky SAUDE 52 ans, retraité de la gendarmerie Président des anciens gendarmes de Lagnieu Sciences Po / fonds CEVIPOF Mes Chers Compatriotes, Chômage, insécurité, immigration, pauvreté, impôts, \"affaires\" ... Force est de constater qu'en France aujourd'hui rien ne va plus ! Ce cons- tat dramatique, mais malheureusement bien réel, vous inquiète. Or, il y a des responsables à cet état de fait : ce sont les politiciens de gau- che comme de droite qui depuis plus de vingt ans se sont révélés incapables de gouverner correctement notre pays. A juste raison, l'avenir vous apparaît angoissant. Pourtant, en politique, il n'y a pas de fatalité. A nous de prendre notre destin en mains. Si vous voulez que la France retrouve sa force et sa grandeur, si vous voulez que justice, honnêteté, éducation, bien-être, fraternité, soient des mots qui aient une réelle valeur, si vous voulez faire entendre la voix du bon sens et de la vérité, je vous invite le 21 mars : - à voter pour des candidats \"aux mains propres\", - à voter pour les candidats du Front National et les 300 mesures qu'ils proposent. IMPRIMERIE SPECIALE F.N. Jean-Marie LE PEN RPR-PS-UDF-PC : TOUS RESPONSABLES, TOUS COUPABLES !Sciences Po / fonds CEVIPOF TROP DE CHOMAGE, D'IMMIGRATION, D'IMPOTS, D'INSECURITE, D'INJUSTICES, DE CORRUPTION AVEC LE FRONT NATIONAL MAINS PROPRES ET TETE HAUTE LG ORGANISONS LE RETOUR DES IMMI- GRES CHEZ EUX ☐ Arrêt effectif de toute immigration. ☐ Retour progressif des immigrés du tiers-monde dans leurs pays d'origine. ☐ Réforme du code de la nationalité. ACCORDONS LA PRIORITE AUX FRANÇAIS ☐ Priorité aux Français pour les emplois, les aides sociales, les logements. ☐ En cas de licenciements, les Français seront maintenus prioritairement dans l'entreprise. IS DONNONS DU TRAVAIL AUX FRANÇAIS ☐ Libération des contraintes qui empêchent les PME-PMI d'embaucher. ☐ Allègement des charges qui pèsent sur les entreprises. RETABLISSONS LA SECURITE ☐ Moyens renforcés pour les services de police. ☐ Certitude des sanctions pour les délinquants quels que soient leurs méfaits. ☐ Rétablissement de la peine de mort. ☐ Expulsion des délinquants et criminels étrangers. 1 AIDONS LES FAMILLES FRANÇAISES ☐ Etablissement d'un revenu maternel ou parental indexé sur le smic pour toutes les familles françaises. ☐ Versement d'un chèque scolaire pour assurer le libre choix de l'école. LUTTONS CONTRE LA PAUVRETE DES FRANÇAIS ☐ Création d'une allocation nationale de solidarité. ☐ Réévaluation des bas salaires par la lutte contre l'utilisation de la main-d'oeuvre immigrée à bas prix. PROTEGEONS NOTRE ECONOMIE ☐ Protection des frontières de l'Europe contre la concurrence sauvage. ☐ Réduction des charges fiscales et sociales pour préserver la compétitivité des entreprises françaises. REDUISONS LES IMPOTS ☐ Réduction des impôts en mettant fin aux gaspillages de l'argent public. ☐ Suppression progressive de l'impôt sur le revenu. ☐ Allègement de la taxe professionnelle. ☐ Suppression des droits de succession en ligne directe. SAUVONS LA SECURITE SOCIALE ☐ Fin des gaspillages. ☐ Séparation des caisses destinées aux Français et aux immigrés. ☐ Garantir les retraites et leur indexation. SAUVONS NOS PAYSANS ET NOS CAMPAGNES ☐ Retour à la préférence nationale et communautaire par la défense des produits français face aux importations. ☐ Suppression de la taxe sur le foncier non-bâti. ☐ Suspension des dettes agricoles. ASSURONS UNE FORMATION A TOUS LES FRANÇAIS ☐ Encouragement de l'apprentissage et du travail manuel. ☐ Création de filières d'apprentissage allant de la 4ème au baccalauréat. RENDONS LA PAROLE AUX FRANÇAIS ☐ Institution du référendum d'initiative populaire. ☐ Restauration des droits et prérogatives du Parlement. 1 PROTEGONS NOTRE ENVIRONNE- MENT ☐ Lutte contre toutes les pollutions. ☐ Réglementation sévère de l'expérimentation animale. ☐ Défense du patrimoine naturel, architectural et artistique français. RESTAURONS LA DEFENSE NATIO- NALE ☐ Moyens budgétaires accrus pour rendre effective la défense de la France .. ☐ Améliorer les conditions matérielles des personnels militaires et rétablir la considération qui leur est dûe. LE 21 MARS VOTEZ FRONT NATIONAL LES FRANÇAIS D'ABORD !",
+    "entites": [
+      {
+        "texte": "FRONT NATIONAL",
+        "tag": "ORG",
+        "debut": 34,
+        "fin": 48
+      },
+      {
+        "texte": "Bernard AULAGNE",
+        "tag": "PER",
+        "debut": 72,
+        "fin": 87
+      },
+      {
+        "texte": "Artisan graveur ornemaniste",
+        "tag": "MISC",
+        "debut": 107,
+        "fin": 134
+      },
+      {
+        "texte": "Croix de la Valeur militaire",
+        "tag": "MISC",
+        "debut": 135,
+        "fin": 163
+      },
+      {
+        "texte": "Jacky SAUDE",
+        "tag": "PER",
+        "debut": 166,
+        "fin": 177
+      },
+      {
+        "texte": "retraité de la gendarmerie",
+        "tag": "MISC",
+        "debut": 186,
+        "fin": 212
+      },
+      {
+        "texte": "Président des anciens gendarmes",
+        "tag": "MISC",
+        "debut": 213,
+        "fin": 244
+      },
+      {
+        "texte": "Lagnieu",
+        "tag": "LOC",
+        "debut": 248,
+        "fin": 255
+      },
+      {
+        "texte": "Sciences Po",
+        "tag": "ORG",
+        "debut": 256,
+        "fin": 267
+      },
+      {
+        "texte": "CEVIPOF",
+        "tag": "ORG",
+        "debut": 280,
+        "fin": 287
+      },
+      {
+        "texte": "France",
+        "tag": "LOC",
+        "debut": 387,
+        "fin": 393
+      },
+      {
+        "texte": "Front National",
+        "tag": "ORG",
+        "debut": 1012,
+        "fin": 1026
+      },
+      {
+        "texte": "Jean-Marie LE PEN",
+        "tag": "PER",
+        "debut": 1309,
+        "fin": 1326
+      },
+      {
+        "texte": "RPR",
+        "tag": "ORG",
+        "debut": 1360,
+        "fin": 1363
+      },
+      {
+        "texte": "PS",
+        "tag": "ORG",
+        "debut": 1364,
+        "fin": 1366
+      },
+      {
+        "texte": "UDF",
+        "tag": "ORG",
+        "debut": 1367,
+        "fin": 1370
+      },
+      {
+        "texte": "PC",
+        "tag": "ORG",
+        "debut": 1371,
+        "fin": 1373
+      },
+      {
+        "texte": "Sciences Po",
+        "tag": "ORG",
+        "debut": 1608,
+        "fin": 1619
+      },
+      {
+        "texte": "CEVIPOF",
+        "tag": "ORG",
+        "debut": 1632,
+        "fin": 1639
+      },
+      {
+        "texte": "FRONT NATIONAL",
+        "tag": "ORG",
+        "debut": 3739,
+        "fin": 3753
+      },
+      {
+        "texte": "Artisan graveur ornemaniste",
+        "tag": "MISC",
+        "debut": 114,
+        "fin": 141
+      },
+      {
+        "texte": "Jacky SAUDE",
+        "tag": "PER",
+        "debut": 183,
+        "fin": 194
+      },
+      {
+        "texte": "Front National",
+        "tag": "ORG",
+        "debut": 1225,
+        "fin": 1239
+      },
+      {
+        "texte": "RPR",
+        "tag": "ORG",
+        "debut": 1320,
+        "fin": 1323
+      },
+      {
+        "texte": "PS",
+        "tag": "ORG",
+        "debut": 1324,
+        "fin": 1326
+      },
+      {
+        "texte": "UDF",
+        "tag": "ORG",
+        "debut": 1327,
+        "fin": 1330
+      },
+      {
+        "texte": "FRONT NATIONAL",
+        "tag": "ORG",
+        "debut": 1491,
+        "fin": 1505
+      },
+      {
+        "texte": "AIN",
+        "tag": "LOC",
+        "debut": 1507,
+        "fin": 1510
+      },
+      {
+        "texte": "FRONT NATIONAL",
+        "tag": "ORG",
+        "debut": 4342,
+        "fin": 4356
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_01_1_PF_02",
+    "annee": "1993",
+    "texte": "Sciences Po / fonds CEVIPOF RÉPUBLIQUE FRANÇAISE - ÉLECTIONS LÉGISLATIVES - 21 MARS 1993 - DÉPARTEMENT DE L'AIN - 1e CIRCONSCRIPTION LIONEL MORNET Ouvrier RVI - Conseiller Municipal Bourg-en-bresse Suppléante Noëlle FAVIER Agent territorial - Tossiat CANDIDATS DU RASSEMBLEMENT POUR UNE POLITIQUE NOUVELLE présentés par le PARTI COMMUNISTE FRANÇAIS Madame, Mademoiselle, Monsieur, Beaucoup d'entre vous nous le disent : cela ne peut plus durer ! Chômage, précarité, mauvais coups contre le pouvoir d'achat, la protection sociale, les retraites, l'école etc. La politique de l'actuel gouvernement a de dures conséquences dans tous les domaines. Et quel honteux spectacle que celui des \"affaires\", des députés et ministres qui s'amnistient eux-mêmes (seul le groupe communiste s'y est opposé), de l'argent-roi dominateur et corrupteur depuis la finance jusqu'à la politique en passant par la presse et la télé- vision. LA FRANCE A BESOIN DE CHANGEMENT, LA FRANCE A BESOIN D'AIR PUR. IL FAUT FAIRE DU NEUF. POUR CELA LES MOYENS EXISTENT. En 1991 les intérêts et dividendes versés aux banques et actionnaires ont atteint 610 milliards de F ! Près de 500 milliards ont fuit à l'étranger ! Ces sommes colossales aujourd'hui accaparées par une minorité de privilégiés, détournées dans des spé- culations, peuvent et doivent servir l'EMPLOI et L'AMÉLIORATION DE LA VIE DES GENS. Ainsi RVI engloutit depuis des années des milliards aux USA, déplace des productions en Espagne, dégage 7,2 milliards d'excédents depuis 1988, mais lance un dévastateur 15e plan d'austérité, de licen- ciements et suppressions d'emplois. Nous soutenons que RVI doit investir en France et à Bourg pour déve- lopper l'emploi et reconquérir le marché national. Seule notre candidature porte cette exigence cruciale des personnels RVI. C'est aussi l'affaire de chaque habitant de notre région : 1 emploi RVI induit près de 6 emplois environnants. Les moyens existent d'empêcher la suppression de 3500 exploitations agricoles sur les 7000 de l'Ain pro- grammée d'ici l'an 2000 . Les moyens existent de construire des milliers de logements en location ou accession à des prix sup- portables (1 logement construit = 1 emploi 1/2). Les moyens existent de créer des centaines d'emplois dans notre région pour préserver l'environnement, pour améliorer les services publics, pour aller vers les 35 heures hebdomadaires de travail sans réduction des salaires (2 heures en moins créeraient 500 000 emplois en France). Ce sont quelques exemples des propositions que nous avons mises en débat depuis des semaines. Il faut aussi des droits nouveaux pour les citoyens, inverser et démocratiser la politique européenne qui affaiblit notre pays, donner à la France un autre rôle dans le monde pour la coopération, la justice, la paix. ... / ...Sciences Po / fonds CEVIPOF IL N'Y A RIEN DE BON A ATTENDRE DE LA DROITE MM. Chirac, Giscard d'Estaing et MM. Boyon, Morin, ne sont pas avares de belles paroles ... mais on les a vus, on les voit à l'œuvre. Leur programme, c'est de poursuivre et aggraver tout ce qu'il y a de mauvais dans la politique actuelle et de prendre leur revanche en remettant en cause tout ce que la droite a dû concéder dans le passé quand l'influence communis- te était plus forte, les forces populaires plus unies : menaces contre le droit à la retraite complète à 60 ans, contre la Sécu et les allocations familiales, priva- tisation et démantèlement de grands services et entreprises publics comme la SNCF, la Poste, EDF- GDF et même l'école publique sacrifiée pour instau- rer une école pour les riches et une autre pour les pauvres. Comme beaucoup de gens, vous vous interrogez. Comment voter pour, à la fois, dire tout votre mécontentement de la politique actuelle, vous opposer à la droite, faire valoir vos aspirations à autre chose, et vous donner davantage de force pour vous défendre demain face à la véritable agression qui se prépare contre vos conditions d'existence ? Comme nous, vous avez entendu le Président de la République se préparer tranquillement à la cohabitation avec la droite. Comme nous, vous avez entendu M. Rocard annoncer, avec l'approbation des dirigeants socialistes, le sabor- dage du parti socialiste dès le lendemain des élections et la création d'une formation nouvelle avec socialistes, écologistes et \"centristes\". L'absence délibérée de can- didat socialiste dans notre circonscription n'est-elle pas une étape concrète de ce sabordage du PS, offrant un champ libre d'un côté à M. Fromont expérimenté à col- laborer avec la droite et de l'autre à M. De Antoni (can- didat Verts Génération Ecologie) pour capter et neutrali- ser une part du mécontentement populaire ? Que peut-on espérer d'une alliance avec des \"cen- tristes\" qui auront été élus sous l'étiquette et avec le programme RPR-UDF ? Que peut-on espérer de dirigeants et candidats écolo- gistes qui soutiennent le destructeur traité de Maas- tricht, dont le programme n'apporte aucune réponse sérieuse au problème de l'emploi et prévoit - en guise de \"partage du travail\" - la réduction des salaires, qui annoncent leur intention de participer au gouvernement de la droite, qui l'on déjà traduit en actes en votant et permettant l'adoption des budgets régionaux de droite comme celui de M. Millon en Rhône-Alpes en Lorraine, en île de France, en Languedoc-Roussillon (avec + 14,5 et + 34,5 % de fiscalité locale !) De tels projets inquiètent évidemment beaucoup de gens attachés à la gauche, aux valeurs de gauche et Vous pouvez apporter votre aide financière à la campagne électorale en adressant vos dons à Renée FAVIER mandataire financier de Lionel MORNET, candidat, BP 185 01005 Bourg-en- Bresse cedex de progrès. C'est la recherche d'une nouvelle alliance pour gouverner avec la droite. Il n'y a dans ces condi- tions qu'une seule force pour laquelle vous pouvez voter avec la certitude que demain elle s'opposera à la droite et à ses projets et que plus elle pèsera dans la vie nationale - par son nombre de députés, par le nombre des voix qu'elle aura recueillies - mieux vous serez défendus : cette force c'est le parti communiste. Les députés communistes, prenant appui sur les luttes et sur la puissance du NON de gauche à Maastricht, ont arraché en novembre 92, le vote de deux lois : l'une interdit aux grandes entreprises tout licenciement sans reclassement, l'autre permet dans chaque département un contrôle démocratique de l'usage des fonds publics pour l'emploi (actuellement détournés de leur but : 235 milliards en 1992). Les députés communistes ont dépo- sé et défendent un projet de loi sur les droits de la Jeu- nesse élaboré avec 80 000 jeunes ... Le progrès du vote communiste est le seul élément positif nouveau qui peut résulter de ces élections. Nous le mettons là votre disposition. Vous nous connaissez. Nous sommes militants com- munistes et syndicalistes et aussi l'un conseiller munici- pal de Bourg, l'autre mutualiste ; nous vivons comme vous, connaissons vos problèmes et nous participons ensemble à des luttes économiques, sociales et paci- fistes. Vous avez la possibilité en utilisant le bulletin de vote qui portera nos noms, de faire entendre votre voix et vos exigences, de vous donner davantage de force pour vous défendre, pour créer les conditions du ras- semblement le plus ouvert et le plus large de tous ceux qui aspirent à une issue neuve pour le pays. Bien sûr vous n'êtes pas forcément d'accord avec tout ce que dit et fait le Parti communiste, aussi nous ne ferons pas dire à votre voix autre chose que ce qu'elle a voulu exprimer. SERVEZ-VOUS DU VOTE LIONEL MORNET - NOELLE FAVIER POUR VOUS FAIRE ENTENDRE POUR FAIRE DU NEUF. Vu, les candidats - iov 692008",
+    "entites": [
+      {
+        "texte": "AIN",
+        "tag": "LOC",
+        "debut": 108,
+        "fin": 111
+      },
+      {
+        "texte": "LIONEL MORNET",
+        "tag": "PER",
+        "debut": 133,
+        "fin": 146
+      },
+      {
+        "texte": "Noëlle FAVIER",
+        "tag": "PER",
+        "debut": 209,
+        "fin": 222
+      },
+      {
+        "texte": "PARTI COMMUNISTE FRANÇAIS",
+        "tag": "ORG",
+        "debut": 323,
+        "fin": 348
+      },
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 1371,
+        "fin": 1374
+      },
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 2009,
+        "fin": 2012
+      },
+      {
+        "texte": "PS",
+        "tag": "ORG",
+        "debut": 4452,
+        "fin": 4454
+      },
+      {
+        "texte": "RPR",
+        "tag": "ORG",
+        "debut": 4797,
+        "fin": 4800
+      },
+      {
+        "texte": "UDF",
+        "tag": "ORG",
+        "debut": 4801,
+        "fin": 4804
+      },
+      {
+        "texte": "Lionel MORNET",
+        "tag": "PER",
+        "debut": 5619,
+        "fin": 5632
+      },
+      {
+        "texte": "LIONEL MORNET",
+        "tag": "PER",
+        "debut": 7577,
+        "fin": 7590
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_01_1_PF_03",
+    "annee": "1993",
+    "texte": "Sciences Po / fonds CEVIPOF Elections législatives de mars 1993 - 1re circonscription de l'Ain Jacques BOYON Ancien Ministre Député-Maire de Pont-d'Ain Chevalier de la Légion d'honneur Père de 7 enfants Suppléant : Paul MORIN Maire de Bourg en Bresse Vice-Président du Conseil Général Commandeur de la Légion d'Honneur Chère Madame, ché Mademoiselle, cher Monsieur amis de Bourg, de Bresse et de Revermont, Jamais depuis 1968 notre pays n'a connu une consultation électorale dans une situation aussi grave. Les dernières élections législatives connaissaient déjà le chômage, l'insécurité, les difficultés financières du budget de l'Etat et de la Sécurité Sociale. L'année 1993 a commencé dans une crise sans précédent : le chômage monte sans cesse et dépasse aujourd'hui les 3 millions - chiffre officiel - pour atteindre environ 4.500.000 ; les dépôts de bilan se multiplient et il n'y a plus de repreneurs pour les entreprises qui doivent cesser leur activité ; le secteur du bâtiment est sinistré ; l'agriculture ne sait plus où elle va ; la désertification de l'espace rural s'accentue ; le paiement des retraites n'est plus assuré ; il y a de plus en plus d'exclus et de marginalisés dans la société française. Oui, la crise est partout : crise économique, crise financière, crise sociale, crise morale. Combien d'entre vous sont touchés par le doute, le désespoir, l'angoisse ! L'élection de mars 1993 ne ressemble donc pas aux autres : on ne vous demande pas de choisir entre le socialisme et le libéralisme ou de dessiner un \"projet de société\". D'abord parce que le socialisme a fait faillite chez nous : il n'y a plus de pensée socialiste, plus d'idéal socialiste, plus de programme socialiste. Ensuite parce que le libéralisme ne peut pas répondre aux problèmes : pour commencer de les résoudre, il faut l'intervention d'un Etat fort, ferme, respecté.Sciences Po / fonds CEVIPOF La question qui vous est posée est celle-ci : qui peut le mieux et le plus vite sortir la France de l'ornière ? C'est une question de programme à appliquer et c'est une question d'hommes capables de l'appliquer. Le programme de l'opposition (RPR-UDF) est clair et réaliste. Il comprend surtout : - la priorité absolue à la lutte contre le chômage, - le rétablissement de la sécurité et la lutte contre l'immigration clandestine, - la garantie de la Sécurité Sociale et du système des retraites, - l'adaptation de notre système d'orientation, de formation et d'éducation des jeunes, - la défense de l'agriculture et du monde rural. Avec l'opposition, nous ne faisons pas de promesse démagogique et nous savons que nous ne ferons pas de miracle en quelques mois. Il faudra une autre élection - une élection présidentielle - pour achever l'alternance et du temps pour redresser totalement la situation. Mais nous voulons répondre tout de suite aux questions concrètes que vous vous posez dans votre vie quotidienne. Nous connaissons bien les maladies de la France, nous savons comment les soigner et nous nous engageons avec toute notre détermination, notre conscience à mettre en œuvre les remèdes. Il faut aussi les hommes capables de mener à bien cette politique. Il vous faut un député dont vous connaissez l'expérience, la compétence et la capacité. Vous avez pu voir ce que nous avons fait ensemble pour le département et pour son chef-lieu (défense du TGV et de RVI, Alimentec, enseignement supérieur, etc.) Le 21 mars, vous ne pouvez faire confiance ni à la gauche qui n'a cessé de se tromper et de vous tromper depuis douze ans, ni à ceux qui n'ont exercé aucune responsabilité et qui vous bercent de naïves illusions autour du partage du travail. Nous faisons appel à tous : - aux électeurs de la droite et du centre qui nous soutiennent traditionnellement, qui avaient prévu le désastre dans lequel la France s'enfonce et pour qui nous avons su réaliser dans notre département l'union parfaite de l'opposition. Ceux-ci doivent nous aider plus que jamais. - aux électeurs d'autre sensibilité, qui ont cru au changement en 1981 et dont les convictions et les idéaux ont tant souffert depuis. Ceux-là doivent nous rejoindre, s'ils aiment la France comme nous l'aimons et s'ils veulent recréer pour nos enfants un pays prospère, plus libre, plus égal, plus juste. Ils peuvent faire avec nous un bout de chemin et ils nous jugeront à l'œuvre accomplie. Tous ensemble, remettons la France sur les bons rails, et redonnons à notre région de Bresse et de Revermont le dynamisure, l'expulsion et la confiance en soi qui elle avait naguère ! Kundy Dès le 21 mars au premier tour, assurez l'avenir, votez et faites voter pour Jacques BOYON et Paul MORIN Candidats d'Union (RPR - UDF) Vu, le candidat. E.R.B. ☐ ☐ ☐",
+    "entites": [
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 91,
+        "fin": 94
+      },
+      {
+        "texte": "Jacques BOYON",
+        "tag": "PER",
+        "debut": 95,
+        "fin": 108
+      },
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 148,
+        "fin": 151
+      },
+      {
+        "texte": "Paul MORIN",
+        "tag": "PER",
+        "debut": 215,
+        "fin": 225
+      },
+      {
+        "texte": "RPR",
+        "tag": "ORG",
+        "debut": 2132,
+        "fin": 2135
+      },
+      {
+        "texte": "UDF",
+        "tag": "ORG",
+        "debut": 2136,
+        "fin": 2139
+      },
+      {
+        "texte": "Jacques BOYON",
+        "tag": "PER",
+        "debut": 4613,
+        "fin": 4626
+      },
+      {
+        "texte": "Paul MORIN",
+        "tag": "PER",
+        "debut": 4630,
+        "fin": 4640
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_01_1_PF_04",
+    "annee": "1993",
+    "texte": "Elections législatives du 21 mars 1993 Pourquoi voter LUTTE OUVRIÈRE un appel d'Arlette LAGUILLER en faveur du candidat de Lutte Ouvrière de votre circonscription Le chômage n'est pas un phénomène naturel comme le jour et la nuit : c'est la gestion capitaliste des entreprises et de la société qui provoque le chômage. Est-ce qu'autour de nous tous les besoins sont satisfaits ? même les plus élémentaires comme le logement, ici ou dans le monde où les deux tiers de l'Humanité manquent des produits industriels ou agricoles les plus élémentaires ? Non ! Il y a seulement un patronat qui veut toujours gagner et gagner beaucoup. Si les patrons de la finance et des grandes entreprises industrielles et commer- ciales avaient le dixième de l'esprit de sacrifice qu'ils nous demandent à nous d'avoir, ils pourraient produire et vendre à prix coûtant pour vendre plus, être plus concurrentiels et maintenir des emplois. Oui, mais vendre moins ne les gêne pas du tout s'ils vendent avec le même profit global. Et c'est ce qu'ils ont fait depuis des années car en dix ans la moyenne des profits a été multipliée par cinq. On demande aux travailleurs de se sacrifier pour les entreprises et ils sont sacrifiés pour les profits C'est que pour maintenir et augmenter leurs bénéfices, ces patrons n'hésitent pas à jeter des centaines ou des milliers de travailleurs à la rue. Ils ferment au besoin des usines sans se soucier du sort d'une ville ou d'une région et vont placer leur argent ailleurs. Parce que lorsqu'une entreprise ferme, ses propriétaires sont rarement ruinés : ils ont simplement investi ailleurs. C'est les travailleurs que l'on jette à la rue comme des incapables et des inutiles, alors que ces grands patrons sont les véritables inutiles et les vrais incapables. Nous ne devons pas nous résigner à être les éternelles victimes de cette situation Si les patrons considèrent qu'ils ont moins de travail, eh bien qu'ils diminuent nos horaires mais ni le nombre d'emplois ni les salaires ! Ce n'est pas à nous de faire les sacrifices pour maintenir les bénéfices de la bourgeoisie. Nous avons fait assez de tels sacrifices et nous devons dire : \"au tour des patrons !\". Pour maintenir les emplois, les salaires et les entreprises, qu'on prenne sur les bénéfices. Et si cela ne suffit pas, qu'on prenne sur la richesse personnelle de la bourgeoisie. Car il y en a des fortunes en France qui ont été accumulées pendant des années et des années et qui grossissent encore. Tous les gouvernements successifs ont fait des cadeaux financiers au patronat pour qu'il consente à créer, ou à maintenir des emplois. Ces cadeaux ont ruiné la Sécurité Sociale, les caisses de chômage et l'Etat. Les patrons ont empoché et ont continué à licencier. La crainte du chômage ne doit pas nous empêcher de nous défendre. Oui, nous devons nous fâcher. Comme les paysans ou les pêcheurs le font ! Les travailleurs, eux, doivent se faire craindre du patronat. Il faut que la peur change de camp Nous ne devons pas mendier, nous devons viser les entreprises à la tête, le patronat au portefeuille, les riches à la bourse. Oui, il peut y avoir un nouveau Juin 36 ou un nouveau Mai 68. Mais cette fois, nous ne nous laisserons pas arrêter en route. Il nous faudra des gages et des garanties. Il n'y a que la peur qui fera reculer le patronat et nous n'avons pas à nous poser de questions morales car c'est la rapacité de la bourgeoisie qui est en train de préparer et de justifier les coups de Sciences Po / fonds CEVIPOFSciences Po / fonds CEVIPOF colère du monde du travail. La violence la plus sordide c'est d'abord de jeter des milliers de travailleurs à la rue. C'est de ruiner des villes ou des régions rien que pour gagner un peu plus. Qu'on ouvre les comptes en banque patronaux patronal Quand les patrons pleurent misère, ils veulent qu'on les croie sur parole. Mais qu'ils ouvrent donc leurs livres de comptes, et pas seulement ceux des entreprises ! Qu'ils dévoilent leurs comptes en banque personnels, ceux de leur famille, voire de leurs maîtresses. Qu'ils nous disent quels sont leurs avoirs, leurs portefeuilles d'actions, leurs propriétés, ici et à l'étranger. Nous les travailleurs, leurs propres employés, les employés de banque ou les employés du fisc, qui sommes collectivement au courant de tous leurs avoirs, nous pourrions comparer nos infor- mations et les publier pour eux s'ils avaient tendance à les oublier. Quand des scandales éclatent on en apprend de belles sur les bourgeois et sur les hommes politiques qui les aident. On découvre alors qu'ils en ont des propriétés, des châteaux, des comptes en banque, qu'il y en a des pots de vin qui s'échangent, des millions de Francs rien qu'en pourboires, ou des chefs de parti de la droite qui peuvent se payer ou se faire offrir un réveillon de 600 000 Francs (60 millions de cen- times) en Arabie. Et cela, c'est un tout petit rayon de lumière jeté sur un tout petit coin de la réalité, et uniquement lorsqu'un scandale est découvert. Ils ne peuvent, disent-ils, maintenir les emplois, mais ils vivent dans le luxe et peuvent se payer des hommes politiques Car pendant qu'ils nous jettent à la rue, ces gens-là couchent dans des draps de soie, mangent dans de la vaisselle d'argent, vivent dans des châteaux, voyagent en jets privés et se payent des journalistes et des hommes politiques comme larbins. Ils entassent des bijoux dans des coffres, des vins fins qu'ils ne peuvent tous boire et des tableaux de maîtres qu'ils ne regardent jamais. Eh bien, pour protéger nos emplois, pour protéger nos salaires, pour maintenir les entre- prises en fonctionnement, nous leur ferons vendre tout cela. Alors, nous devons dire : \"à eux maintenant de faire les sacrifices !\" D'abord dans ces élections, nous ne croirons pas les hommes politiques qui se sont succédé au pouvoir depuis des années, ni ceux qui rêvent d'y venir ou d'y revenir et qui nous promettent tous de réduire le chômage car toutes leurs prétendues solutions, de la droite au PS en passant par les écologistes, se ressemblent : faire encore des cadeaux au patronat, quand il ne s'agit pas de diminuer les salaires, les retraites et les prestations sociales. Il nous faut un parti qui représente réellement les travailleurs. Un parti qui veuille, comme on le disait dans le passé, faire payer les riches, un parti qui représente le véritable idéal communiste pour lequel tant de travailleurs se sont sacrifiés, idéal qui n'est pas dépassé parce que ceux qui s'en sont prétendus pendant des années les héritiers y ont aujourd'hui ignominieusement renoncé. Alors, aux prochaines élections, il faut voter pour faire payer les patrons à leur tour, pour qu'on prenne sur leurs bénéfices et sur leur fortune personnelle pour maintenir les emplois, les salaires et faire vivre les entreprises. Il faut voter pour que ce soit chacun son tour de faire les sacrifices et pour qu'aujourd'hui ce soit le tour de la bourgeoisie. Les travailleurs en ont déjà trop fait. Le patronat doit payer sa propre crise. Nous sommes sans doute les seuls à dire cela mais aussi les seuls à ne pas vous dire : \"votez pour nous et nous ferons le reste !\". Nous vous disons seulement et le disons en particulier aux électeurs communistes et socialistes appartenant au monde du travail : \"votez avec nous pour faire payer les riches, puis nous les ferons payer tous ensemble, et autrement qu'avec nos bulletins de vote\". Vu, le candidat. IMS - 93300 AUBERVILLIERS",
+    "entites": [
+      {
+        "texte": "LUTTE OUVRIÈRE",
+        "tag": "ORG",
+        "debut": 54,
+        "fin": 68
+      },
+      {
+        "texte": "Lutte Ouvrière",
+        "tag": "ORG",
+        "debut": 123,
+        "fin": 137
+      },
+      {
+        "texte": "PS",
+        "tag": "ORG",
+        "debut": 5992,
+        "fin": 5994
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_01_1_PF_05",
+    "annee": "1993",
+    "texte": "Sciences Po / fonds CEVIPOF République Française - Département de l'Ain - | ere circonscription ÉLECTIONS LÉGISLATIVES DE MARS 1993 ENTENTE DES ÉCOLOGISTES LES VERTS GÉNÉRATION ÉCOLOGIE Marc De Antoni 44 ans - Professeur d'économie Conseiller municipal à Bourg Marié - 2 enfants La crise écologique et la crise sociale ont les mêmes causes. Pour en sortir, il faut trouver des solutions de progrès et d'innovation sociale. Ensemble, choisissons un autre avenir et vivons autrement le présent. Choisissez l'audace ... Osez l'écologie Au départ, l'écologie semblait un rêve, mais, peu à peu, les réalités ont donné raison aux écologistes. Réanimer la démocratie, préserver la planète, permettre à chaque être humain de vivre dans la dignité, voilà l'urgence. Aujourd'hui, l'écologie inspire un projet ouvert sur le monde moderne. C'est une nouvelle manière d'aborder les difficultés de notre société : le chômage, la récession économique, la solitude, l'absence de solidarité et de fraternité. L'écologie veut réconcilier l'économie, la nature et l'homme. L'entente des écologistes est une force nouvelle qui veut répondre aux problèmes actuels par des solutions humaines, audacieuses, respectueuses de l'environnement. Saint-Trivier-de-Courtes - Montrevel - Coligny - Treffort Viriat - Péronnas - Bourg - Ceyzériat - Pont-d'Ain Suppléante : Evelyne Joly Attignat 25 ans Etudiante en développement localSciences Po / fonds CEVIPOF ENTENTE DES ÉCOLOGISTES Pour un aménagement du territoire qui assure une complémentarité entre les zones rurales et urbaines et qui ouvre un nouvel avenir aux communes rurales de Bresse et du Revermont. Pour un passage aux 35 heures en 2 ans sans réduction des bas salaires afin d'augmenter le pouvoir de vivre. Pour une autre politique éner- gétique, basée sur les économies d'énergie, l'abandon progressif du nucléaire et l'arrêt définitif de Superphénix. Pour une véritable solidarité, avec les exclus, avec les pays du Tiers Monde, avec les générations futures. Pour une Europe sociale et démocratique. Pour la préservation de notre patrimoine naturel, notamment de la vallée de l'Ain, pour une lutte efficace contre la pollution de l'air et de l'eau. Pour un logement social de qualité évitant les ghettos. Pour une agriculture paysanne moderne, plus économe en engrais, en pesticides, en eau d'irrigation, mais plus extensive et plus riche en hommes. Pour produire moins de déchets, les trier, les valoriser et les recycler. Pour des transports collectifs mo- dernes, plus attractifs, plus économes en énergie, en espace et en temps, pour valoriser le réseau ferroviaire du département. Vu, le candidat Confluent de l'Ain et du Rhône \"Homme qui aspire à la vie, exige que l'on respecte les fleuves. Exige que l'on ne te fasse pas prendre pour nécessaire à ton bonheur, ce qui n'est utile qu'à la fortune de quelque-uns.\" Bernard Clavel GENERATION ECLOGIE l'écologie : les Verts IMP. MONTERRAT FEILLENS 85 30 04 26 - Imprime sur papier sans chlore",
+    "entites": [
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 68,
+        "fin": 71
+      },
+      {
+        "texte": "Marc De Antoni",
+        "tag": "PER",
+        "debut": 186,
+        "fin": 200
+      },
+      {
+        "texte": "VERTS",
+        "tag": "ORG",
+        "debut": 160,
+        "fin": 165
+      },
+      {
+        "texte": "GÉNÉRATION ÉCOLOGIE",
+        "tag": "ORG",
+        "debut": 166,
+        "fin": 185
+      },
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 1323,
+        "fin": 1326
+      },
+      {
+        "texte": "Evelyne Joly",
+        "tag": "PER",
+        "debut": 1340,
+        "fin": 1352
+      },
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 2114,
+        "fin": 2117
+      },
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 2653,
+        "fin": 2656
+      },
+      {
+        "texte": "Verts",
+        "tag": "ORG",
+        "debut": 2907,
+        "fin": 2912
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_01_1_PF_06",
+    "annee": "1993",
+    "texte": "Sciences Po / fonds CEVIPOF ELECTIONS LEGISLATIVES DU 21 MARS 1993 - 1ERE CIRCONSCRIPTION DE L'AIN Jean-François Mortel Jean-François Mortel a trente-neuf ans. Il est éducateur dans un centre d'hébergement à Bourg-en-bresse accueillant des adultes victimes de l'exclusion (RMIstes, chômeurs de longue durée, jeunes sans qualification ... ). Son salaire est de huit mille francs par mois. Militant syndical, animateur de luttes contre le nucléaire, contre le racisme et le Front national, nombre d'entre vous connaissent sa fidélité à ses engagements. Luc Bailly Luc Bailly, suppléant, a trente-deux ans. Il est éducateur spécialisé dans un foyer d'adolescents en difficulté. Son salaire mensuel est de huit mille cinq cents francs. Célibataire, il loue un appartement sur Attignat. Syndicaliste, il a animé de nombreuses années le comité Chili-Amérique latine, et s'intéresse particulièrement aux problèmes du tiers monde. Gauche / /RAIMENT D'un côté, trois millions de chômeurs, deux millions de travailleurs précaires, des centaines de milliers de pauvres, les salaires bloqués, la Sécurité sociale menacée ... Et, pendant les élections, le drame continue : Hoover, Grundig, les licenciements à la pel- le ... Dans notre département, de nombreuses entreprises, telles Renault Véhicules indus- triels, Billon, La Bresse et bien d'autres, s'ap- prêtent à licencier des centaines de salariés. Les projets concernant l'agro-alimentaire ne redonneront probablement pas un élan suffisant à la création d'emplois, dans un contexte où la politique agricole commune s'attaque aux revenus du monde rural et accélère la désertification des campagnes. De l'autre côté, les profits en hausse, les fortunes fondées sur la spéculation. VOILÀ LE BILAN DE LA POLITIQUE MENÉE DEPUIS DOUZE ANS ! Celle que le pouvoir de Mitterrand a appliquée sans faillir. Le Parti socialiste a été l'instrument de cette politique, il a trahi ses promesses et ses valeurs. Le Parti com- muniste a participé au gouvernement, sans jamais proposer une autre politique. La droite, on connaît. Elle va s'appuyer sur ce qui a été fait pour aggraver encore laSciences Po / fonds CEVIPOF situation des salariés et accroître les avan- tages des privilégiés. Le Pen, c'est vraiment le pire de tous. Il veut transformer le désespoir en haine raciste et imposer reculs sociaux et régime totalitaire. Alors, se tourner vers les écolo- gistes ? Ils ont raison de s'opposer à la dégradation de l'environnement. Mais ils ne s'attaquent pas aux maux que subissent les salariés. Et leur « ni gauche ni droite » pré- pare des manœuvres politiciennes. IL FAUT UNE FORCE NOUVELLE ... Une force qui défende une politique de lutte et de mobilisation, au service du plus grand nombre, contre la droite et l'extrême droite, qui rompe avec les malversations du Parti socialiste et les pratiques des vieilles organisations de gauche. Dès aujourd'hui, nous appelons à s'unir toutes celles et tous ceux qui veulent reconstruire une vraie gauche autour d'un projet de transformation sociale. Des convergences se sont déjà réalisées, contre la guerre du Golfe, contre Maastricht, dans les initiatives contre le racisme et, dans ces élections, avec le texte « Engagement pour changer à gauche ». La candidature de la Ligue communiste révolu- tionnaire est soutenue dans l'Ain par l'Alternative rouge et verte, les commu- nistes refondateurs et Refondations. C'est un signe positif pour l'avenir. VAINCRE LE CHOMAGE Une loi pour les trente-cinq heures tout de suite, sans per- te de salaire, ouvrant la voie aux trente heures rapide- ment ; interdiction des licen- ciements ; création massive d'emplois ; développement économique pour la satisfac- tion des besoins de la popula- tion, et pas pour les profits. EN FINIR AVEC LA MISERE Revenu minimum garanti ; défense du SMIC ; augmenta- tion des salaires ; garantie des retraites. C'EST POSSIBLE Il faut une volonté politique et des choix clairs : - réduire considérablement les dépenses militaires ; - une réforme fiscale radicale, imposer fortement les sociétés qui ne réinvestissent pas leurs monstrueux profits, ne pas laisser démanteler le service public. minorThie Il faut surtout, et ce n'est pas le plus simple, plus de citoyens convaincus que la politique, c'est leur affaire, que ce n'est pas une délégation de pouvoir permanente et aveugle, réser- vée à une élite. Il faut limiter les mandats, réinvestir les lieux de décision, le terrain des luttes et surtout au niveau syndical. POUR L'EGALITE ! Assez des institutions monar- chiques de la Ve République et de la loi du fric. Il faut la pro- portionnelle intégrale, le contrôle des décisions par les citoyens. Imposons les droits des immigrés, notamment celui de voter à toutes les élec- tions. Défendons les droits des femmes. POUR UNE EUROPE SOLIDAIRE DES PEUPLES ! Maastricht, c'est une Europe repliée sur elle-même. Dure aux opprimés et indifférente, voire hostile, à l'égard des peuples de l'Est et du Sud. Nous voulons une autre Europe, de justice, d'égalité, de paix. POUR L'ÉCOLOGIE ! Il est possible de construire une société qui respecte les équilibres écologiques et ga- rantisse à chacun les moyens de vivre sans marées noires, sans nucléaire, sans pollution. Pour cela, nous nous opposons au redémarrage de Super- phénix et réclamons des cré- dits encourageant la recherche d'énergies alternatives. 2 Gauche / RAIMENT « Voter pour Jean- François Mortel et Luc Bailly, c'est voter pour des candidats qui n'ont jamais été compromis dans la gestion gouvernementale. Ni hier avec le Parti socialiste et le Parti communiste ; ni avant- hier avec la droite. Des candidats qui se revendiquent des combats quotidiens qui sont les vôtres, dans les entreprises, les bureaux, les écoles, les quartiers. Et qui n'ont d'autre ambition que de défendre une politique de changement social, d'autre espoir que celui d'une société débarrassée de toute forme d'oppression et d'exploitation. C'est pourquoi la LCR vous invite à voter \"A gauche vraiment\". » 7. Krivine Alain Krivine Vu, le candidat - Ce document n'est pas un bulletin de vote.",
+    "entites": [
+      {
+        "texte": "AIN",
+        "tag": "LOC",
+        "debut": 95,
+        "fin": 98
+      },
+      {
+        "texte": "Jean-François Mortel",
+        "tag": "PER",
+        "debut": 99,
+        "fin": 119
+      },
+      {
+        "texte": "Jean-François Mortel",
+        "tag": "PER",
+        "debut": 120,
+        "fin": 140
+      },
+      {
+        "texte": "Luc Bailly",
+        "tag": "PER",
+        "debut": 551,
+        "fin": 561
+      },
+      {
+        "texte": "Luc Bailly",
+        "tag": "PER",
+        "debut": 562,
+        "fin": 572
+      },
+      {
+        "texte": "Alternative rouge et verte",
+        "tag": "ORG",
+        "debut": 3317,
+        "fin": 3343
+      },
+      {
+        "texte": "AIN",
+        "tag": "LOC",
+        "debut": 3432,
+        "fin": 3435
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_01_1_PF_07",
+    "annee": "1993",
+    "texte": "Sciences Po / fonds CEVIPOF Agir ensemble Ecouter Dialoguer Agir ensemble avec PIERRE FROMONT et Paule MARGUIN J'ai accepté d'être candidat aux élections législatives pour apporter ma contribution à un indispensable renouveau politique. L'expérience et la force de caractère puisées dans mes racines et dans ma vie paysanne font de moi un homme libre et responsable proche des réalités quotidiennes. Cette liberté revendiquée n'est pas une neutralité floue. Elle s'appuie sur des convictions fortes, de solidarité et de respect mutuel, défendues par une gauche humaniste et tolérante. Je suis candidat pour contribuer à retrouver la confiance dans nos élus et dans l'avenir. Pour retrouver la confiance, il faut affirmer très fort que l'Homme est la seule vraie valeur qu'il faille défendre. Retrouver la confiance exige de parler vrai. C'est ne rien cacher de la situation économique et sociale actuelle. C'est oser dire que les solutions miracles n'existent pas. C'est appeler à réviser et modifier des comportements individuels et collectifs. C'est favoriser la participation et la démocratie à tous les niveaux de la société. C'est déterminer des priorités, décider et agir. Ces valeurs sont les miennes. Elles sont celles de Paule Marguin, ma suppléante, très proche des milieux familiaux urbains. Ce sont ces valeurs que défendent tous ceux qui soutiennent ma candidature. Pour agir ensemble. FautSciences Po / fonds CEVIPOF Elu, j'agirai avec ceux qui me soutiennent dans le sens de divers objectifs parmi lesquels : I - Faciliter la création d'emplois là où les besoins ne sont pas satisfaits (santé, services de proximité, entretien des espaces ... ) 2 - Mobiliser l'épargne au bénéfice des investissements 3 - Interdire le cumul emploi-retraite 4 - Diversifier les systèmes de production agricole et les sources de revenus 5 - Evaluer les conséquences de la Politique Agricole Commune et envisager son adaptation 6 - Simplifier les prestations familiales et les verser du premier au dernier enfant 7 - Associer toutes les formes de revenus (y compris ceux des capitaux) à la Contribution Sociale Généralisée (CSG) 8 - Défendre la retraite par répartition 9 - Elaborer un programme ambitieux de construction et de réhabilitation de logements 10- Promouvoir la formation par alternance et les passerelles entre enseignement général et technique 11- Concevoir un aménagement concerté du territoire qui réponde aux besoins et aux attentes des Hommes (économie, environnement, loisirs ... ) 12 - Favoriser la vie associative et l'organisation d'instances de concertation 13- Inciter des solidarités en direction des pays en voie de développement. Agnès Amsellem (Péronnas), Jean Bardouillet (Coligny), Jean-Luc Benonnier (Viriat), Fernand Bernard (Bourg), Michel Billard (Viriat), Marcel Blanc (Maire, Montcet), Michel Bollard (Bourg), Michel Branciard (Bourg), Gilbert Buathier (Montrevel), Gilbert Buisson (Viriat), Paul Besson (St-Rémy), Michel Boulen (Servas), Louis Bagne (Ceyzériat), J-Y Brevet (Malafretaz), François Cambon (Bourg), Fernand Carlet (Maire, St-Martin-du-Mont), François Carron (Bourg), Vincent Cerdan (Viriat), Jean-Paul Chaffaud (Viriat), René Comte (Bourg), Roland Charnay (Viriat), René Charbon (St-Denis-les-Bourg), Laurent Chavanel (Maire, Cormoz), Bernard Courtebras (Bourg), Jean-Paul Chevallier (St-Trivier), Pierre Chossat (Bourg), Georges Comte (Bourg), Jean- François Debat (Bourg), Gilbert Debœuf (Viriat), André Delarue (Péronnas), René Drevet (Cras), Alain Ducas (Viriat), André Debise (Salavre), Yvette Degeorge (Bourg), Etienne Depierre (Bourg), Bernard Dérudet (Péronnas), André Donjon (Viriat), Gérard Druguet (Bourg), Bernard Dupin (Jasseron), Jacqueline Durand (Viriat), Georges Darmedru (Meyriat), Christiane Evieux (Bourg), Armelle Ecochard (Bourg), Françoise Fargier (Bourg), Paul Fauvet (Saint Rémy), Noël Fillardet (Bourg), Michel Fontaine (Bourg), Gérard Fusy (Viriat), Raymonde Favier (Bourg), Bernard Fonteneau (Maire, Attignat), Serge Fondraz (Maire, Certines), Claude Fromont (Maire, Confrançon), Jean-Noël Fromont (Bény), André Godin (Bourg), Emile Guillermin (Viriat), Sylvie Guillet (Viriat), Gérard Gavillon (Servas), Jean-François Gratini (Ceyzériat), Michel Goumaz (Ceyzériat), Philippe Godin (Bourg), Yves Gauthier (Bourg), Roger Gallet (Druillat), Martial Goyard (Attignat), René Gouillon (Montrevel), André Guillemot (Montrevel), Camille Gerbier (Viriat), Chantal Giriat (Viriat), Pierre Gouiller (Coligny), Patrice Georges (Bourg), Pierre Hullein (Péronnas), Jean- Claude Jacquet (Bourg), Louis Jannel (Maire, Montrevel), Georges Janton (Maire de Druillat), Josette Lenglart (Bourg), Bernard Lombard (Viriat), Rémi Loisy (Viriat), Georges Laurent (Maire, Bény), Jeanne Mayer (Bourg), Robert Masson (Viriat), Jacques Michon (Ceyzériat), Jean Moreteau (ancien maire de Bourg), Paul Masson (St-Just), Marcel Morrier (Montrevel), Claude Marandet (Cras), Jo Marguin (St-Rémy), Jacques Michaud (Péronnas), Catherine Mercier (Viriat), Maurice Morandat (St-Trivier), Jacques Nallet (St-Denis), Hervé Puget (Druillat), Claude Pirat (Attignat), Gaston Pomathiod (Viriat), Aimé Perroud (Viriat), Pierre Perdrix (Treffort), Hubert Perret (Cras), Henry Prost (Viriat), Antoine Pezzini (St-Denis), Noël Pauget (Lescheroux), Marcel Poncet (Dompierre), Jean-Marie Quinet (Bourg), Jean-PaulRodet (Conseiller général, Bourg), Pierre Robin (Bourg), Daniel Radix (Viriat), Bernard Ravassard (Viriat), Léon Ray (St-Trivier), Gabriel Rude (Maire, Lescheroux), Claudie Saint-André (Bourg), Maurice Saint-Cyr (Buellas), Gabriel Sinardet (Viriat), Freddy Serveaux (Marsonnas), René Tremblay (Bourg), André Thomasson (Montrevel), Georges Thevenard (St-Denis-les-Bourg), Renée Touton (Bourg), Antoine Thevenard (Maire, St-Sulpice), Madeleine et Gilles Thévenard (Viriat), André Veylon (Bourg), Daniel Veylon (Bourg), Pascal Veylon (Bourg), Josette Verd (Bourg), Bernard Vacle (Montrevel), Christophe Vacle (Béreyziat), Jack Voarick (Viriat) ... appellent à voter Pierre Fromont. Soutien à Pierre FROMONT : 146, rue Prosper-Convert - 01440 VIRIAT - Tél. 74 25 15 40 BOURG-OFFSET 01310 CORGENON",
+    "entites": [
+      {
+        "texte": "PIERRE FROMONT",
+        "tag": "PER",
+        "debut": 79,
+        "fin": 93
+      },
+      {
+        "texte": "Paule MARGUIN",
+        "tag": "PER",
+        "debut": 97,
+        "fin": 110
+      },
+      {
+        "texte": "libre",
+        "tag": "ORG",
+        "debut": 345,
+        "fin": 350
+      },
+      {
+        "texte": "Paule Marguin",
+        "tag": "PER",
+        "debut": 1230,
+        "fin": 1243
+      },
+      {
+        "texte": "Pierre Fromont",
+        "tag": "PER",
+        "debut": 6003,
+        "fin": 6017
+      },
+      {
+        "texte": "Pierre FROMONT",
+        "tag": "PER",
+        "debut": 6029,
+        "fin": 6043
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_01_1_PF_08",
+    "annee": "1993",
+    "texte": "Sciences Po / fonds CEVIPOF RÉPUBLIQUE FRANÇAISE - ÉLECTIONS LÉGISLATIVES DES 21 ET 28 MARS 1993 Imp Panorama Offset Marseille VOTEZ POUR LES NOUVEAUX vu le candidat vu le suppléant ECOLOGISTES DU RASSEMBLEMENT NATURE ET ANIMAUXVOTEZ POUR LES NOUVEAUX ECOLOGISTES DU RASSEMBLEMENT NATURE ET ANIMAUX. LES NOMS DE NOTRE CANDIDAT ET DU SUPPLÉANT SE TROUVENT SUR LES BULLETINS DE VOTE COMPORTANT NOTRE EMBLÈME LE TRÈFLE À QUATRE FEUILLES CONSTRUISONS UN MONDE MEILLEUR Pour l'homme : Les conventions Internationales doivent veiller à ce que les aspirations naturelles et fondamentales de l'être humain soient respectées. Cela suppose : La création d'un Temps Minimun de Travail Garanti, l'accés généralisé à la propriété, une nouvelle répartition des riches- ses et un renouveau des valeurs spirituelles. Pour la Nature : Dans tous les secteurs d'activités techniques, scientifiques et industrielles, les Etats doivent prévoir l'existence d'organismes écologiques de contrôle, disposant du droit de véto. Ainsi, tout risque de pollution sera écarté. Pour les Animaux : Interdiction de la vivisection, pratiquée uniquement pour des questions d'argent. Amélioration de leurs conditions d'existence. Lutte contre les abus de la chasse, les corridas, les massacres dans les abattoirs, les abandons et les mauvais traitements. BULLETIN - RÉPONSE A DÉCOUPER Nom et Prénom Adresse complète et code postal Nº de tél Profession JE DÉSIRE RECEVOIR GRATUITEMENT ET SANS ENGAGEMENT UNE DOCUMENTA- TION COMPLÉTE SUR VOS ACTIVITÉS ET PROGRAMMES EN FAVEUR DE L'HOMME, DE LA NATURE ET DES ANIMAUX. A FAIRE PARVENIR AUX NOUVEAUX ÉCOLOGISTES DU RASSEMBLEMENT NATURE ET ANIMAUX. 13, Rue RUFFI 13003 MARSEILLE Sciences Po / fonds CEVIPOF",
+    "entites": [
+      {
+        "texte": "LEME",
+        "tag": "PER",
+        "debut": 204,
+        "fin": 208
+      },
+      {
+        "texte": "LEME",
+        "tag": "PER",
+        "debut": 274,
+        "fin": 278
+      },
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 1001,
+        "fin": 1004
+      },
+      {
+        "texte": "NOUVEAUX ÉCOLOGISTES DU RASSEMBLEMENT NATURE ET ANIMAUX",
+        "tag": "ORG",
+        "debut": 1599,
+        "fin": 1654
+      },
+      {
+        "texte": "LEME",
+        "tag": "PER",
+        "debut": 1630,
+        "fin": 1634
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_02_1_PF_01",
+    "annee": "1993",
+    "texte": "ELECTIONS LEGISLATIVES DE MARS 93 FRONT NATIONAL LES FRANÇAIS D'ABORD ! Mes Chers Compatriotes, Jean ALCARAZ 64 ans, marié, 2 enfants, retraité de la SNCF Médaille du travail d'Or et d'Argent Conseiller régional Maire-adjoint de Saint-Jean-de-Niost SUPPLEANT : Gabriel GUY 67 ans, retraité Sciences Po / fonds CEVIPOF IMPRIMERIE SPECIALE F.N. Chômage, insécurité, immigration, pauvreté, impôts, \"affaires\" ... Force est de constater qu'en France aujourd'hui rien ne va plus ! Ce cons- tat dramatique, mais malheureusement bien réel, vous inquiète. Or, il y a des responsables à cet état de fait : ce sont les politiciens de gau- che comme de droite qui depuis plus de vingt ans se sont révélés incapables de gouverner correctement notre pays. A juste raison, l'avenir vous apparaît angoissant. Pourtant, en politique, il n'y a pas de fatalité. A nous de prendre notre destin en mains. Si vous voulez que la France retrouve sa force et sa grandeur, si vous voulez que justice, honnêteté, éducation, bien-être, fraternité, soient des mots qui aient une réelle valeur, si vous voulez faire entendre la voix du bon sens et de la vérité, je vous invite le 21 mars : - à voter pour des candidats \"aux mains propres\", - à voter pour les candidats du Front National et les 300 mesures qu'ils proposent. Jean-Marie LE PEN RPR-PS-UDF-PC : TOUS RESPONSABLES, TOUS COUPABLES !Sciences Po / fonds CEVIPOF TROP DE CHOMAGE, D'IMMIGRATION, D'IMPOTS, D'INSECURITE, D'INJUSTICES, DE CORRUPTION AVEC LE FRONT NATIONAL MAINS PROPRES ET TETE HAUTE IS ORGANISONS LE RETOUR DES IMMI- GRES CHEZ EUX ☐ Arrêt effectif de toute immigration. ☐ Retour progressif des immigrés du tiers-monde dans leurs pays d'origine. ☐ Réforme du code de la nationalité. ACCORDONS LA PRIORITE AUX FRANÇAIS ☐ Priorité aux Français pour les emplois, les aides sociales, les logements. ☐ En cas de licenciements, les Français seront maintenus prioritairement dans l'entreprise. DONNONS DU TRAVAIL AUX FRANÇAIS ☐ Libération des contraintes qui empêchent les PME-PMI d'embaucher. ☐ Allègement des charges qui pèsent sur les entreprises. I RETABLISSONS LA SECURITE ☐ Moyens renforcés pour les services de police. ☐ Certitude des sanctions pour les délinquants quels que soient leurs méfaits. ☐ Rétablissement de la peine de mort. ☐ Expulsion des délinquants et criminels étrangers. AIDONS LES FAMILLES FRANÇAISES ☐ Etablissement d'un revenu maternel ou parental indexé sur le smic pour toutes les familles françaises. ☐ Versement d'un chèque scolaire pour assurer le libre choix de l'école. $ LUTTONS CONTRE LA PAUVRETE DES FRANÇAIS ☐ Création d'une allocation nationale de solidarité. ☐ Réévaluation des bas salaires par la lutte contre l'utilisation de la main-d'oeuvre immigrée à bas prix. PROTEGEONS NOTRE ECONOMIE ☐ Protection des frontières de l'Europe contre la concurrence sauvage. ☐ Réduction des charges fiscales et sociales pour préserver la compétitivité des entreprises françaises. REDUISONS LES IMPOTS ☐ Réduction des impôts en mettant fin aux gaspillages de l'argent public. ☐ Suppression progressive de l'impôt sur le revenu. ☐ Allègement de la taxe professionnelle. ☐ Suppression des droits de succession en ligne directe. SAUVONS LA SECURITE SOCIALE ☐ Fin des gaspillages. ☐ Séparation des caisses destinées aux Français et aux immigrés. ☐ Garantir les retraites et leur indexation. SAUVONS NOS PAYSANS ET NOS CAMPAGNES ☐ Retour à la préférence nationale et communautaire par la défense des produits français face aux importations. ☐ Suppression de la taxe sur le foncier non-bâti. ☐ Suspension des dettes agricoles. 1% ASSURONS UNE FORMATION A TOUS LES FRANÇAIS ☐ Encouragement de l'apprentissage et du travail manuel. ☐ Création de filières d'apprentissage allant de la 4ème au baccalauréat. RENDONS LA PAROLE AUX FRANÇAIS ☐ Institution du référendum d'initiative populaire. ☐ Restauration des droits et prérogatives du Parlement. PROTEGONS NOTRE ENVIRONNE- MENT ☐ Lutte contre toutes les pollutions. ☐ Réglementation sévère de l'expérimentation animale. ☐ Défense du patrimoine naturel, architectural et artistique français. RESTAURONS LA DEFENSE NATIO- NALE ☐ Moyens budgétaires accrus pour rendre effective la défense de la France .. ☐ Améliorer les conditions matérielles des personnels militaires et rétablir la considération qui leur est dûe. LE 21 MARS VOTEZ FRONT NATIONAL LES FRANÇAIS D'ABORD !",
+    "entites": [
+      {
+        "texte": "FRONT NATIONAL",
+        "tag": "ORG",
+        "debut": 34,
+        "fin": 48
+      },
+      {
+        "texte": "Jean ALCARAZ",
+        "tag": "PER",
+        "debut": 96,
+        "fin": 108
+      },
+      {
+        "texte": "SNCF",
+        "tag": "MISC",
+        "debut": 150,
+        "fin": 154
+      },
+      {
+        "texte": "Gabriel GUY",
+        "tag": "PER",
+        "debut": 261,
+        "fin": 272
+      },
+      {
+        "texte": "Front National",
+        "tag": "ORG",
+        "debut": 1243,
+        "fin": 1257
+      },
+      {
+        "texte": "RPR",
+        "tag": "ORG",
+        "debut": 1313,
+        "fin": 1316
+      },
+      {
+        "texte": "PS",
+        "tag": "ORG",
+        "debut": 1317,
+        "fin": 1319
+      },
+      {
+        "texte": "UDF",
+        "tag": "ORG",
+        "debut": 1320,
+        "fin": 1323
+      },
+      {
+        "texte": "FRONT NATIONAL",
+        "tag": "ORG",
+        "debut": 1484,
+        "fin": 1498
+      },
+      {
+        "texte": "AIN",
+        "tag": "LOC",
+        "debut": 1500,
+        "fin": 1503
+      },
+      {
+        "texte": "FRONT NATIONAL",
+        "tag": "ORG",
+        "debut": 4335,
+        "fin": 4349
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_02_1_PF_02",
+    "annee": "1993",
+    "texte": "Sciences Po / fonds CEVIPOF République Française - Département de l'Ain - 2e circonscription ELECTIONS LEGISLATIVES 21 MARS 1993 candidats du rassemblement présentés par le Parti Communiste Français Candidat Georges ARPIN Conseiller municipal d'OYONNAX Ouvrier professionnel chez BILLION 40 ans, marié, un enfant Madame, Mademoiselle, Monsieur, Suppléant Joseph IANNONE Agent de maîtrise à EDF AMBERIEU-EN-BUGEY 46 ans, marié, deux enfants Nous sommes des gens comme vous, nous faisons de la politique ni par ambition, ni pour nous enrichir. L'honnête- té est une des qualités des communistes. Les députés du P.C.F. ont été les seuls, en tant que groupe, à voter contre la loi d'amnistie d'auteurs de fausses factures. Pour nous, faire de la politique, c'est défendre et améliorer la vie quotidienne de la population. L'axe de notre campagne, c'est l'emploi. Il n'est plus possible d'accepter ces licenciements qui ravagent nos familles et en particulier la jeunesse. La politique des bas salaires se traduit par une restriction de la consommation et par l'augmentation du chômage. Et de plus, on vend nos entreprises aux étrangers, au nom de la concurrence sauvage votée à l'Assemblée Natio- nale par le R.P.R., l'U.D.F., le P.S. et le F.N. Seul le groupe communiste a voté contre l'acte unique européen. NOUS SOMMES LES CANDIDATS ANTI-DROITE POUR UNE POLITIQUE NOUVELLE Comment faire pour que votre voix serve à quelque chose ? Ce n'est pas possible en votant pour ceux qui gouvernent aujourd'hui ou pour la droite qui veut faire pire. Quant aux Verts, ils se voient ministres avec la droite.En région Rhône-alpes, ils viennent de voter le budget de Charles Million qui est un budget d'austérité. LE 21 MARS, NOUS NE VOUS DEMANDONS PAS D'ETRE D'ACCORD SUR TOUT AVEC LES COMMUNISTES, MAIS VOUS ASPIREZ A DU NEUF, LE VOTE COMMUNISTE EST LE MOYEN DE VOUS FAIRE ENTENDRE DANS LE RESPECT DE NOS DIFFERENCES, LE MOYEN DE FAIRE ENTENDRE LES ASPIRATIONS DE NOTRE PEUPLE. Vous pouvez apporter votre aide financière à la campagne électorale en adressant vos dons à : Robert MIRIBEL, mandataire financuer de Georges ARPIN - BP 155 01005 BOURG-EN-BRESSE Cedex.Sciences Po / fonds CEVIPOF L'EMPLOI : NOS PROPOSITIONS 1 Développer une politique de croissance obligeant le grand capital à investir dans la production, la formation et la recherche. 2 Utiliser à fond la nouvelle loi pour l'emploi que les députés communistes viennent de faire voter. 3 Aller à la semaine de 35 heures sans perte de salaire. Cette seule mesure permettrait de créer 500000 emplois. 4 Consacrer 10% du temps de travail à la formation. 5 Arrêter la domination des grands groupes sur les P.M.E. et réformer la fiscalité. Ces propositions ne sont pas en prendre ou à laisser et ne résolvent pas entièrement le problème de chômage, mais permettent de l'arrêter dans des délais assez rapides et de créer des emplois. ENVIRONNEMENT Nous vivons dans une circonscription (Oyonnax, Vallée de l'Oignin Cotière, Plaine de l'Ain) où les richesses natu- relles, eaux, sous-sol, forêts, ne sont pas gérées harmonieusement. Parmi les propositions pour la France soumis au débat par les communistes celle de la protection et de la valorisa- tion de l'environnement grâce à une activité industrielle et agricole respectueuse des équilibres écologiques, est intimement liée à l'impulsion d'un essor économique, d'un nouveau type de développement. AGRICULTURE Nouvelle politique agricole commune et G.A.T.T. ? à quelle sauce les agriculteurs seront-ils mangés ? La nouvelle P.A.C. devait être un moyen d'opposition aux américains dans les négociations du G.A.T.T. Elle apparaît comme un cadeau aux américains. - 15% des terres mises en jachère - Baisse des prix à la production de 35% en trois ans. Cela ne suffit pas aux Etats-unis qui demandent encore plus dans les négociations du G.A.T.T. - 27 % de terres cultivables mises en jachère. - Exportations réduites de 21% pour les produits subventionnés. Cela signifie la disparition de milliers d'exploitations. La droite et le P.S. portent une lourde responsabilité. Ce désastre humain, écologique et économique peut être évité. Comment admettre une diminution des productions alors qu'une bonne partie de la planète meurt de faim ? Un nouvel ordre économique international est nécessaire. HOPITAUX : REFORME HOSPITALIERE La réforme hospitalière a été votée par la droite et le P.S., Monsieur Guichon président de l'hôpital d'Oyonnax la met en place. Après avoir décidé la fermeture de lits en médecine, chirurgie et maternité, il vient de décider de supprimer le servi- ce des convalescents (14 lits). Tout ceci avec la bénédiction du gouvernement. Oyonnax comme Nantua a besoin d'un hôpital de proximité pour mieux répondre aux besoins de la population. Moderniser serait une réponse aux attentes des malades et du personnel. TRANSPORT Autoroute : gratuité de l'autoroute A42 au moins jusqu'à la sortie Ambérieu afin de désengorger la banlieue Est de Lyon et les communes traversées (Montluel, Dagneux, La Valbonne, Meximieux). S.N.C.F. : création de dessertes cadencées par exemple la ligne Ambérieu-Lyon (arrêt à négocier avec les comi- tés d'usagers de Meximieux, Montluel ou Ambérieu). - Maintien de la gare de triage d'Ambérieu - Mise en place d'un titre unique de transport (SNCF, bus, métro) payé à 50% par les employeurs comme cela se fait dans la région parisienne. Cela serait un moyen incitatif à utiliser les transports en commun, au moment où l'on parle, à juste raison, d'éner- gie et de pollution. Parce que toutes les voix recueillies par les candidats communistes, dans chaque ville et village pèseront lourd à l'échelle nationale pour appuyer l'exigence de changements réels, un progrès du vote communiste est le seul élé- ment positif nouveau qui peut sortir de ces élections. Vous voulez du neuf dans ce pays, dans la politique : un moyen s'offre à vous, le vote communiste. Utilisez-le. Votez Georges ARPIN. Vu, les candidats - iov 692008",
+    "entites": [
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 68,
+        "fin": 71
+      },
+      {
+        "texte": "Parti Communiste Français",
+        "tag": "ORG",
+        "debut": 173,
+        "fin": 198
+      },
+      {
+        "texte": "Georges ARPIN",
+        "tag": "PER",
+        "debut": 208,
+        "fin": 221
+      },
+      {
+        "texte": "Ouvrier professionnel",
+        "tag": "MISC",
+        "debut": 253,
+        "fin": 274
+      },
+      {
+        "texte": "Joseph IANNONE",
+        "tag": "PER",
+        "debut": 355,
+        "fin": 369
+      },
+      {
+        "texte": "P.C.F.",
+        "tag": "ORG",
+        "debut": 609,
+        "fin": 615
+      },
+      {
+        "texte": "R.P.R.",
+        "tag": "ORG",
+        "debut": 1205,
+        "fin": 1211
+      },
+      {
+        "texte": "U.D.F.",
+        "tag": "ORG",
+        "debut": 1215,
+        "fin": 1221
+      },
+      {
+        "texte": "P.S.",
+        "tag": "ORG",
+        "debut": 1226,
+        "fin": 1230
+      },
+      {
+        "texte": "Georges ARPIN",
+        "tag": "PER",
+        "debut": 2099,
+        "fin": 2112
+      },
+      {
+        "texte": "Georges ARPIN",
+        "tag": "PER",
+        "debut": 5914,
+        "fin": 5927
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_02_1_PF_03",
+    "annee": "1993",
+    "texte": "· RÉPUBLIQUE FRANÇAISE LIBERTÉ - ÉGALITÉ - FRATERNITÉ Elections législatives des 21 et 28 mars 1993 2e circonscription de l'Ain VOTRE DÉPUTÉ LUCIEN GUICHON Candidat unique de l'opposition Vous m'avez déjà hamaré de votre confiance Continuons Ensemble Chère Madame, Cher Monsieur, L'état de notre pays exige des mesu- res immédiates dans le domaine de l'emploi et de l'économie. D'autres décisions doivent intervenir très rapidement pour faciliter notre vie quotidienne et réconcilier les Français avec la politique. Enfin, quatre sujets graves doivent faire l'objet de réflexions très approfondies car ils conditionnent l'avenir. Pendant dix ans, nous avons été abreuvés d'engagements non tenus et de mensonges. Il faut maintenant dire la vérité sur l'état réel de notre pays, de ses finances, de ses charges, de ses déficits et de ses dettes. Nous savons que la situation est grave et que les temps sont difficiles. Nous avons conscience qu'il faudra du temps pour redresser la barre et nous n'accepterons plus les promesses mensongères. De toute ma volonté, de toute ma force, je m'engage à défendre vos intérêts et ceux de la France. Vous me connais- sez suffisamment pour savoir que je ne prends pas d'engagements sans être sûr de pouvoir les tenir. Je mettrai toute ma conviction à res- taurer ce dont nous sommes privés depuis si longtemps : la CONFIANCE et l'ESPOIR. Sciences Po / fonds CEVIPOFSciences Po / fonds CEVIPOF Un programme en trois points : Une priorité absolue et immédiate : emploi et économie Cinq millions de personnes privées d'emploi, c'est inacceptable. Il faut : - diminuer les charges et négocier pour l'Europe une baisse des taux d'intérêt ; - relancer la politique des grands travaux et le bâtiment ; - baisser progressivement les impôts et augmenter les salaires directs ; - développer l'apprentissage. Des mesures d'accompagnement pour notre vie quotidienne · Agriculture : - rétablir la politique agricole commune et réduire les charges ; - aider les jeunes agriculteurs et lutter contre la désertification des campagnes par l'aménage- ment du territoire. · Sécurité et immigration : - rendre confiance aux forces de l'ordre en les soutenant ; - expulser les étrangers qui ne respectent pas nos lois et les clandestins ; - lutter contre le trafic de drogue et rétablir les sanctions ; - rétablir les contrôles d'identité, réformer le code de la nationalité et supprimer les naturali- sations automatiques ; - refuser dans tous les cas le droit de vote des étrangers. · Environnement : - détaxer les produits non polluants et créer un délit d'atteinte à l'environnement ; - associer les défenseurs de l'environnement à l'étude des lois à venir. · Moralisation de la vie publique et réduction du train de vie de l'Etat : - recentrer l'état sur ses compétences et ses missions essentielles ; - supprimer les dépenses de prestige et lutter contre le gaspillage ; - sanctionner les élus corrompus et les rendre responsables devant les tribunaux, comme tous les citoyens. Quatre domaines de réflexion pour l'avenir · les retraites · la sécurité sociale · l'éducation nationale · la fiscalité Ces quatre domaines conditionnent l'avenir de notre société et le droit à l'erreur n'existe pas. Avant de faire des propositions à la Nation, il faut étudier ces sujets très sérieusement, avec tous les intéressés, dans une concertation très large et très approfondie, car la précipitation serait plus dangereuse qu'utile. Lucien GUICHON Député sortant, Maire d'OYONNAX Charles de la VERPILLIÈRE Suppléant Vice-Président du Conseil Général DÈS LE PREMIER TOUR VOTEZ POUR VOTRE DÉPUTÉ VOTEZ LUCIEN GUICHON À IMPRIMERIE ÓDIOIDE AUFTO BELLIGNAT VU LE CANDIDAT ☐ ☐ ☐ ☐ ☐ ☒ ☒ ☐ ☒ ☐ ☐ ☐ ☐ ☐ ☒ ☒ ☒ ☒ ☐ ☐ ☐ ☐ ☐ ☒ ☐",
+    "entites": [
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 124,
+        "fin": 127
+      },
+      {
+        "texte": "LUCIEN GUICHON",
+        "tag": "PER",
+        "debut": 141,
+        "fin": 155
+      },
+      {
+        "texte": "Lucien GUICHON",
+        "tag": "PER",
+        "debut": 3441,
+        "fin": 3455
+      },
+      {
+        "texte": "LUCIEN GUICHON",
+        "tag": "PER",
+        "debut": 3608,
+        "fin": 3622
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_02_1_PF_04",
+    "annee": "1993",
+    "texte": "République Française - Département de l'Ain - 2e circonscription ÉLECTIONS LÉGISLATIVES DE MARS 1993 Avec le candidat de L'ENTENTE DES ÉCOLOGISTES Les Verts - Génération Ecologie l'écologie : LES Verts Eric Gilbert 35 ans - Instituteur - Militant associatif Maire de Vaux-en-Bugey depuis 1983 Conseiller Régional Rhône-Alpes 2e circonscription Oyonnax Izernore Nantua Poncin Ambérieu Lagnieu Meximieux Montluel L'ÉCOLOGIE : C'EST LE CHOIX DE LA VIE Le respect de la vie pour la nature, les animaux Le respect de la vie pour l'être humain, sans différence de couleur, de religion, de sexe C'EST UN COMBAT POUR LA DIGNITÉ ET LA JUSTICE SOCIALE Un engagement en faveur des chômeurs, des exclus, des handicapés et de tous les oubliés de notre société de compétition Un engagement qui exige une nouvelle pratique de la politique, où chacun doit avoir sa part de responsabilité, en tant que citoyen, travailleur, consommateur, parent FACE A LA CRISE ÉCOLOGIQUE ET SOCIALE, LES ÉCOLOGISTES PROPOSENT DES SOLUTIONS AUDACIEUSES ET GÉNÉREUSES Avec Madeleine Duraffourg, nous serons les porte-parole fidèles de ce choix courageux, de cette attente collective Avec vous, nous voulons réussir les 21 et 28 mars, réussir pour que se bâtisse une société plus juste, plus humaine, plus belle et sa suppléante Madeleine Duraffourg 41 ans - agricultrice à Belleydoux Bien que n'étant pas touché par la loi de 1985 sur le cumul des mandats, je prends l'engagement en cas d'élection à la députation de laisser mon mandat de conseiller régional. ERIC GILBERT Vu, le candidat Sciences Po / fonds CEVIPOFSciences Po / fonds CEVIPOF ENTENTE DES ÉCOLOGISTES LES VERTS GÉNÉRATION ÉCOLOGIE Pour sortir de la crise par des solutions de progrès, par l'inno- vation sociale. Pour la préservation de notre patrimoine naturel, notamment de la Vallée de l'Ain et des zones humides de montagne. Pour un aménagement du territoire qui respecte les hommes et l'environ- nement, qui ouvre un nouvel avenir à toutes les communes rurales du Bugey. Pour une agriculture paysanne mo- derne, plus économe en engrais, en pesticides, en irrigation, mais aussi plus extensive et riche en hommes. Pour un meilleur recyclage et une moindre production des déchets, pour une lutte efficace contre la pollution de l'eau et de l'air. Pour d'autres choix énergétiques, basés sur les économies d'énergie, les énergies renouvelables et l'abandon progressif du nucléaire, avec en particulier l'arrêt définitif de Super phénix. Pour un développement des transports collectifs, plus attractifs, plus économes en énergie, en espace, en temps, valorisant le réseau ferroviaire du département. Pour une politique ambitieuse de loge- ments sociaux de qualité, permettant en ville comme en campagne à toutes les familles de se loger dignement. Pour une diminution du temps de travail, sans réduction des bas salaires, afin d'augmenter et de partager le \"Pouvoir de vivre\". Pour un renouveau économique, favorisant les petites unités de pro- duction, valorisant les richesses régionales et les compétences des hommes. Pour une Europe des peuples, sociale et démocratique, pour le droit de vote des immigrés aux élections locales. Pour une véritable solidarité avec les exclus de la société, avec les peuples du Tiers Monde, avec les générations futures. IMP. MONTERRAT FEILLENS 85 30 04 26 - Imprime sur papier sans chlore Confluent de l'Ain et du Rhône",
+    "entites": [
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 40,
+        "fin": 43
+      },
+      {
+        "texte": "Verts",
+        "tag": "ORG",
+        "debut": 151,
+        "fin": 156
+      },
+      {
+        "texte": "Verts",
+        "tag": "ORG",
+        "debut": 196,
+        "fin": 201
+      },
+      {
+        "texte": "Eric Gilbert",
+        "tag": "PER",
+        "debut": 202,
+        "fin": 214
+      },
+      {
+        "texte": "Instituteur",
+        "tag": "MISC",
+        "debut": 224,
+        "fin": 235
+      },
+      {
+        "texte": "Madeleine Duraffourg",
+        "tag": "PER",
+        "debut": 1038,
+        "fin": 1058
+      },
+      {
+        "texte": "Madeleine Duraffourg",
+        "tag": "PER",
+        "debut": 1293,
+        "fin": 1313
+      },
+      {
+        "texte": "ERIC GILBERT",
+        "tag": "PER",
+        "debut": 1525,
+        "fin": 1537
+      },
+      {
+        "texte": "VERTS",
+        "tag": "ORG",
+        "debut": 1637,
+        "fin": 1642
+      },
+      {
+        "texte": "GÉNÉRATION ÉCOLOGIE",
+        "tag": "ORG",
+        "debut": 1643,
+        "fin": 1662
+      },
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 1823,
+        "fin": 1826
+      },
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 3374,
+        "fin": 3377
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_02_1_PF_05",
+    "annee": "1993",
+    "texte": "République Française - Département de l'Ain - 2e circonscription Elections législatives - 21 mars 1993 Sciences Po / fonds CEVIPOF Eliane DRUT-GORJU Conseiller Régional - Maire de Brion Suppléant Philippe PETITBON Maire de Saint Jean le Vieux Alliance des Français pour le progrès €Le monde est ¢ trop dur pour le laisser à la droite Madame, Monsieur, J E suis venue à la politique, m'inscrivant naturellement au Parti Socialiste, pour répondre aux problèmes qui se posaient dans la société. Petite fille, déjà, j'avais vécu à travers d'autres le drame de la guerre, la honte du fascisme et j'avais ressenti le besoin de l'union et de la fraternité ... L'injustice et l'humiliation m'ont toujours paru contraires au sens que j'ai de la condition humaine. Aujourd'hui, le chômage et la dislocation des solidarités m'interpellent : pourquoi tant de peines ? Mon cœur se serre quand je vois des familles dans la gêne, des chômeurs dans l'angoisse, des gens sans toit. Je ressens leur échec comme le mien. L'État, la France ne sont pas seuls en cause. Partout en Europe on vit ces drames et souvent plus douloureusement. Les employeurs, les décideurs publics (communes, départements, régions) dont on sait qu'ils ne sont pas Socialistes en majorité ont aussi leur part de responsabilité ... Mais ce constat m'attriste et me donne la force de continuer à me battre. C'est vrai, les temps sont difficiles, mais les moments d'épreuve sont des moments de fondation : il y a face au chacun pour soi, au libéralisme, un avenir pour le mouvement, pour la social-démocratie, à condition de savoir se renouveler et s'ouvrir aux autres sur des choix clairs, comme l'a dit Michel Rocard. Sciences Po / fonds CEVIPOF Nous avons toujours été dans le camp du progrès, de nombreuses lois l'attestent : bio-éthique (sida, dépendance ... ) rapport au travail (39 heures, cinquième semaine de congés, congé individuel de formation, retraite à 60 ans ... ) aménagement du territoire (environnement, loi de décentralisation ... ). A tous ces problèmes nouveaux, nous avons donné des réponses nouvelles, incomplètes sans doute ... Il faut aller plus loin. Cependant, rien ne se fera du durable que dans l'Espace européen l'Europe est notre besoin vital autant que notre espoir. Aussi, battons nous ensemble pour gagner ces élections des 21 et 28 mars 1993. C'est ainsi que nous donnerons sa chance à la Renaissance de demain. Il y va de notre avenir. Imprimerie Gabriel Lardant Hauteville-Lompnes · Nantua Éliane DRUT-GORJU Conseiller Régional - Maire de Brion Femmes et hommes Construisons ensemble l'Avenur En restant fidèles à notre Histoire A Drut Soupe Suppléant Philippe PETITBON Maire de Saint Jean le Vieux Vu les candidats 0 Alliance des Français pour le progrès 0",
+    "entites": [
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 40,
+        "fin": 43
+      },
+      {
+        "texte": "Eliane DRUT-GORJU",
+        "tag": "PER",
+        "debut": 131,
+        "fin": 148
+      },
+      {
+        "texte": "Philippe PETITBON",
+        "tag": "PER",
+        "debut": 196,
+        "fin": 213
+      },
+      {
+        "texte": "Philippe PETITBON",
+        "tag": "PER",
+        "debut": 2643,
+        "fin": 2660
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_03_1_PF_01",
+    "annee": "1993",
+    "texte": "ELECTIONS LEGISLATIVES DE MARS 93 FRONT NATIONAL LES FRANÇAIS D'ABORD ! Olivier WYSSA 36 ans, marié, 3 enfants, avocat, expert fiscal Conseiller régional, vice-président des la commission \"Coordination des Affaires Internationales\" SUPPLEANT : Jean LARRAS 64 ans, cadre de l'industrie Sciences Po / fonds CEVIPOF Mes Chers Compatriotes, Chômage, insécurité, immigration, pauvreté, impôts, \"affaires\" ... Force est de constater qu'en France aujourd'hui rien ne va plus ! Ce cons- tat dramatique, mais malheureusement bien réel, vous inquiète. Or, il y a des responsables à cet état de fait : ce sont les politiciens de gau- che comme de droite qui depuis plus de vingt ans se sont révélés incapables de gouverner correctement notre pays. A juste raison, l'avenir vous apparaît angoissant. Pourtant, en politique, il n'y a pas de fatalité. A nous de prendre notre destin en mains. Si vous voulez que la France retrouve sa force et sa grandeur, si vous voulez que justice, honnêteté, éducation, bien-être, fraternité, soient des mots qui aient une réelle valeur, si vous voulez faire entendre la voix du bon sens et de la vérité, je vous invite le 21 mars : - à voter pour des candidats \"aux mains propres\", - à voter pour les candidats du Front National et les 300 mesures qu'ils proposent. IMPRIMERIE SPECIALE F.N. Jean-Marie LE PEN RPR-PS-UDF-PC : TOUS RESPONSABLES, TOUS COUPABLES !Sciences Po / fonds CEVIPOF TROP DE CHOMAGE, D'IMMIGRATION, D'IMPOTS, D'INSECURITE, D'INJUSTICES, DE CORRUPTION AVEC LE FRONT NATIONAL MAINS PROPRES ET TETE HAUTE I ORGANISONS LE RETOUR DES IMMI- GRES CHEZ EUX ☐ Arrêt effectif de toute immigration. ☐ Retour progressif des immigrés du tiers-monde dans leurs pays d'origine. ☐ Réforme du code de la nationalité. ACCORDONS LA PRIORITE AUX FRANÇAIS ☐ Priorité aux Français pour les emplois, les aides sociales, les logements. ☐ En cas de licenciements, les Français seront maintenus prioritairement dans l'entreprise. F DONNONS DU TRAVAIL AUX FRANÇAIS ☐ Libération des contraintes qui empêchent les PME-PMI d'embaucher. ☐ Allègement des charges qui pèsent sur les entreprises. RETABLISSONS LA SECURITE ☐ Moyens renforcés pour les services de police. ☐ Certitude des sanctions pour les délinquants quels que soient leurs méfaits. ☐ Rétablissement de la peine de mort. ☐ Expulsion des délinquants et criminels étrangers. AIDONS LES FAMILLES FRANÇAISES ☐ Etablissement d'un revenu maternel ou parental indexé sur le smic pour toutes les familles françaises. ☐ Versement d'un chèque scolaire pour assurer le libre choix de l'école. LUTTONS CONTRE LA PAUVRETE DES FRANÇAIS ☐ Création d'une allocation nationale de solidarité. ☐ Réévaluation des bas salaires par la lutte contre l'utilisation de la main-d'oeuvre immigrée à bas prix. PROTEGEONS NOTRE ECONOMIE ☐ Protection des frontières de l'Europe contre la concurrence sauvage. ☐ Réduction des charges fiscales et sociales pour préserver la compétitivité des entreprises françaises. IS REDUISONS LES IMPOTS ☐ Réduction des impôts en mettant fin aux gaspillages de l'argent public. ☐ Suppression progressive de l'impôt sur le revenu. ☐ Allègement de la taxe professionnelle. ☐ Suppression des droits de succession en ligne directe. SAUVONS LA SECURITE SOCIALE ☐ Fin des gaspillages. ☐ Séparation des caisses destinées aux Français et aux immigrés. ☐ Garantir les retraites et leur indexation. SAUVONS NOS PAYSANS ET NOS CAMPAGNES ☐ Retour à la préférence nationale et communautaire par la défense des produits français face aux importations. ☐ Suppression de la taxe sur le foncier non-bâti. ☐ Suspension des dettes agricoles. IS ASSURONS UNE FORMATION A TOUS LES FRANÇAIS Encouragement de l'apprentissage et du travail manuel. ☐ ☐ Création de filières d'apprentissage allant de la 4ème au baccalauréat. RENDONS LA PAROLE AUX FRANÇAIS ☐ Institution du référendum d'initiative populaire. ☐ Restauration des droits et prérogatives du Parlement. PROTEGONS NOTRE ENVIRONNE- MENT ☐ Lutte contre toutes les pollutions. ☐ Réglementation sévère de l'expérimentation animale. ☐ Défense du patrimoine naturel, architectural et artistique français. RESTAURONS LA DEFENSE NATIO- NALE ☐ Moyens budgétaires accrus pour rendre effective la défense de la France .. ☐ Améliorer les conditions matérielles des personnels militaires et rétablir la considération qui leur est dûe. LE 21 MARS VOTEZ FRONT NATIONAL LES FRANÇAIS D'ABORD !",
+    "entites": [
+      {
+        "texte": "FRONT NATIONAL",
+        "tag": "ORG",
+        "debut": 34,
+        "fin": 48
+      },
+      {
+        "texte": "Olivier WYSSA",
+        "tag": "PER",
+        "debut": 72,
+        "fin": 85
+      },
+      {
+        "texte": "Jean LARRAS",
+        "tag": "PER",
+        "debut": 244,
+        "fin": 255
+      },
+      {
+        "texte": "Front National",
+        "tag": "ORG",
+        "debut": 1237,
+        "fin": 1251
+      },
+      {
+        "texte": "RPR",
+        "tag": "ORG",
+        "debut": 1332,
+        "fin": 1335
+      },
+      {
+        "texte": "PS",
+        "tag": "ORG",
+        "debut": 1336,
+        "fin": 1338
+      },
+      {
+        "texte": "UDF",
+        "tag": "ORG",
+        "debut": 1339,
+        "fin": 1342
+      },
+      {
+        "texte": "FRONT NATIONAL",
+        "tag": "ORG",
+        "debut": 1503,
+        "fin": 1517
+      },
+      {
+        "texte": "AIN",
+        "tag": "LOC",
+        "debut": 1519,
+        "fin": 1522
+      },
+      {
+        "texte": "FRONT NATIONAL",
+        "tag": "ORG",
+        "debut": 4354,
+        "fin": 4368
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_03_1_PF_02",
+    "annee": "1993",
+    "texte": "Sciences Po / fonds CEVIPOF République française - Elections législatives - Scrutin du 21 mars 1993 - 3e circonscription du département de l'Ain Jean-Pierre MERLO Marcelle Vdovitchenko DES CANDIDATS DE RASSEMBLEMENT POUR FAIRE DU NEUF AVEC VOUS ET POUR LA FRANCE présentés par le parti communiste français Jean-Pierre MERLO Physicien, docteur es-sciences, ingénieur Arts & Métiers. Père de 3 enfants, élu du personnel, militant d'association pour la solidarité et les droits de l'homme, la paix, l'environnement, l'action culturelle, l'antiracisme, ancien président de conseil de parents d'élèves. PAYS DE GEX. C'est pour vous permettre de faire entendre votre voix que je me présente à vos suffrages avec Marcelle Vdovitchenko comme suppléante. La France est un pays riche de l'intelligence de ses habitants et de ses potentiels industriel, agricole, culturel et scientifique. Notre industrie a réussi le TGV, L'Airbus, la fusée Ariane. Deux physiciens français ont reçu le prix Nobel, Gilles de Gennes en 1991 et Georges Charpak en 1992. Or nous constatons que les inégalités s'accroissent, que le nombre de chô- meurs et de jeunes salariés sous-payés augmente, que l'éducation se dégrade. C'est inacceptable. L'exclusion d'un nombre grandissant de nos concitoyens est une cause majeure de la montée de l'insécurité et de la violence, de l'exten- sion des ravages de la drogue et de la propagation du sida ; des maladies infectieuses comme la tuberculose réapparaissent. L'acte unique européen, la politique agricole commune, et Maastricht engendrent une loi du marché sauvage qui enfonce l'Europe dans la crise et nous isole des pays du Sud et de l'Est. De nombreuses exploitations agricoles disparaissent, des usines sont déménagées à l'étranger, des pêcheurs sont ruinés par l'importation de poissons à bas prix. Tout cela après 12 ans de gouvernement et de présidence socialistes. Il ne s'agit pas de l'échec de la gauche mais de la faillite des solutions de droite choisies de plus en plus par les dirigeants socialistes à partir de 1982. Voter à droite ne changerait rien car les leaders du RPR et de l'UDF comme M. Millon s'apprêtent à poursuivre et à accentuer la politique de droite en privatisant encore plus les services publics : école, santé, transports, EDF, PTT ... Au nom de la flexibilité, ils propo- sent de diminuer les salaires et de laisser toute liberté aux entreprises de licen- cier, en opposition avec la loi votée à l'initiative des députés communistes. Les dirigeants des Verts ou de Génération Ecologie s'éloignent de la protection de l'environnement pour offrir leurs services à la droite dont ils votent déjà le budget en Rhône-Alpes, et dans bien d'autres régions. Le front national, utilisant les effets de la crise, divise les salariés en accu- sant les immigrés et propose les solutions de la droite qu'il soutient dans les élections ou dans les assemblées élues. M. Millon et la droite lui font des poli- tesses et reprennent le thème des immigrés. Ces tristes jeux politiciens sont bien loin de vos préoccupations. Par votre vote vous avez la possibilité de faire avancer quelques-unes des propositions présentées par les candidats communistes : - Investir pour créer des emplois dans le privé et dans les services publics et non pas spéculer - Promouvoir le progrès social et culturel - Protéger et valoriser l'environnement avec les moyens et les emplois nécessaires. - Etendre les libertés et enrichir la démocratie - Faire l'Europe sociale, démocratique et pacifique - Agir pour la paix, le désarmement et un ordre international plus juste. Marcelle Vdovitchenko Enseignante retraitée, ancienne journaliste, mère de 3 enfants, militante d'association pour la solidarité, la paix, l'école publique, la survie des gares de Culoz, Virieu et Seyssel. BELLEYSciences Po / fonds CEVIPOF Un nouvel ordre international est né où les pays les plus riches, sous la direction des Etats-Unis, dic- tent leur loi aux plus pauvres. Dans la guerre du Golfe, j'aurais souhaité que la France fasse entendre la voix de la paix plutôt que celle des Etats-Unis. Dans le conflit yougoslave, notre pays devrait mieux soutenir les efforts de paix de l'ONU, et ceux des pacifistes de chacune des républiques. C'est le retour de la paix qui fera cesser les atrocités. Enfin, la France doit arrêter de bâtir son économie sur le commerce des armes. L'industrie d'armement inuti- le à la défense nationale doit être reconvertie au civil. La France doit développer des coopérations internationales pacifiques comme le CERN ou l'industrie aérospatiale. QUI A FAIT QUOI ? . DANS L'AIN ET DANS LA RÉGION RHONE-ALPES L'emploi est la préoccupation majeure. Notre cir- conscription est sinistrée par le chômage. Les emplois précaires se multiplient. Le taux de chômage du sec- teur de Belley est le plus élevé du département. A Bel- legarde des entreprises comme Robin Alexis ferment pour être déménagées. Les ouvrières luttent contre les licenciements. Ce n'est pas en continuantl'austérité, avec le PS ou en l'aggravant avec la droite que la situa- tion changera. Les frontaliers au chômage touchent une indemnité de 30 % du salaire. La baisse du pouvoir d'achat en a conduit certains à liquider leur logement. M. Millon et les candidats PS (AFP) semblent le découvrir. C'est la droite qui a négocié la convention avec la Suisse et les gouvernements PS n'ont rien fait pour la changer. Carrières, décharges, golfs envahissent le Pays de Gex et le Bugey. Les élus de droite, qui se découvrent écologistes, ont transmis les demandes d'autorisation et le représentant du gouvernement les a acceptées. Comment le scandale des déchets médicaux d'Artema- re a-t-il pu échapper si longtemps au député maire de Belley et au préfet ? Les transports publics locaux sont progressivement supprimés. La SNCF rentabilise en supprimant des arrêts TGV. Grâce à l'action des usagers des gares et des habitants de Culoz, Virieu et Seyssel le processus est freiné. Ce sont ceux qui, à droite et au PS, ont supprimé les lignes secondaires, contre l'avis des communistes et de la population, qui disent qu'il faudrait rééquilibrer le rail et la route. La santé est bien mal lotie dans notre circonscrip- tion. A part Hauteville et Belley, il n'y a pas d'hôpital. Et encore faut-il que toute la population se dresse pour s'opposer à la liquidation de certains services. Le gou- vernement n'a rien fait pour remédier à cette situation. Actuellement, le député sortant se contente de com- mander un audit estimatif à la région. L'école publique est un souci pour les parents qui agissent pour empêcher la fermeture de 20 classes pri- maires et maternelles dans le département. L'inspec- teur d'académie applique en fait des directives du gou- vernement. Les militants et les élus communistes soutiennent toutes ces actions pour la survie de notre région. · A L'ASSEMBLÉE NATIONALE La libre circulation des capitaux est prévue par l'acte unique qui a été voté en 1986 par le PS, le RPR et l'UDF. Seuls les députés communistes s'y sont opposés. Entré en application en 1993, on lui doit déjà le départ de Hoover, Grundig et Sopalin, la chute des cours du poisson et la colère des pêcheurs. Ajoutés à la PAC, le marché unique et Maastricht vont aggraver la situation des agriculteurs. La diminution à 35 heures de la durée légale du travail, sans perte de salaire, permettrait de créer plu- sieurs centaines de milliers d'emplois. Cette proposi- tion a été repoussée par le PS et la droite quand les députés communistes l'ont soumise au parlement en 1989. Le pouvoir politique sera très attentif aux suffrages que recueilleront les candidats communistes car ce sera un moyen pour vous de dire que vous voulez faire du neuf. J'espère avoir entamé, avec vous, un dialogue qui ne s'arrêtera pas au soir des élections. merla Vous pouvez nous écrire pour nous faire part de vos préoccupations. Pour nous soutenir financièrement envoyez les chèques libellés au nom de Michel Petiot mandataire financier, ce sont vos dons qui financent votre campagne. BP 86, 01630 Saint-Genis Pouilly. Vu, les candidats - iov 692000 ☒ ☒ ☒ ☒ ☒",
+    "entites": [
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 141,
+        "fin": 144
+      },
+      {
+        "texte": "Jean-Pierre MERLO",
+        "tag": "PER",
+        "debut": 145,
+        "fin": 162
+      },
+      {
+        "texte": "Marcelle Vdovitchenko",
+        "tag": "PER",
+        "debut": 163,
+        "fin": 184
+      },
+      {
+        "texte": "parti communiste français",
+        "tag": "ORG",
+        "debut": 280,
+        "fin": 305
+      },
+      {
+        "texte": "Jean-Pierre MERLO",
+        "tag": "PER",
+        "debut": 306,
+        "fin": 323
+      },
+      {
+        "texte": "Physicien",
+        "tag": "MISC",
+        "debut": 324,
+        "fin": 333
+      },
+      {
+        "texte": "Marcelle Vdovitchenko",
+        "tag": "PER",
+        "debut": 706,
+        "fin": 727
+      },
+      {
+        "texte": "physicien",
+        "tag": "MISC",
+        "debut": 943,
+        "fin": 952
+      },
+      {
+        "texte": "RPR",
+        "tag": "ORG",
+        "debut": 2099,
+        "fin": 2102
+      },
+      {
+        "texte": "UDF",
+        "tag": "ORG",
+        "debut": 2111,
+        "fin": 2114
+      },
+      {
+        "texte": "Marcelle Vdovitchenko",
+        "tag": "PER",
+        "debut": 3583,
+        "fin": 3604
+      },
+      {
+        "texte": "AIN",
+        "tag": "LOC",
+        "debut": 4592,
+        "fin": 4595
+      },
+      {
+        "texte": "PS",
+        "tag": "ORG",
+        "debut": 5008,
+        "fin": 5010
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_03_1_PF_03",
+    "annee": "1993",
+    "texte": "Sciences Po / fonds CEVIPOF République Française - Liberté - Égalité - Fraternité ELECTIONS LEGISLATIVES - 21 mars 1993 Candidat d'Union UDF-RPR Charles MILLON Président du Conseil Régional Rhône-Alpes Maire de Belley - Député sortant 0 Chers Compatriotes, Comme vous, je suis inquiet. Notre pays traverse une crise morale et politi- que, économique et sociale : les Français perdent confiance, la France doute d'elle-même. La politique a été discréditée par la multiplication des affaires. Le chômage est devenu un fléau qui n'épargne aucune famille. La cohésion sociale est menacée. · A nous de réagir et de provoquer le redressement de la France. · A nous de restaurer le sens de l'intérêt général et le respect du bien public. · A nous de nous mobiliser pour engager d'urgence une politique dont l'objectif essentiel sera l'EMPLOI. · A nous de préparer les réformes dont le pays a besoin : rétablissement de l'autorité de l'Etat, poursuite de la décentralisation, modernisation du système éducatif, garantie de la protection sociale ... A cette fin, tous ceux qui veulent tirer un trait sur douze ans de socialisme, tous ceux qui refusent l'utopie ou l'extrémisme doivent se rassembler. C'est pour aider à ce rassemblement et participer à cette œuvre de redresse- ment de la France, qu'avec Gérard ARMAND, je sollicite à nouveau votre confiance et vos suffrages. Charles MILLON Député sortant Suppléant : Gérard ARMAND Conseiller Général - Conseiller RégionalSciences Po / fonds CEVIPOF POUR LA FRANCE · Engager le redressement national - restaurer l'autorité de l'Etat en lui donnant les moyens d'assumer ses compétences : justice, sécurité, solidarité et poursuivre la décentralisation ; - renforcer la séparation des pouvoirs exécutif, judi- ciaire, économique et garantir l'impartialité de l'Etat ; - moraliser la vie publique en luttant contre toutes les formes de corruption et en favorisant la transpa- rence des décisions publiques ; - réduire le train de vie de l'Etat et des Collectivités territoriales ; - réformer le système éducatif en reconnaissant l'auto- nomie des établissements (lycées, universités ... ) ; - assurer la cohésion sociale en garantissant la pro- tection sociale, le régime des retraites, l'insertion pro- fessionnelle ... · Engager d'urgence une politique pour l'emploi - alléger les charges fiscales et sociales des entreprises qui investissent et créent des emplois ; - relancer les investissements en favorisant la baisse des taux d'intérêts grâce à un désendettement de l'Etat par le produit des privatisations ; - orienter l'épargne vers des investissements pro- ductifs ; - décentraliser l'ANPE et régionaliser la formation professionnelle, réhabiliter l'apprentissage et encoura- ger la formation par alternance école/entreprise ; - promouvoir une politique de logement, grâce à des incitations fiscales et financières ; - lancer un programme d'infrastructures publiques dans le cadre d'une nouvelle politique d'aménagement du territoire ; - développer les emplois familiaux et de proximité et encourager une nouvelle organisation du travail dans les administrations et les entreprises. POUR LE BUGEY ET LE PAYS DE GEX - promouvoir, dans le cadre régional, un nouvel amé- nagement du territoire et garantir le maintien des Ser- vices publics (administratifs, sanitaires, éducatifs ... ) dans les zones rurales ; - faciliter l'implantation et le développement des PME dans les bourgs, grâce à des aides en matière d'immo- bilier d'entreprise et à des exonérations fiscales ; - aider l'agriculture et la forêt dans sa modernisation et son adaptation aux nouvelles conditions européen- nes, par exemple les programmes intégrés de dévelop- pement agricoles (PIDA) ; - accompagner par le contrat \"Pays d'Accueil du Bugey - Avenir et Tradition\" le développement touris- tique, la modernisation des équipements d'accueil et la valorisation des paysages ; - veiller au développement des zones fragilisées par l'évolution économique et technique (cantons d'Hau- teville, de St Rambert, de Lhuis ... ) ; - garantir aux travailleurs frontaliers des conditions d'emploi et de protection sociale justes et durables et soutenir toutes les actions de formation et de dévelop- pement en zones frontalières (pays de Gex) - moderniser nos infrastructures de transport (RN 504 - désenclavement du Pays de Gex ... ) et défen- dre les dessertes ferroviaires (Culoz-Bellegarde ... ). · VOUS CHOISIREZ - un homme de terrain à l'écoute de chacun ; - un élu qui assume les grands dossiers de notre région ; - un enfant de l'Ain d'envergure nationale · VOUS VOTEREZ POUR UN HOMME DE CONVICTION Charles MILLON Maire de Belley - Président du Conseil Régional Rhône-Alpes Député sortant Suppléant : Gérard ARMAND - Conseiller général - Conseiller régional Imp. Gaillard - 01300 Belley ☒ ☐ ☐ ☐",
+    "entites": [
+      {
+        "texte": "UDF",
+        "tag": "ORG",
+        "debut": 137,
+        "fin": 140
+      },
+      {
+        "texte": "RPR",
+        "tag": "ORG",
+        "debut": 141,
+        "fin": 144
+      },
+      {
+        "texte": "Charles MILLON",
+        "tag": "PER",
+        "debut": 145,
+        "fin": 159
+      },
+      {
+        "texte": "Gérard ARMAND",
+        "tag": "PER",
+        "debut": 1295,
+        "fin": 1308
+      },
+      {
+        "texte": "Charles MILLON",
+        "tag": "PER",
+        "debut": 1367,
+        "fin": 1381
+      },
+      {
+        "texte": "Gérard ARMAND",
+        "tag": "PER",
+        "debut": 1409,
+        "fin": 1422
+      },
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 4543,
+        "fin": 4546
+      },
+      {
+        "texte": "Charles MILLON",
+        "tag": "PER",
+        "debut": 4612,
+        "fin": 4626
+      },
+      {
+        "texte": "Gérard ARMAND",
+        "tag": "PER",
+        "debut": 4714,
+        "fin": 4727
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_03_1_PF_04",
+    "annee": "1993",
+    "texte": "RÉPUBLIQUE FRANÇAISE Liberté - Egalité - Fraternité Elections législatives du 21 mars 1993 3e circonscription de l'Ain Profession de foi du candidat Pierre CARROZ Madame, Monsieur, Ma candidature aux présentes élections législatives s'inscrit dans la continuité de mon combat pour plus de justice, plus de solidarité et plus d'imagination pour résoudre les grands problèmes de notre société. Depuis vingt ans, le monde a profondément changé. C'est pourquoi nous devons faire de la politique autrement, en étant toujours à l'écoute des Français, pour ensuite proposer des solutions adaptées à leurs besoins réels. Aujourd'hui, il y a un net déficit de communication entre les élus et leurs électeurs. C'est en partie la raison pour laquelle nombre d'entre eux ne se reconnaissent plus dans leurs représentants. Le moment est venu d'y remédier, d'écouter avant de proposer, puis de décider. La politique autrement, cela signifie aussi repenser notre manière de travailler ensemble pour comprendre et maîtriser une réalité sociale devenue très complexe. Loin d'être devenu artificiel et d'avoir perdu son sens, le clivage Gauche/Droite garde toute sa force. Il a simplement évolué et n'est plus, comme avant, exclusivement dominé par les relations entre employeurs et salariés. Sciences Po / fonds CEVIPOFSur le plan électoral, c'est le contenu réel du clivage Gauche/Droite qui doit guider les alliances éven- tuelles et pas seulement l'arithmétique électorale, comme c'est trop souvent le cas actuellement. Nous ne transformerons la société où nous vivons que par une volonté collective. C'est une condition indispensable à la solution des problèmes les plus urgents : le chômage, la santé, l'éducation, la justice, la sécurité, l'équilibre ville/campagne. Une vaste concertation entre les acteurs concernés est nécessaire. Chacun doit agir de manière responsable et apporter sa pierre à l'édifice pour résoudre ces questions de manière durable. Prenons deux exemples : chômage et l'équilibre ville-campagne. Pour rompre avec la spirale infernale dans laquelle est engagé l'emploi, il faut rompre avec la logique libérale. En effet, ce qui est bon pour les entreprises n'est pas forcément bon pour la société toute entière. A quoi sert d'être compétitifs au plan international si les consommateurs Français n'ont plus les moyens d'acheter ? La relation ville/campagne est un autre problème crucial. La place des agriculteurs dans l'équilibre social de la Nation n'est plus à démontrer. Or, l'absence de courage politique a trop souvent conduit à accumuler les dispositions à courte vue sans cohérence aucune. Là aussi, il faut rompre avec la logique antérieure. Il y a de vrais choix à faire entre une croissance urbaine incontrôlée et un monde rural laissé à son désespoir. La France serait-elle encore la France sans le monde rural ? C'est tous ensemble, agriculteurs, salariés, commerçants, employeurs et pouvoirs publics, que nous avons à remettre le train social sur les rails du progrès, pour que la France garde la place qu'elle a acquise dans une Europe forte. Car rien de fort et de durable ne pourra se faire hors de l'Espace Européen. C'est à la construction d'un nouveau monde de la politique que nous vous convions, tout en restant fidèles à nos convictions premières. La politique autrement que nous préconisons se caractérise par un comportement plus res- ponsable de chacun, un engagement de tous pour un destin collectif attentif à l'individu. Cela s'appelle la République moderne. C'est ce choix que Hubert Bertrand et moi-même avons fait. Notre volonté de résoudre les difficultés dans lesquelles nous sommes tous plongés, repose essentiellement sur vous, Electeurs. Votre vote, mais encore votre appui ultérieur soutiendront notre action pour le pro- grès économique et social. Sciences Po / fonds CEVIPOF Pour la renaissance de la Gauche, VOTEZ Pierre CARROZ, candidat Hubert BERTRAND, suppléant Ensemble, nous réussivous la France du progrès. Pierre Carroz Alliance des Français pour le progrès Vu les candidats Imp. Sadag",
+    "entites": [
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 115,
+        "fin": 118
+      },
+      {
+        "texte": "Pierre CARROZ",
+        "tag": "PER",
+        "debut": 149,
+        "fin": 162
+      },
+      {
+        "texte": "Hubert Bertrand",
+        "tag": "PER",
+        "debut": 3517,
+        "fin": 3532
+      },
+      {
+        "texte": "Pierre CARROZ",
+        "tag": "PER",
+        "debut": 3865,
+        "fin": 3878
+      },
+      {
+        "texte": "Hubert BERTRAND",
+        "tag": "PER",
+        "debut": 3889,
+        "fin": 3904
+      },
+      {
+        "texte": "Pierre Carroz",
+        "tag": "PER",
+        "debut": 3964,
+        "fin": 3977
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_03_1_PF_05",
+    "annee": "1993",
+    "texte": "Sciences Po / fonds CEVIPOF ENTENTE DES ECOLOGISTES Elections Législatives Scrutins des 21 et 28 mars 1993 - Département de l'AIN, 3e Circonscription C Albert DELAVIERE · 1937 : naissance dans une famille d'agriculteurs gessiens. · 1955 à 1969 : travailleur frontalier dans le bâtiment, avec une interruption de 27 mois pour service militaire en Algérie. · 1969 : alliant agriculture de montagne et économie, il fonde à Crozet, dans le canton de Gex, une entreprise familiale d'élevage caprin et de transformation fromagère. · Actif dans le syndicalisme et la mutualité agricole de notre département, il s'investit dans les mouvements locaux de protec- tion de la nature. ALTERNANCE Alternance ! Vous avez dit alternance ? La véritable alternance, c'est le partage des pouvoirs, la non-concentration des mandats entre les mains de politiciens professionnels, trop chargés de fonctions électives pour rester attentifs et efficaces. Président de région ! Maire de Belley ! Ces deux missions ne suffisent-elles pas à l'appétit de pouvoir de Charles Millon ? Comment exercera-t-il le cinquième mandat de député qu'il brigue ? REALISME Des solutions nouvelles et réalistes Majorité d'hier et majorité d'aujourd'hui sont sur bien des points interchangeables : qu'offent- elles comme solution à nos problèmes quotidiens ? Rien ! Sinon des schémas éculés, inopé- rants, usés tant par la gauche que par la droite. Et nous direz-vous ? Nous vous proposons des solutions nouvelles et réa- listes : partage équitable du travail et des fruits du travail, évolution vers une agriculture de surface et de proximité, protection de notre environnement rural et urbain. Suppléante : Marie-Hélène ALLEMANN · 1939 : naissance à Troyes. Vingt ans durant, elle dirige une entreprise d'élevage avicole. · Changement de cap à 41 ans : elle reprend ses études, passe son bac, devient infirmière d'Etat puis directrice de maison de repos privée à Brénod. · 1993 : munie d'un brevet d'herborisatrice et d'un certificat de spécialisation en agriculture biologique, habitant Lhuis, dans le canton de Belley, elle est engagée dans des associations locales de protection de la natures. PAPIER RÉCUPÉRÉ ET RECYCLÉ 100% I.P.C PARIS L'ÉCOLOGIE : LES verts GENERATION Avec Brice LALONDE Vu le candidat ☐Sciences Po / fonds CEVIPOF ENTENTE DES ECOLOGISTES Pour votre environnement quotidien l'Ecologie à l'Assemblée. Au départ, l'écologie semblait un rêve mais, peu à peu, les réalités ont donné raison aux écologistes. Réanimer la démocratie, préserver la planète, permettre à chaque être humain de mener sa vie dans la dignité, voilà l'urgence. Aujourd'hui, l'écologie inspire un projet ouvert sur le monde moderne. C'est une nouvelle manière d'aborder les difficultés de notre société : le chômage, la récession économique, la solitude, l'absence de solidarité et de fraternité. Les écologistes apportent un souffle nouveau à la vie publique. Responsables, actifs, indépendants, ils veulent réconcilier l'économie, la nature et l'homme, la morale et la politique ... Pour donner une vraie chance à l'écologie, les candidats de l'Entente des Ecologistes ont réuni leurs efforts. Les Verts et Génération Ecologie sont une force nouvelle capable de répondre aux problèmes actuels par des solutions humaines, audacieuses, respectueuses de l'environnement. Saisissez cette chance pour notre pays, ouvrez les portes de l'Assemblée. Votez pour les candidats de l'Entente des Ecologistes. GENERATION l'écoloGiE : LES verts",
+    "entites": [
+      {
+        "texte": "AIN",
+        "tag": "LOC",
+        "debut": 126,
+        "fin": 129
+      },
+      {
+        "texte": "Albert Delavière",
+        "tag": "PER",
+        "debut": 150,
+        "fin": 166
+      },
+      {
+        "texte": "Marie-Hélène ALLEMANN",
+        "tag": "PER",
+        "debut": 1665,
+        "fin": 1686
+      },
+      {
+        "texte": "verts",
+        "tag": "ORG",
+        "debut": 2216,
+        "fin": 2221
+      },
+      {
+        "texte": "Verts",
+        "tag": "ORG",
+        "debut": 3149,
+        "fin": 3154
+      },
+      {
+        "texte": "Génération écologie",
+        "tag": "ORG",
+        "debut": 3152,
+        "fin": 3171
+      },
+      {
+        "texte": "verts",
+        "tag": "ORG",
+        "debut": 3476,
+        "fin": 3481
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_03_1_PF_06",
+    "annee": "1993",
+    "texte": "Sciences Po / fonds CEVIPOF ·RÉPUBLIQUE FRANÇAISE - ÉLECTIONS LÉGISLATIVES DES 21 ET 28 MARS 1993 Imp Panorama Offset - Marseille VOTEZ POUR LES NOUVEAUX vu le candidat vu le suppléant ECOLOGISTES DU RASSEMBLEMENT NATURE ET ANIMAUXSciences Po / fonds CEVIPOF VOTEZ POUR LES NOUVEAUX ECOLOGISTES DU RASSEMBLEMENT NATURE ET ANIMAUX. LES NOMS DE NOTRE CANDIDAT ET DU SUPPLÉANT SE TROUVENT SUR LES BULLETINS DE VOTE COMPORTANT NOTRE EMBLÈME LE TRÈFLE À QUATRE FEUILLES CONSTRUISONS UN MONDE MEILLEUR Pour l'homme : Les conventions Internationales doivent veiller à ce que les aspirations naturelles et fondamentales de l'être humain soient respectées. Cela suppose : La création d'un Temps Minimun de Travail Garanti, l'accés généralisé à la propriété, une nouvelle répartition des riches- ses et un renouveau des valeurs spirituelles. Pour la Nature : Dans tous les secteurs d'activités techniques, scientifiques et industrielles, les Etats doivent prévoir l'existence d'organismes écologiques de contrôle, disposant du droit de véto. Ainsi, tout risque de pollution sera écarté. Pour les Animaux : Interdiction de la vivisection, pratiquée uniquement pour des questions d'argent. Amélioration de leurs conditions d'existence. Lutte contre les abus de la chasse, les corridas, les massacres dans les abattoirs, les abandons et les mauvais traitements. BULLETIN - RÉPONSE A DÉCOUPER Nom et Prénom Adresse complète et code postal Nº de tél. Profession JE DÉSIRE RECEVOIR GRATUITEMENT ET SANS ENGAGEMENT UNE DOCUMENTA- TION COMPLÉTE SUR VOS ACTIVITÉS ET PROGRAMMES EN FAVEUR DE L'HOMME, DE LA NATURE ET DES ANIMAUX. A FAIRE PARVENIR AUX NOUVEAUX ÉCOLOGISTES DU RASSEMBLEMENT NATURE ET ANIMAUX. 13, Rue RUFFI 13003 MARSEILLE",
+    "entites": [
+      {
+        "texte": "Ain",
+        "tag": "LOC",
+        "debut": 1032,
+        "fin": 1035
+      },
+      {
+        "texte": "NOUVEAUX ÉCOLOGISTES DU RASSEMBLEMENT NATURE ET ANIMAUX",
+        "tag": "ORG",
+        "debut": 1631,
+        "fin": 1686
+      }
+    ]
+  },
+  {
+    "id": "EL189_L_1993_03_001_04_1_PF_01",
+    "annee": "1993",
+    "texte": "Sciences Po / fonds CEVIPOF ELECTIONS LEGISLATIVES DE MARS 93 FRONT NATIONAL LES FRANÇAIS D'ABORD ! André CLAVEL 42 ans, marié, cadre de direction Conseiller régional, vice-président de la commission \"Enseignement supérieur\" SUPPLEANT : Maurice RIVOIRE 63 ans, marié, 6 enfants, retraité Médaille militaire Membre de l'association Aide à Domicile en Milieu Rural (A.D.M.R.) Conseiller municipal de Tramoyes Mes Chers Compatriotes, Chômage, insécurité, immigration, pauvreté, impôts, \"affaires\" ... Force est de constater qu'en France aujourd'hui rien ne va plus ! Ce cons- tat dramatique, mais malheureusement bien réel, vous inquiète. Or, il y a des responsables à cet état de fait : ce sont les politiciens de gau- che comme de droite qui depuis plus de vingt ans se sont révélés incapables de gouverner correctement notre pays. A juste raison, l'avenir vous apparaît angoissant. Pourtant, en politique, il n'y a pas de fatalité. A nous de prendre notre destin en mains. Si vous voulez que la France retrouve sa force et sa grandeur, si vous voulez que justice, honnêteté, éducation, bien-être, fraternité, soient des mots qui aient une réelle valeur, si vous voulez faire entendre la voix du bon sens et de la vérité, je vous invite le 21 mars : - à voter pour des candidats \"aux mains propres\", - à voter pour les candidats du Front National et les 300 mesures qu'ils proposent. IMPRIMERIE SPECIALE F.N. Jean-Marie LE PEN RPR-PS-UDF-PC : TOUS RESPONSABLES, TOUS COUPABLES !Sciences Po / fonds CEVIPOF TROP DE CHOMAGE, D'IMMIGRATION, D'IMPOTS, D'INSECURITE, D'INJUSTICES, DE CORRUPTION AVEC LE FRONT NATIONAL MAINS PROPRES ET TETE HAUTE LG ORGANISONS LE RETOUR DES IMMI- GRES CHEZ EUX ☐ Arrêt effectif de toute immigration. ☐ Retour progressif des immigrés du tiers-monde dans leurs pays d'origine. ☐ Réforme du code de la nationalité. ACCORDONS LA PRIORITE AUX FRANÇAIS ☐ Priorité aux Français pour les emplois, les aides sociales, les logements. ☐ En cas de licenciements, les Français seront maintenus prioritairement dans l'entreprise. DONNONS DU TRAVAIL AUX FRANÇAIS ☐ Libération des contraintes qui empêchent les PME-PMI d'embaucher. ☐ Allègement des charges qui pèsent sur les entreprises. IS RETABLISSONS LA SECURITE ☐ Moyens renforcés pour les services de police. ☐ Certitude des sanctions pour les délinquants quels que soient leurs méfaits. ☐ Rétablissement de la peine de mort. ☐ Expulsion des délinquants et criminels étrangers. AIDONS LES FAMILLES FRANÇAISES ☐ Etablissement d'un revenu maternel ou parental indexé sur le smic pour toutes les familles françaises. ☐ Versement d'un chèque scolaire pour assurer le libre choix de l'école. L& LUTTONS CONTRE LA PAUVRETE DES FRANÇAIS ☐ Création d'une allocation nationale de solidarité. ☐ Réévaluation des bas salaires par la lutte contre l'utilisation de la main-d'oeuvre immigrée à bas prix. PROTEGEONS NOTRE ECONOMIE ☐ Protection des frontières de l'Europe contre la concurrence sauvage. ☐ Réduction des charges fiscales et sociales pour préserver la compétitivité des entreprises françaises. IS REDUISONS LES IMPOTS ☐ Réduction des impôts en mettant fin aux gaspillages de l'argent public. ☐ Suppression progressive de l'impôt sur le revenu. ☐ Allègement de la taxe professionnelle. ☐ Suppression des droits de succession en ligne directe. SAUVONS LA SECURITE SOCIALE ☐ Fin des gaspillages. ☐ Séparation des caisses destinées aux Français et aux immigrés. ☐ Garantir les retraites et leur indexation. SAUVONS NOS PAYSANS ET NOS CAMPAGNES ☐ Retour à la préférence nationale et communautaire par la défense des produits français face aux importations. ☐ Suppression de la taxe sur le foncier non-bâti. ☐ Suspension des dettes agricoles. LS ASSURONS UNE FORMATION A TOUS LES FRANÇAIS ☐ Encouragement de l'apprentissage et du travail manuel. ☐ Création de filières d'apprentissage allant de la 4ème au baccalauréat. IS RENDONS LA PAROLE AUX FRANÇAIS ☐ Institution du référendum d'initiative populaire. ☐ Restauration des droits et prérogatives du Parlement. PROTEGONS NOTRE ENVIRONNE- MENT ☐ Lutte contre toutes les pollutions. ☐ Réglementation sévère de l'expérimentation animale. ☐ Défense du patrimoine naturel, architectural et artistique français. RESTAURONS LA DEFENSE NATIO- NALE ☐ Moyens budgétaires accrus pour rendre effective la défense de la France .. ☐ Améliorer les conditions matérielles des personnels militaires et rétablir la considération qui leur est dûe. LE 21 MARS VOTEZ FRONT NATIONAL LES FRANÇAIS D'ABORD !",
+    "entites": [
+      {
+        "texte": "FRONT NATIONAL",
+        "tag": "ORG",
+        "debut": 62,
+        "fin": 76
+      },
+      {
+        "texte": "André CLAVEL",
+        "tag": "PER",
+        "debut": 100,
+        "fin": 112
+      },
+      {
+        "texte": "Maurice RIVOIRE",
+        "tag": "PER",
+        "debut": 237,
+        "fin": 252
+      },
+      {
+        "texte": "Front National",
+        "tag": "ORG",
+        "debut": 1331,
+        "fin": 1345
+      },
+      {
+        "texte": "RPR",
+        "tag": "ORG",
+        "debut": 1426,
+        "fin": 1429
+      },
+      {
+        "texte": "PS",
+        "tag": "ORG",
+        "debut": 1430,
+        "fin": 1432
+      },
+      {
+        "texte": "UDF",
+        "tag": "ORG",
+        "debut": 1433,
+        "fin": 1436
+      },
+      {
+        "texte": "FRONT NATIONAL",
+        "tag": "ORG",
+        "debut": 1597,
+        "fin": 1611
+      },
+      {
+        "texte": "AIN",
+        "tag": "LOC",
+        "debut": 1613,
+        "fin": 1616
+      },
+      {
+        "texte": "FRONT NATIONAL",
+        "tag": "ORG",
+        "debut": 4456,
+        "fin": 4470
+      }
+    ]
+  }
+]
