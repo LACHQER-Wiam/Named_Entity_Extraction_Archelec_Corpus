@@ -88,10 +88,14 @@ def main() -> None:
     print("\n" + "─" * 60)
     print(f"Filtrage sur les années entre {YEAR_START} et {YEAR_END}…")
     df[COL_DATE] = df[COL_DATE].astype(str).str.strip()
-    df_final = df[
+    df_filter_annee = df[
         df[COL_DATE].str.startswith(('1973', '1978', '1981', '1988', '1993'))
     ].copy().reset_index(drop=True)
 
+    df_final = pd.DataFrame(columns=df.columns)  # DataFrame vide avec les mêmes colonnes
+    for annee in ['1973', '1978', '1981', '1988', '1993']:
+        df_final = pd.concat([df_final, df_filter_annee[df_filter_annee[COL_DATE].str.startswith(annee)].head(20)])
+        
     print(f"→ {len(df_final)} documents retenus (sur {len(df)} au total)")
 
     # ── 4. Statistiques du sous-ensemble ────────────────────────────────────

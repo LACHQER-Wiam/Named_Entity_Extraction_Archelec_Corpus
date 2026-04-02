@@ -253,7 +253,7 @@ for e in ex['entites'][:10]:
     print(f"  [{e['tag']}] '{e['texte']}' (pos {e['debut']}-{e['fin']})")
 
 print(f"\n=== EXEMPLE ANNOTÉ 2 ===")
-ex = resultats[100]
+ex = resultats[50]
 print(f"Texte (300c) : {ex['texte'][:300]}")
 print(f"Entités      :")
 for e in ex['entites'][:10]:
