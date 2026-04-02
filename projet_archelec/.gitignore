@@ -4,8 +4,8 @@ data/raw/*.csv
 data/raw/*.sqlite
 data/raw/*.sqlite-journal
 data/bio/*.json
-data/processed/*.json
-data/annotated/*.json
+# data/processed/*.json
+# data/annotated/*.json
 __pycache__/
 *.pyc
 venv/
