@@ -493,12 +493,6 @@
         "fin": 2577
       },
       {
-        "texte": "Kanak",
-        "tag": "MISC",
-        "debut": 2633,
-        "fin": 2638
-      },
-      {
         "texte": "Tiers monde",
         "tag": "LOC",
         "debut": 2691,
@@ -648,12 +642,6 @@
         "tag": "ORG",
         "debut": 724,
         "fin": 743
-      },
-      {
-        "texte": "Français",
-        "tag": "MISC",
-        "debut": 923,
-        "fin": 931
       },
       {
         "texte": "Conseil Général",
@@ -1245,12 +1233,6 @@
         "tag": "LOC",
         "debut": 2261,
         "fin": 2267
-      },
-      {
-        "texte": "Français",
-        "tag": "MISC",
-        "debut": 2292,
-        "fin": 2300
       },
       {
         "texte": "AIN",
@@ -2086,7 +2068,7 @@
       },
       {
         "texte": "SNCF",
-        "tag": "MISC",
+        "tag": "ORG",
         "debut": 150,
         "fin": 154
       },
