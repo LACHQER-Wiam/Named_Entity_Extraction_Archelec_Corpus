@@ -50,11 +50,11 @@ for year in sorted(docs_by_year.keys()):
         if len(docs) > 20:
             train.extend(docs[20:])
 
-        print(f"\n{year}: {len(docs)} docs → {min(10, len(docs))} train, {min(10, len(docs[10:20]))} test_before_2000")
+        print(f"{year}: {len(docs)} docs → {min(10, len(docs))} train, {min(10, len(docs[10:20]))} test_before_2000")
     else:
         # Après 2000: tout dans test_after_2000
         test_after_2000.extend(docs)
-        print(f"\n{year}: {len(docs)} docs → tous dans test_after_2000")
+        print(f"{year}: {len(docs)} docs → tous dans test_after_2000")
 
 # Sauvegarder
 output_files = {
