@@ -1,38 +1,25 @@
 [project]
 name = "archelec-ner"
 version = "0.1.0"
-description = "Pipeline NER sur le corpus Archelec — fine-tuning CamemBERT"
-requires-python = ">=3.10"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.11.*"
 dependencies = [
-    # Manipulation de données
-    "pandas>=2.0.0",
-    "numpy>=1.24.0",
-    # NLP & Transformers
-    "transformers>=4.35.0",
-    "datasets>=2.14.0",
-    "tokenizers>=0.14.0",
-    # Deep Learning
-    "torch>=2.0.0",
-    # spaCy et modèle français
-    "spacy>=3.6.0",
-    "fr-core-news-lg @ https://github.com/explosion/spacy-models/releases/download/fr_core_news_lg-3.8.0/fr_core_news_lg-3.8.0-py3-none-any.whl",
-    # Matching flou (distant supervision)
-    "rapidfuzz>=3.0.0",
-    "python-Levenshtein>=0.21.0",
-    # Machine Learning
-    "scikit-learn>=1.3.0",
-    # Visualisation
-    "matplotlib>=3.7.0",
-    "seaborn>=0.12.0",
-    # Utilitaires
-    "tqdm>=4.65.0",
-    "unidecode>=1.3.6",
-    # Notebooks
-    "jupyter>=1.0.0",
-    "ipykernel>=6.25.0",
-    "ftfy>=6.3.1",
+    "datasets>=4.8.4",
+    "fuzzywuzzy>=0.18.0",
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "prettytable>=3.17.0",
+    "python-levenshtein>=0.27.3",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+    "spacy>=3.8.14",
+    "tokenizers>=0.22.2",
+    "torch>=2.11.0",
+    "tqdm>=4.67.3",
+    "transformers>=5.5.3",
+    "unidecode>=1.4.0",
 ]
-
-[tool.uv]
-# Projet sans package installable — uv gère uniquement le venv + dépendances
-package = false

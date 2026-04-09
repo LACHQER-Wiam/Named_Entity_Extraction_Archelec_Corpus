@@ -1,33 +1,37 @@
 # Manipulation de données
-pandas>=2.0.0
-numpy>=1.24.0
+pandas
+numpy
 
 # NLP & Transformers
-transformers>=4.35.0
-datasets>=2.14.0
-tokenizers>=0.14.0
+transformers
+datasets
+tokenizers
 
 # Deep Learning
-torch>=2.0.0
+torch
 
 # spaCy et modèle français
-spacy>=3.6.0
+spacy
 
 # Matching flou (distant supervision)
-fuzzywuzzy>=0.18.0
-python-Levenshtein>=0.21.0
+fuzzywuzzy
+python-Levenshtein
 
 # Machine Learning
-scikit-learn>=1.3.0
+scikit-learn
 
 # Visualisation
-matplotlib>=3.7.0
-seaborn>=0.12.0
+matplotlib
+seaborn
 
 # Utilitaires
-tqdm>=4.65.0
-unidecode>=1.3.6
+tqdm
+unidecode
 
 # Notebooks
-jupyter>=1.0.0
-ipykernel>=6.25.0
+jupyter
+ipykernel
+
+
+# 
+prettytable
