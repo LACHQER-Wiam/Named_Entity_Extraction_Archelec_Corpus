@@ -41,12 +41,6 @@
         "fin": 222
       },
       {
-        "texte": "libération",
-        "tag": "ORG",
-        "debut": 242,
-        "fin": 252
-      },
-      {
         "texte": "Rhin",
         "tag": "LOC",
         "debut": 267,
