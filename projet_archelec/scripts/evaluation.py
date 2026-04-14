@@ -1,6 +1,13 @@
 from collections import defaultdict
 from prettytable import PrettyTable
 
+def compute_metrics(tp, fp, fn):
+    """Calcule precision, recall, f1 à partir de TP, FP, FN."""
+    precision = tp / (tp + fp) if (tp + fp) > 0 else 0.0
+    recall    = tp / (tp + fn) if (tp + fn) > 0 else 0.0
+    f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
+    return precision, recall, f1
+
 
 def evaluate(data, extracted_entities):
     """
@@ -40,7 +47,7 @@ def evaluate(data, extracted_entities):
     """
 
 
-    EXCLUDED_TAGS = {"MISC"}
+    # EXCLUDED_TAGS = {"MISC"}
 
     extracted_by_id = {e["id"]: e for e in extracted_entities}
 
@@ -90,12 +97,6 @@ def evaluate(data, extracted_entities):
                         partial_tp_per_type[pred_tag] += 1
                         break  # une seule correspondance par prédiction
 
-    def compute_metrics(tp, fp, fn):
-        """Calcule precision, recall, f1 à partir de TP, FP, FN."""
-        precision = tp / (tp + fp) if (tp + fp) > 0 else 0.0
-        recall    = tp / (tp + fn) if (tp + fn) > 0 else 0.0
-        f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
-        return precision, recall, f1
 
     # Micro-average global (exact)
     total_tp = sum(tp_per_type.values())
@@ -131,7 +132,7 @@ def evaluate(data, extracted_entities):
     partial_table.add_row(["F1-Score",  f"{partial_f1:.4f}"])
     print(partial_table)
 
-    print("\nPerformance by Tag — Exact Match (MISC excluded)")
+    print("\nPerformance by Tag — Exact Match") #  (MISC excluded)
     tag_table = PrettyTable()
     tag_table.field_names = ["Tag", "Precision", "Recall", "F1-Score", "Support", "Partial TP"]
     all_labels = sorted(set(list(tp_per_type.keys()) + list(support_per_type.keys())))
@@ -148,14 +149,22 @@ def evaluate(data, extracted_entities):
     print(tag_table)
 
     return {
-        "exact":   {"precision": global_p,  "recall": global_r,  "f1": global_f1},
-        "partial": {"precision": partial_p, "recall": partial_r, "f1": partial_f1},
+        "exact": {
+            "precision": round(global_p, 3),
+            "recall": round(global_r, 3),
+            "f1": round(global_f1, 3)
+        },
+        "partial": {
+            "precision": round(partial_p, 3),
+            "recall": round(partial_r, 3),
+            "f1": round(partial_f1, 3)
+        },
         "per_type": {
             label: {
-                "precision":  compute_metrics(tp_per_type[label], fp_per_type[label], fn_per_type[label])[0],
-                "recall":     compute_metrics(tp_per_type[label], fp_per_type[label], fn_per_type[label])[1],
-                "f1":         compute_metrics(tp_per_type[label], fp_per_type[label], fn_per_type[label])[2],
-                "support":    support_per_type[label],
+                "precision": round(compute_metrics(tp_per_type[label], fp_per_type[label], fn_per_type[label])[0], 3),
+                "recall": round(compute_metrics(tp_per_type[label], fp_per_type[label], fn_per_type[label])[1], 3),
+                "f1": round(compute_metrics(tp_per_type[label], fp_per_type[label], fn_per_type[label])[2], 3),
+                "support": support_per_type[label],
                 "partial_tp": partial_tp_per_type[label]
             }
             for label in all_labels
