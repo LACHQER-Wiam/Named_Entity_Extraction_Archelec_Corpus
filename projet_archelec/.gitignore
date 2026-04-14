@@ -4,6 +4,8 @@ data/raw/*.csv
 data/raw/*.sqlite
 data/raw/*.sqlite-journal
 data/bio/*.json
+data/bio_manual/*.json
+data/bio_distantsup/*.json
 # data/processed/*.json
 # data/annotated/*.json
 __pycache__/
