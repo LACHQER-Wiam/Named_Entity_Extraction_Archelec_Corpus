@@ -16,7 +16,8 @@ from transformers import AutoTokenizer
 # ── Chemins ────────────────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).resolve().parent.parent
 splits_dir = BASE_DIR / "data" / "splits"
-output_dir = splits_dir  # Sauvegarder dans le même dossier
+output_dir = BASE_DIR / "data" / "bio"
+output_dir.mkdir(exist_ok=True)
 
 # ─── CONFIG ─────────────────────────────────────────────
 LABEL2ID = {
@@ -33,10 +34,27 @@ MODEL_NAME = "camembert-base"
 print("Chargement du tokenizer CamemBERT...")
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 
+# ─── RECHERCHE D'ENTITÉ PAR TEXTE (ignore les offsets corrompus) ──────────────
+def chercher_offsets(texte_doc, texte_entite):
+    """
+    Cherche texte_entite dans texte_doc (insensible à la casse).
+    Retourne (debut, fin) ou None si non trouvé.
+    """
+    texte_low = texte_doc.lower()
+    entite_low = texte_entite.lower().strip()
+    if not entite_low:
+        return None
+    pos = texte_low.find(entite_low)
+    if pos == -1:
+        return None
+    return (pos, pos + len(entite_low))
+
 # ─── FONCTION DE CONVERSION BIO ──────────────────────────────────
 def convertir_en_bio(doc):
     """
     Convertit un document annoté en format BIO aligné avec CamemBERT.
+    Utilise le champ 'texte' de chaque entité pour retrouver sa position
+    réelle dans le document (les offsets debut/fin peuvent être corrompus).
     """
     texte   = doc['texte']
     entites = doc.get('entites', [])
@@ -56,19 +74,24 @@ def convertir_en_bio(doc):
     # Initialiser tous les tags à O
     ner_tags = [LABEL2ID["O"]] * len(tokens)
 
-    # Pour chaque entité, assigner B- et I- tags
+    # Pour chaque entité, retrouver sa position réelle par recherche textuelle
     for ent in entites:
-        ent_debut = ent['debut']
-        ent_fin   = ent['fin']
-        tag       = ent['tag']
-        premier   = True
+        tag          = ent['tag']
+        texte_entite = ent.get('texte', '').strip()
 
+        if not texte_entite:
+            continue
+
+        # Chercher la vraie position par le texte de l'entité
+        resultat = chercher_offsets(texte, texte_entite)
+        if resultat is None:
+            continue
+        ent_debut, ent_fin = resultat
+
+        premier = True
         for i, (debut_tok, fin_tok) in enumerate(offset_map):
-            # Ignorer tokens spéciaux
             if debut_tok == 0 and fin_tok == 0:
                 continue
-
-            # Chevauchement réel
             if debut_tok < ent_fin and fin_tok > ent_debut:
                 if premier:
                     if ner_tags[i] == LABEL2ID["O"]:
@@ -98,9 +121,9 @@ def convertir_en_bio(doc):
 
 # ─── CHARGER ET CONVERTIR ──────────────────────────────────
 input_files = [
-    ('train.json', 'train_bio.json'),
-    ('test_before_2000.json', 'test_before_2000_bio.json'),
-    ('test_after_2000.json', 'test_after_2000_bio.json'),
+    ('train.json',            'train.json'),
+    ('test_before_2000.json', 'val.json'),
+    ('test_after_2000.json',  'test.json'),
 ]
 
 for input_name, output_name in input_files:
@@ -134,3 +157,7 @@ with open(label2id_path, 'w', encoding='utf-8') as f:
 print(f"\n✓ label2id.json sauvegardé")
 
 print(f"\nTous les fichiers BIO sont dans: {output_dir}")
+print(f"\nRésumé:")
+print(f"  - train.json  → data du train (avant 2000)")
+print(f"  - val.json    → test_before_2000")
+print(f"  - test.json   → test_after_2000 (années 2015-2020)")
