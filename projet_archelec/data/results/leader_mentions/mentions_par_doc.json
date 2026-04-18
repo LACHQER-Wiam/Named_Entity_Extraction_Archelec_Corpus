@@ -1,0 +1,1292 @@
+[
+  {
+    "id": "EL065_L_1973_03_001_01_1_PF_01",
+    "annee": "1973",
+    "n_mots": 492,
+    "n_phrases": 18,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL065_L_1973_03_001_01_1_PF_02",
+    "annee": "1973",
+    "n_mots": 828,
+    "n_phrases": 37,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL065_L_1973_03_001_01_1_PF_03",
+    "annee": "1973",
+    "n_mots": 390,
+    "n_phrases": 6,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL065_L_1973_03_001_01_1_PF_04",
+    "annee": "1973",
+    "n_mots": 1061,
+    "n_phrases": 43,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL065_L_1973_03_001_01_1_PF_05",
+    "annee": "1973",
+    "n_mots": 1090,
+    "n_phrases": 49,
+    "mentions": {
+      "Pompidou": 1,
+      "Le Pen J-M": 1
+    },
+    "total_mentions": 2,
+    "taux_mentions": 1.83
+  },
+  {
+    "id": "EL065_L_1973_03_001_01_1_PF_06",
+    "annee": "1973",
+    "n_mots": 580,
+    "n_phrases": 30,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL065_L_1973_03_001_01_1_PF_07",
+    "annee": "1973",
+    "n_mots": 670,
+    "n_phrases": 19,
+    "mentions": {
+      "De Gaulle": 3,
+      "Pompidou": 1
+    },
+    "total_mentions": 4,
+    "taux_mentions": 5.97
+  },
+  {
+    "id": "EL065_L_1973_03_001_02_1_PF_01",
+    "annee": "1973",
+    "n_mots": 2066,
+    "n_phrases": 77,
+    "mentions": {
+      "Pompidou": 1
+    },
+    "total_mentions": 1,
+    "taux_mentions": 0.48
+  },
+  {
+    "id": "EL065_L_1973_03_001_02_1_PF_02",
+    "annee": "1973",
+    "n_mots": 1084,
+    "n_phrases": 43,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL065_L_1973_03_001_02_1_PF_03",
+    "annee": "1973",
+    "n_mots": 1252,
+    "n_phrases": 63,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL103_L_1978_03_024_01_1_PF_03",
+    "annee": "1978",
+    "n_mots": 1119,
+    "n_phrases": 45,
+    "mentions": {
+      "Giscard": 3,
+      "Marchais": 1
+    },
+    "total_mentions": 4,
+    "taux_mentions": 3.57
+  },
+  {
+    "id": "EL103_L_1978_03_033_07_1_PF_05",
+    "annee": "1978",
+    "n_mots": 512,
+    "n_phrases": 24,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL105_L_1978_03_072_03_1_PF_05",
+    "annee": "1978",
+    "n_mots": 1254,
+    "n_phrases": 68,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL102_L_1978_03_001_01_1_PF_01",
+    "annee": "1978",
+    "n_mots": 1024,
+    "n_phrases": 48,
+    "mentions": {
+      "Giscard": 3,
+      "Mitterrand": 3,
+      "Chirac": 2,
+      "Rocard": 1,
+      "Marchais": 1
+    },
+    "total_mentions": 10,
+    "taux_mentions": 9.77
+  },
+  {
+    "id": "EL102_L_1978_03_001_01_1_PF_02",
+    "annee": "1978",
+    "n_mots": 740,
+    "n_phrases": 30,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL102_L_1978_03_001_01_1_PF_03",
+    "annee": "1978",
+    "n_mots": 730,
+    "n_phrases": 22,
+    "mentions": {
+      "Giscard": 1
+    },
+    "total_mentions": 1,
+    "taux_mentions": 1.37
+  },
+  {
+    "id": "EL102_L_1978_03_001_01_1_PF_04",
+    "annee": "1978",
+    "n_mots": 940,
+    "n_phrases": 44,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL102_L_1978_03_001_01_1_PF_05",
+    "annee": "1978",
+    "n_mots": 813,
+    "n_phrases": 42,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL102_L_1978_03_001_01_1_PF_06",
+    "annee": "1978",
+    "n_mots": 1509,
+    "n_phrases": 106,
+    "mentions": {
+      "Giscard": 1,
+      "Chirac": 1
+    },
+    "total_mentions": 2,
+    "taux_mentions": 1.33
+  },
+  {
+    "id": "EL102_L_1978_03_001_01_1_PF_07",
+    "annee": "1978",
+    "n_mots": 1075,
+    "n_phrases": 41,
+    "mentions": {
+      "Giscard": 6,
+      "Mitterrand": 2,
+      "Chirac": 3,
+      "Marchais": 2
+    },
+    "total_mentions": 13,
+    "taux_mentions": 12.09
+  },
+  {
+    "id": "EL134_L_1981_06_001_01_1_PF_01",
+    "annee": "1981",
+    "n_mots": 552,
+    "n_phrases": 37,
+    "mentions": {
+      "Mitterrand": 2
+    },
+    "total_mentions": 2,
+    "taux_mentions": 3.62
+  },
+  {
+    "id": "EL134_L_1981_06_001_01_1_PF_02",
+    "annee": "1981",
+    "n_mots": 642,
+    "n_phrases": 22,
+    "mentions": {
+      "Giscard": 2,
+      "Mitterrand": 1
+    },
+    "total_mentions": 3,
+    "taux_mentions": 4.67
+  },
+  {
+    "id": "EL134_L_1981_06_001_01_1_PF_03",
+    "annee": "1981",
+    "n_mots": 644,
+    "n_phrases": 23,
+    "mentions": {
+      "Mitterrand": 2
+    },
+    "total_mentions": 2,
+    "taux_mentions": 3.11
+  },
+  {
+    "id": "EL134_L_1981_06_001_01_1_PF_04",
+    "annee": "1981",
+    "n_mots": 656,
+    "n_phrases": 28,
+    "mentions": {
+      "Giscard": 2
+    },
+    "total_mentions": 2,
+    "taux_mentions": 3.05
+  },
+  {
+    "id": "EL134_L_1981_06_001_01_1_PF_05",
+    "annee": "1981",
+    "n_mots": 1145,
+    "n_phrases": 42,
+    "mentions": {
+      "Chirac": 3
+    },
+    "total_mentions": 3,
+    "taux_mentions": 2.62
+  },
+  {
+    "id": "EL134_L_1981_06_001_02_1_PF_01",
+    "annee": "1981",
+    "n_mots": 511,
+    "n_phrases": 14,
+    "mentions": {
+      "Mitterrand": 1
+    },
+    "total_mentions": 1,
+    "taux_mentions": 1.96
+  },
+  {
+    "id": "EL134_L_1981_06_001_02_1_PF_02",
+    "annee": "1981",
+    "n_mots": 499,
+    "n_phrases": 21,
+    "mentions": {
+      "Giscard": 4,
+      "Mitterrand": 2
+    },
+    "total_mentions": 6,
+    "taux_mentions": 12.02
+  },
+  {
+    "id": "EL134_L_1981_06_001_02_1_PF_03",
+    "annee": "1981",
+    "n_mots": 438,
+    "n_phrases": 16,
+    "mentions": {
+      "Mitterrand": 2
+    },
+    "total_mentions": 2,
+    "taux_mentions": 4.57
+  },
+  {
+    "id": "EL174_L_1988_06_001_01_1_PF_05",
+    "annee": "1988",
+    "n_mots": 675,
+    "n_phrases": 31,
+    "mentions": {
+      "Mitterrand": 2
+    },
+    "total_mentions": 2,
+    "taux_mentions": 2.96
+  },
+  {
+    "id": "EL174_L_1988_06_001_01_1_PF_01",
+    "annee": "1988",
+    "n_mots": 508,
+    "n_phrases": 10,
+    "mentions": {
+      "Mitterrand": 1,
+      "Le Pen J-M": 7
+    },
+    "total_mentions": 8,
+    "taux_mentions": 15.75
+  },
+  {
+    "id": "EL174_L_1988_06_001_01_1_PF_02",
+    "annee": "1988",
+    "n_mots": 591,
+    "n_phrases": 32,
+    "mentions": {
+      "Mitterrand": 1
+    },
+    "total_mentions": 1,
+    "taux_mentions": 1.69
+  },
+  {
+    "id": "EL174_L_1988_06_001_01_1_PF_03",
+    "annee": "1988",
+    "n_mots": 812,
+    "n_phrases": 34,
+    "mentions": {
+      "De Gaulle": 1,
+      "Chirac": 1
+    },
+    "total_mentions": 2,
+    "taux_mentions": 2.46
+  },
+  {
+    "id": "EL174_L_1988_06_001_02_1_PF_01",
+    "annee": "1988",
+    "n_mots": 638,
+    "n_phrases": 22,
+    "mentions": {
+      "Mitterrand": 2
+    },
+    "total_mentions": 2,
+    "taux_mentions": 3.13
+  },
+  {
+    "id": "EL174_L_1988_06_001_02_1_PF_02",
+    "annee": "1988",
+    "n_mots": 465,
+    "n_phrases": 28,
+    "mentions": {
+      "Mitterrand": 2,
+      "Rocard": 2
+    },
+    "total_mentions": 4,
+    "taux_mentions": 8.6
+  },
+  {
+    "id": "EL174_L_1988_06_001_02_1_PF_03",
+    "annee": "1988",
+    "n_mots": 479,
+    "n_phrases": 17,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL174_L_1988_06_001_02_1_PF_04",
+    "annee": "1988",
+    "n_mots": 498,
+    "n_phrases": 10,
+    "mentions": {
+      "Mitterrand": 1,
+      "Le Pen J-M": 7
+    },
+    "total_mentions": 8,
+    "taux_mentions": 16.06
+  },
+  {
+    "id": "EL189_L_1993_03_001_01_1_PF_01",
+    "annee": "1993",
+    "n_mots": 677,
+    "n_phrases": 48,
+    "mentions": {
+      "Le Pen J-M": 6
+    },
+    "total_mentions": 6,
+    "taux_mentions": 8.86
+  },
+  {
+    "id": "EL189_L_1993_03_001_01_1_PF_02",
+    "annee": "1993",
+    "n_mots": 1253,
+    "n_phrases": 48,
+    "mentions": {
+      "Giscard": 2,
+      "Chirac": 1,
+      "Rocard": 1
+    },
+    "total_mentions": 4,
+    "taux_mentions": 3.19
+  },
+  {
+    "id": "EL189_L_1993_03_001_01_1_PF_03",
+    "annee": "1993",
+    "n_mots": 781,
+    "n_phrases": 28,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL189_L_1993_03_001_01_1_PF_04",
+    "annee": "1993",
+    "n_mots": 1269,
+    "n_phrases": 54,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL189_L_1993_03_001_01_1_PF_05",
+    "annee": "1993",
+    "n_mots": 462,
+    "n_phrases": 24,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL189_L_1993_03_001_01_1_PF_06",
+    "annee": "1993",
+    "n_mots": 962,
+    "n_phrases": 55,
+    "mentions": {
+      "Mitterrand": 1,
+      "Le Pen J-M": 2
+    },
+    "total_mentions": 3,
+    "taux_mentions": 3.12
+  },
+  {
+    "id": "EL189_L_1993_03_001_01_1_PF_07",
+    "annee": "1993",
+    "n_mots": 826,
+    "n_phrases": 23,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL189_L_1993_03_001_01_1_PF_08",
+    "annee": "1993",
+    "n_mots": 258,
+    "n_phrases": 11,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL189_L_1993_03_001_02_1_PF_01",
+    "annee": "1993",
+    "n_mots": 675,
+    "n_phrases": 48,
+    "mentions": {
+      "Le Pen J-M": 6
+    },
+    "total_mentions": 6,
+    "taux_mentions": 8.89
+  },
+  {
+    "id": "EL189_L_1993_03_001_02_1_PF_02",
+    "annee": "1993",
+    "n_mots": 950,
+    "n_phrases": 56,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL065_L_1973_03_001_02_1_PF_04",
+    "annee": "1973",
+    "n_mots": 399,
+    "n_phrases": 7,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL065_L_1973_03_001_02_1_PF_05",
+    "annee": "1973",
+    "n_mots": 357,
+    "n_phrases": 23,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL065_L_1973_03_001_02_1_PF_06",
+    "annee": "1973",
+    "n_mots": 665,
+    "n_phrases": 17,
+    "mentions": {
+      "De Gaulle": 3,
+      "Pompidou": 1
+    },
+    "total_mentions": 4,
+    "taux_mentions": 6.02
+  },
+  {
+    "id": "EL065_L_1973_03_001_02_1_PF_07",
+    "annee": "1973",
+    "n_mots": 500,
+    "n_phrases": 37,
+    "mentions": {
+      "De Gaulle": 4
+    },
+    "total_mentions": 4,
+    "taux_mentions": 8.0
+  },
+  {
+    "id": "EL065_L_1973_03_001_03_1_PF_01",
+    "annee": "1973",
+    "n_mots": 988,
+    "n_phrases": 33,
+    "mentions": {
+      "Pompidou": 1
+    },
+    "total_mentions": 1,
+    "taux_mentions": 1.01
+  },
+  {
+    "id": "EL065_L_1973_03_001_03_1_PF_02",
+    "annee": "1973",
+    "n_mots": 885,
+    "n_phrases": 45,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL065_L_1973_03_001_03_1_PF_03",
+    "annee": "1973",
+    "n_mots": 677,
+    "n_phrases": 18,
+    "mentions": {
+      "De Gaulle": 3,
+      "Pompidou": 1
+    },
+    "total_mentions": 4,
+    "taux_mentions": 5.91
+  },
+  {
+    "id": "EL065_L_1973_03_001_03_1_PF_04",
+    "annee": "1973",
+    "n_mots": 550,
+    "n_phrases": 18,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL065_L_1973_03_001_03_1_PF_05",
+    "annee": "1973",
+    "n_mots": 927,
+    "n_phrases": 37,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL065_L_1973_03_001_03_1_PF_06",
+    "annee": "1973",
+    "n_mots": 1063,
+    "n_phrases": 42,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL102_L_1978_03_001_01_1_PF_08",
+    "annee": "1978",
+    "n_mots": 509,
+    "n_phrases": 29,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL102_L_1978_03_001_01_1_PF_09",
+    "annee": "1978",
+    "n_mots": 1159,
+    "n_phrases": 32,
+    "mentions": {
+      "Giscard": 2,
+      "Mitterrand": 8,
+      "Chirac": 2,
+      "Marchais": 7
+    },
+    "total_mentions": 19,
+    "taux_mentions": 16.39
+  },
+  {
+    "id": "EL102_L_1978_03_001_01_1_PF_10",
+    "annee": "1978",
+    "n_mots": 468,
+    "n_phrases": 12,
+    "mentions": {
+      "Giscard": 2
+    },
+    "total_mentions": 2,
+    "taux_mentions": 4.27
+  },
+  {
+    "id": "EL102_L_1978_03_001_01_1_PF_11",
+    "annee": "1978",
+    "n_mots": 1173,
+    "n_phrases": 48,
+    "mentions": {
+      "Chirac": 1
+    },
+    "total_mentions": 1,
+    "taux_mentions": 0.85
+  },
+  {
+    "id": "EL102_L_1978_03_001_02_1_PF_01",
+    "annee": "1978",
+    "n_mots": 1078,
+    "n_phrases": 42,
+    "mentions": {
+      "De Gaulle": 1,
+      "Pompidou": 1,
+      "Chirac": 2
+    },
+    "total_mentions": 4,
+    "taux_mentions": 3.71
+  },
+  {
+    "id": "EL102_L_1978_03_001_02_1_PF_02",
+    "annee": "1978",
+    "n_mots": 719,
+    "n_phrases": 20,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL102_L_1978_03_001_02_1_PF_03",
+    "annee": "1978",
+    "n_mots": 1042,
+    "n_phrases": 51,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL102_L_1978_03_001_02_1_PF_04",
+    "annee": "1978",
+    "n_mots": 675,
+    "n_phrases": 39,
+    "mentions": {
+      "Giscard": 1
+    },
+    "total_mentions": 1,
+    "taux_mentions": 1.48
+  },
+  {
+    "id": "EL102_L_1978_03_001_02_1_PF_05",
+    "annee": "1978",
+    "n_mots": 1161,
+    "n_phrases": 32,
+    "mentions": {
+      "Giscard": 2,
+      "Mitterrand": 8,
+      "Chirac": 2,
+      "Marchais": 7
+    },
+    "total_mentions": 19,
+    "taux_mentions": 16.37
+  },
+  {
+    "id": "EL102_L_1978_03_001_02_1_PF_06",
+    "annee": "1978",
+    "n_mots": 565,
+    "n_phrases": 23,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL189_L_1993_03_001_02_1_PF_03",
+    "annee": "1993",
+    "n_mots": 614,
+    "n_phrases": 19,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL189_L_1993_03_001_02_1_PF_04",
+    "annee": "1993",
+    "n_mots": 533,
+    "n_phrases": 14,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL189_L_1993_03_001_02_1_PF_05",
+    "annee": "1993",
+    "n_mots": 450,
+    "n_phrases": 21,
+    "mentions": {
+      "Rocard": 1
+    },
+    "total_mentions": 1,
+    "taux_mentions": 2.22
+  },
+  {
+    "id": "EL189_L_1993_03_001_03_1_PF_01",
+    "annee": "1993",
+    "n_mots": 675,
+    "n_phrases": 48,
+    "mentions": {
+      "Le Pen J-M": 6
+    },
+    "total_mentions": 6,
+    "taux_mentions": 8.89
+  },
+  {
+    "id": "EL189_L_1993_03_001_03_1_PF_02",
+    "annee": "1993",
+    "n_mots": 1314,
+    "n_phrases": 70,
+    "mentions": {
+      "Le Pen J-M": 1
+    },
+    "total_mentions": 1,
+    "taux_mentions": 0.76
+  },
+  {
+    "id": "EL189_L_1993_03_001_03_1_PF_03",
+    "annee": "1993",
+    "n_mots": 751,
+    "n_phrases": 20,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL189_L_1993_03_001_03_1_PF_04",
+    "annee": "1993",
+    "n_mots": 623,
+    "n_phrases": 34,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL189_L_1993_03_001_03_1_PF_05",
+    "annee": "1993",
+    "n_mots": 533,
+    "n_phrases": 32,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL189_L_1993_03_001_03_1_PF_06",
+    "annee": "1993",
+    "n_mots": 259,
+    "n_phrases": 12,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "EL189_L_1993_03_001_04_1_PF_01",
+    "annee": "1993",
+    "n_mots": 690,
+    "n_phrases": 49,
+    "mentions": {
+      "Le Pen J-M": 6
+    },
+    "total_mentions": 6,
+    "taux_mentions": 8.7
+  },
+  {
+    "id": "RG15_1",
+    "annee": "2015",
+    "n_mots": 1227,
+    "n_phrases": 40,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "RG15_2",
+    "annee": "2015",
+    "n_mots": 681,
+    "n_phrases": 27,
+    "mentions": {
+      "De Gaulle": 2
+    },
+    "total_mentions": 2,
+    "taux_mentions": 2.94
+  },
+  {
+    "id": "RG15_3",
+    "annee": "2015",
+    "n_mots": 1046,
+    "n_phrases": 25,
+    "mentions": {
+      "Le Pen J-M": 2
+    },
+    "total_mentions": 2,
+    "taux_mentions": 1.91
+  },
+  {
+    "id": "RG15_4",
+    "annee": "2015",
+    "n_mots": 586,
+    "n_phrases": 38,
+    "mentions": {
+      "Le Pen J-M": 1,
+      "Le Pen Marine": 1
+    },
+    "total_mentions": 2,
+    "taux_mentions": 3.41
+  },
+  {
+    "id": "RG15_5",
+    "annee": "2015",
+    "n_mots": 732,
+    "n_phrases": 45,
+    "mentions": {
+      "Le Pen J-M": 1,
+      "Hollande": 1
+    },
+    "total_mentions": 2,
+    "taux_mentions": 2.73
+  },
+  {
+    "id": "RG15_6",
+    "annee": "2015",
+    "n_mots": 500,
+    "n_phrases": 19,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "RG15_7",
+    "annee": "2015",
+    "n_mots": 1125,
+    "n_phrases": 61,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "RG15_8",
+    "annee": "2015",
+    "n_mots": 1008,
+    "n_phrases": 56,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "RG15_9",
+    "annee": "2015",
+    "n_mots": 1249,
+    "n_phrases": 40,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "RG15_10",
+    "annee": "2015",
+    "n_mots": 1489,
+    "n_phrases": 78,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "LG17_1",
+    "annee": "2017",
+    "n_mots": 809,
+    "n_phrases": 35,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "LG17_2",
+    "annee": "2017",
+    "n_mots": 384,
+    "n_phrases": 18,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "LG17_3",
+    "annee": "2017",
+    "n_mots": 987,
+    "n_phrases": 61,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "LG17_4",
+    "annee": "2017",
+    "n_mots": 1065,
+    "n_phrases": 25,
+    "mentions": {
+      "Macron": 5
+    },
+    "total_mentions": 5,
+    "taux_mentions": 4.69
+  },
+  {
+    "id": "LG17_5",
+    "annee": "2017",
+    "n_mots": 708,
+    "n_phrases": 36,
+    "mentions": {
+      "Macron": 2,
+      "Melenchon": 2
+    },
+    "total_mentions": 4,
+    "taux_mentions": 5.65
+  },
+  {
+    "id": "LG17_6",
+    "annee": "2017",
+    "n_mots": 642,
+    "n_phrases": 27,
+    "mentions": {
+      "Le Pen J-M": 1,
+      "Macron": 1
+    },
+    "total_mentions": 2,
+    "taux_mentions": 3.12
+  },
+  {
+    "id": "LG17_7",
+    "annee": "2017",
+    "n_mots": 1065,
+    "n_phrases": 54,
+    "mentions": {
+      "Macron": 9
+    },
+    "total_mentions": 9,
+    "taux_mentions": 8.45
+  },
+  {
+    "id": "LG17_8",
+    "annee": "2017",
+    "n_mots": 760,
+    "n_phrases": 34,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "LG17_9",
+    "annee": "2017",
+    "n_mots": 924,
+    "n_phrases": 40,
+    "mentions": {
+      "Macron": 6
+    },
+    "total_mentions": 6,
+    "taux_mentions": 6.49
+  },
+  {
+    "id": "LG17_10",
+    "annee": "2017",
+    "n_mots": 924,
+    "n_phrases": 40,
+    "mentions": {
+      "Macron": 6
+    },
+    "total_mentions": 6,
+    "taux_mentions": 6.49
+  },
+  {
+    "id": "ER19_1",
+    "annee": "2019",
+    "n_mots": 314,
+    "n_phrases": 9,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "ER19_2",
+    "annee": "2019",
+    "n_mots": 433,
+    "n_phrases": 24,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "ER19_3",
+    "annee": "2019",
+    "n_mots": 886,
+    "n_phrases": 45,
+    "mentions": {
+      "Le Pen J-M": 1
+    },
+    "total_mentions": 1,
+    "taux_mentions": 1.13
+  },
+  {
+    "id": "ER19_4",
+    "annee": "2019",
+    "n_mots": 687,
+    "n_phrases": 32,
+    "mentions": {
+      "Macron": 1
+    },
+    "total_mentions": 1,
+    "taux_mentions": 1.46
+  },
+  {
+    "id": "ER19_5",
+    "annee": "2019",
+    "n_mots": 808,
+    "n_phrases": 23,
+    "mentions": {
+      "Macron": 4
+    },
+    "total_mentions": 4,
+    "taux_mentions": 4.95
+  },
+  {
+    "id": "ER19_6",
+    "annee": "2019",
+    "n_mots": 393,
+    "n_phrases": 14,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "ER19_7",
+    "annee": "2019",
+    "n_mots": 727,
+    "n_phrases": 33,
+    "mentions": {
+      "De Gaulle": 1,
+      "Macron": 4
+    },
+    "total_mentions": 5,
+    "taux_mentions": 6.88
+  },
+  {
+    "id": "ER19_8",
+    "annee": "2019",
+    "n_mots": 928,
+    "n_phrases": 49,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "ER19_9",
+    "annee": "2019",
+    "n_mots": 438,
+    "n_phrases": 26,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "ER19_10",
+    "annee": "2019",
+    "n_mots": 498,
+    "n_phrases": 31,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "LG20_1",
+    "annee": "2020",
+    "n_mots": 862,
+    "n_phrases": 45,
+    "mentions": {
+      "Le Pen J-M": 1
+    },
+    "total_mentions": 1,
+    "taux_mentions": 1.16
+  },
+  {
+    "id": "LG20_2",
+    "annee": "2020",
+    "n_mots": 1080,
+    "n_phrases": 62,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "LG20_3",
+    "annee": "2020",
+    "n_mots": 957,
+    "n_phrases": 57,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "LG20_4",
+    "annee": "2020",
+    "n_mots": 1198,
+    "n_phrases": 39,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "LG20_5",
+    "annee": "2020",
+    "n_mots": 912,
+    "n_phrases": 42,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "LG20_6",
+    "annee": "2020",
+    "n_mots": 1199,
+    "n_phrases": 52,
+    "mentions": {
+      "Macron": 2
+    },
+    "total_mentions": 2,
+    "taux_mentions": 1.67
+  },
+  {
+    "id": "LG20_7",
+    "annee": "2020",
+    "n_mots": 509,
+    "n_phrases": 23,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "LG20_8",
+    "annee": "2020",
+    "n_mots": 911,
+    "n_phrases": 29,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "LG20_9",
+    "annee": "2020",
+    "n_mots": 1070,
+    "n_phrases": 25,
+    "mentions": {
+      "Macron": 5
+    },
+    "total_mentions": 5,
+    "taux_mentions": 4.67
+  },
+  {
+    "id": "LG20_10",
+    "annee": "2020",
+    "n_mots": 903,
+    "n_phrases": 48,
+    "mentions": {
+      "Macron": 1,
+      "Melenchon": 1
+    },
+    "total_mentions": 2,
+    "taux_mentions": 2.21
+  },
+  {
+    "id": "MN20_1",
+    "annee": "2020",
+    "n_mots": 1084,
+    "n_phrases": 52,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "MN20_2",
+    "annee": "2020",
+    "n_mots": 910,
+    "n_phrases": 22,
+    "mentions": {
+      "Melenchon": 1
+    },
+    "total_mentions": 1,
+    "taux_mentions": 1.1
+  },
+  {
+    "id": "MN20_3",
+    "annee": "2020",
+    "n_mots": 66,
+    "n_phrases": 1,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "MN20_4",
+    "annee": "2020",
+    "n_mots": 737,
+    "n_phrases": 59,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "MN20_5",
+    "annee": "2020",
+    "n_mots": 865,
+    "n_phrases": 39,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "MN20_6",
+    "annee": "2020",
+    "n_mots": 747,
+    "n_phrases": 25,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "MN20_7",
+    "annee": "2020",
+    "n_mots": 540,
+    "n_phrases": 33,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "MN20_8",
+    "annee": "2020",
+    "n_mots": 1193,
+    "n_phrases": 50,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "MN20_9",
+    "annee": "2020",
+    "n_mots": 1,
+    "n_phrases": 1,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  },
+  {
+    "id": "MN20_10",
+    "annee": "2020",
+    "n_mots": 1067,
+    "n_phrases": 23,
+    "mentions": {},
+    "total_mentions": 0,
+    "taux_mentions": 0.0
+  }
+]

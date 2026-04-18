@@ -1,0 +1,83 @@
+{
+  "1973": {
+    "n_docs": 20,
+    "mentions": {
+      "Pompidou": 6,
+      "Le Pen J-M": 1,
+      "De Gaulle": 13
+    }
+  },
+  "1978": {
+    "n_docs": 20,
+    "mentions": {
+      "Giscard": 21,
+      "Marchais": 18,
+      "Mitterrand": 21,
+      "Chirac": 13,
+      "Rocard": 1,
+      "De Gaulle": 1,
+      "Pompidou": 1
+    }
+  },
+  "1981": {
+    "n_docs": 8,
+    "mentions": {
+      "Mitterrand": 10,
+      "Giscard": 8,
+      "Chirac": 3
+    }
+  },
+  "1988": {
+    "n_docs": 8,
+    "mentions": {
+      "Mitterrand": 9,
+      "Le Pen J-M": 14,
+      "De Gaulle": 1,
+      "Chirac": 1,
+      "Rocard": 2
+    }
+  },
+  "1993": {
+    "n_docs": 20,
+    "mentions": {
+      "Le Pen J-M": 27,
+      "Giscard": 2,
+      "Chirac": 1,
+      "Rocard": 2,
+      "Mitterrand": 1
+    }
+  },
+  "2015": {
+    "n_docs": 10,
+    "mentions": {
+      "De Gaulle": 2,
+      "Le Pen J-M": 4,
+      "Le Pen Marine": 1,
+      "Hollande": 1
+    }
+  },
+  "2017": {
+    "n_docs": 10,
+    "mentions": {
+      "Macron": 29,
+      "Melenchon": 2,
+      "Le Pen J-M": 1
+    }
+  },
+  "2019": {
+    "n_docs": 10,
+    "mentions": {
+      "Le Pen J-M": 1,
+      "Macron": 9,
+      "De Gaulle": 1
+    }
+  },
+  "2020": {
+    "n_docs": 20,
+    "mentions": {
+      "Le Pen J-M": 1,
+      "Macron": 8,
+      "Melenchon": 2
+    }
+  }
+}
