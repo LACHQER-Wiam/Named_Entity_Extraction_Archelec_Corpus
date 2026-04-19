@@ -1,42 +1,42 @@
 {
   "exact": {
-    "precision": 0.115,
-    "recall": 0.353,
-    "f1": 0.173
+    "precision": 0.116,
+    "recall": 0.36,
+    "f1": 0.175
   },
   "partial": {
-    "precision": 0.185,
-    "recall": 0.568,
-    "f1": 0.279
+    "precision": 0.194,
+    "recall": 0.603,
+    "f1": 0.294
   },
   "per_type": {
     "LOC": {
-      "precision": 0.07,
-      "recall": 0.395,
-      "f1": 0.118,
+      "precision": 0.074,
+      "recall": 0.432,
+      "f1": 0.126,
       "support": 81,
-      "partial_tp": 37
+      "partial_tp": 47
     },
     "MISC": {
-      "precision": 0.088,
-      "recall": 0.293,
-      "f1": 0.135,
+      "precision": 0.107,
+      "recall": 0.366,
+      "f1": 0.166,
       "support": 82,
-      "partial_tp": 12
+      "partial_tp": 11
     },
     "ORG": {
-      "precision": 0.142,
-      "recall": 0.184,
-      "f1": 0.16,
+      "precision": 0.164,
+      "recall": 0.163,
+      "f1": 0.164,
       "support": 196,
       "partial_tp": 26
     },
     "PER": {
-      "precision": 0.178,
-      "recall": 0.855,
-      "f1": 0.295,
+      "precision": 0.149,
+      "recall": 0.826,
+      "f1": 0.253,
       "support": 69,
-      "partial_tp": 17
+      "partial_tp": 20
     }
   }
 }

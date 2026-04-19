@@ -1,0 +1,42 @@
+{
+  "exact": {
+    "precision": 0.312,
+    "recall": 0.114,
+    "f1": 0.167
+  },
+  "partial": {
+    "precision": 0.446,
+    "recall": 0.163,
+    "f1": 0.239
+  },
+  "per_type": {
+    "LOC": {
+      "precision": 0.421,
+      "recall": 0.058,
+      "f1": 0.103,
+      "support": 137,
+      "partial_tp": 0
+    },
+    "MISC": {
+      "precision": 0.091,
+      "recall": 0.1,
+      "f1": 0.095,
+      "support": 10,
+      "partial_tp": 0
+    },
+    "ORG": {
+      "precision": 0.407,
+      "recall": 0.134,
+      "f1": 0.202,
+      "support": 82,
+      "partial_tp": 0
+    },
+    "PER": {
+      "precision": 0.297,
+      "recall": 0.134,
+      "f1": 0.184,
+      "support": 322,
+      "partial_tp": 27
+    }
+  }
+}
