@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = "==3.11.*"
 dependencies = [
+    "accelerate>=1.8.0",
     "datasets>=4.8.4",
     "fuzzywuzzy>=0.18.0",
     "ipykernel>=7.2.0",
@@ -18,8 +19,16 @@ dependencies = [
     "seaborn>=0.13.2",
     "spacy>=3.8.14",
     "tokenizers>=0.22.2",
-    "torch>=2.11.0",
+    "torch>=2.5.0",
     "tqdm>=4.67.3",
     "transformers>=5.5.3",
     "unidecode>=1.4.0",
 ]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu124" }
+
+[[tool.uv.index]]
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true
