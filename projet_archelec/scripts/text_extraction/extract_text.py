@@ -80,7 +80,7 @@ folder_id['1993']['legislatives'] = 'cf29300f-40bf-4b61-be93-6cb631be8fab'
 #folder_id['1981']['presidentielle'] =  '4192aaa9-8485-433a-b0e3-559d2259e067'
 folder_id['1988']['presidentielle'] = 'fd5bee0a-83e8-4bdc-aa48-52331af2e151'
 
-for year in ['1973', '1978']:#YEARS:
+for year in ['1973', '1978', '1981', '1988', '1993']:#YEARS:
     print ('year', year)
     for e_type in ELECTIONS:
         print ('elections', e_type)
