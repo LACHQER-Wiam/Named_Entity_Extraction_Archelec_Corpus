@@ -1,6 +1,7 @@
 """
-Génère les fichiers BIO pour la distant supervision (8670 docs, 1973/1978)
-depuis archelec_annotated.json → data/bio_distantsup/
+Génère les fichiers BIO pour la distant supervision
+depuis archelec_annotated.json (1973/1978) + archelec_annotated_1981_1993.json (1981/1988/1993)
+→ data/bio_distantsup/
 Split stratifié 80/10/10 par année.
 """
 
@@ -11,13 +12,36 @@ sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="repla
 
 import json
 from pathlib import Path
+from collections import Counter
 from transformers import AutoTokenizer
 from sklearn.model_selection import train_test_split
 
 BASE_DIR   = Path(__file__).resolve().parent.parent
-input_path = BASE_DIR / "data" / "annotated" / "archelec_annotated.json"
 output_dir = BASE_DIR / "data" / "bio_distantsup"
 output_dir.mkdir(exist_ok=True)
+
+# Charger les fichiers annotés disponibles
+annotated_dir = BASE_DIR / "data" / "annotated"
+input_files = [
+    annotated_dir / "archelec_annotated.json",            # 1973/1978
+    annotated_dir / "archelec_annotated_1981.json",       # 1981
+]
+
+all_docs = []
+for p in input_files:
+    if p.exists():
+        with open(p, encoding='utf-8') as f:
+            docs = json.load(f)
+        all_docs.extend(docs)
+        annees = Counter(d['annee'] for d in docs)
+        print(f"Chargé {p.name} : {len(docs)} docs — {dict(sorted(annees.items()))}")
+    else:
+        print(f"ABSENT (ignoré) : {p.name}")
+
+print(f"\nTotal docs distant supervision : {len(all_docs)}")
+annees_total = Counter(int(d['annee']) for d in all_docs)
+for a, n in sorted(annees_total.items()):
+    print(f"  {a} : {n} docs")
 
 LABEL2ID = {
     "O": 0,
@@ -83,15 +107,9 @@ def convertir_en_bio(doc):
         "ner_tags": ner_tags
     }
 
-# Charger
-print(f"Chargement {input_path.name}...")
-with open(input_path, encoding="utf-8") as f:
-    documents = json.load(f)
-print(f"{len(documents)} documents chargés")
-
 # Split stratifié 80/10/10 par année
-annees = [d["annee"] for d in documents]
-train_docs, temp_docs = train_test_split(documents, test_size=0.2, random_state=42, stratify=annees)
+annees = [d["annee"] for d in all_docs]
+train_docs, temp_docs = train_test_split(all_docs, test_size=0.2, random_state=42, stratify=annees)
 annees_temp = [d["annee"] for d in temp_docs]
 val_docs, test_docs = train_test_split(temp_docs, test_size=0.5, random_state=42, stratify=annees_temp)
 

@@ -1,0 +1,22 @@
+{
+  "eval_loss": 0.20873436331748962,
+  "eval_f1_PER": 24.03,
+  "eval_precision_PER": 24.83,
+  "eval_recall_PER": 23.27,
+  "eval_f1_ORG": 21.51,
+  "eval_precision_ORG": 19.23,
+  "eval_recall_ORG": 24.39,
+  "eval_f1_LOC": 5.04,
+  "eval_precision_LOC": 5.26,
+  "eval_recall_LOC": 4.84,
+  "eval_f1_MISC": 0,
+  "eval_precision_MISC": 0,
+  "eval_recall_MISC": 0.0,
+  "eval_f1_global": 18.94,
+  "eval_precision_global": 19.38,
+  "eval_recall_global": 18.52,
+  "eval_runtime": 0.4112,
+  "eval_samples_per_second": 121.597,
+  "eval_steps_per_second": 9.728,
+  "epoch": 8.0
+}

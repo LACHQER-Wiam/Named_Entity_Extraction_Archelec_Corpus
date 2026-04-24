@@ -33,11 +33,20 @@ print(f"Labels : {ID2LABEL}")
 # ── Chargement des docs avec texte ────────────────────────────────────────────
 print("Chargement des textes...")
 docs = []
-for fname in ["archelec_annotated.json", "archelec_annotated_1981.json"]:
+seen_ids = set()
+for fname in [
+    "archelec_annotated.json",
+    "archelec_annotated_1973_1981.json",
+    "archelec_annotated_1981.json",
+    "archelec_annotated_1988_1993.json",
+    "archelec_annotated_2015_2020.json",
+]:
     fpath = PROJECT_DIR / "data" / "annotated" / fname
     raw = json.load(open(fpath, encoding="utf-8"))
     for d in raw:
-        docs.append({"id": d["id"], "annee": d["annee"], "texte": d["texte"]})
+        if d["id"] not in seen_ids:
+            seen_ids.add(d["id"])
+            docs.append({"id": d["id"], "annee": d["annee"], "texte": d["texte"]})
 
 print(f"{len(docs)} docs chargés")
 
@@ -56,7 +65,7 @@ def extraire_entites(tokens, labels, offsets, texte):
             fin        = offsets[j - 1][1]
             texte_ent  = texte[debut:fin].strip()
             if texte_ent:
-                entites.append({"texte": texte_ent, "type": tag, "debut": debut, "fin": fin})
+                entites.append({"texte": texte_ent, "type": tag, "debut": int(debut), "fin": int(fin)})
             i = j
         else:
             i += 1

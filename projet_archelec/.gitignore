@@ -6,6 +6,8 @@ data/raw/*.sqlite-journal
 data/bio/*.json
 data/bio_manual/*.json
 data/bio_distantsup/*.json
+data/bio_distantsup_extended/train.json
+models/
 # data/processed/*.json
 # data/annotated/*.json
 __pycache__/
